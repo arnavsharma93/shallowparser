@@ -1,59 +1,47 @@
 from sklearn.datasets.base import Bunch
 from collections import namedtuple
 import numpy as np
+import pandas as pd
 
-def LoadDataSet(lang):
-    if lang == 'hi':
-        filename = './data/HI_EN_TRAIN_ARK.txt'
-        line_len = 4
-    elif lang == 'ta':
-        filename = './data/TA_EN_TRAIN.txt'
-        line_len = 3
-    elif lang == 'bn':
-        filename = './data/BN_EN_TRAIN.txt'
-        line_len = 3
-    else:
-        raise Exception("Language not identified")
-
-    data = []
-    target = []
-
-    cdata = []
-    ctarget = []
-    pos_tags = set()
-    for line in open(filename):
-        line = line.strip()
-        if line:
-            line = line.split()
-            if len(line) != line_len:
-                continue
-            #try:
-                #word, lang, cluster, tag = line.split()
-            #except:
-                #continue
-            cdata.append(np.array(line[:-1]))
-            ctarget.append(line[-1])
-            pos_tags.add(line[-1])
-        else:
-            if cdata or ctarget:
-                data.append(np.array(cdata))
-                target.append(ctarget)
-                cdata = list()
-                ctarget = list()
-    if cdata or ctarget:
-        data.append(np.array(cdata))
-        target.append(ctarget)
-        cdata = list()
-        ctarget = list()
-
-
-    return Bunch(
-            data=np.array(data),
-            target=np.array(target),
-            tags=pos_tags
-            )
+def LoadDataSet(filename="./data/dataset.txt"):
+    """Reads the file, and forms a sentence_dict which looks like this -
+    {
+    SENTENCE_NUMBER:
+      [
+        {
+          WORD:,
+          LANG:,
+          POS:,
+          POSITION:, # Represents word number position in a sentence.
+        },
+      ],
+    }
+    """
+    sentence_dict = {
+        "WORD": [],
+        "LANG": [],
+        "POS": [],
+        "NORM": [],
+        "CHUNK": []
+    }
+    with open(filename) as f:
+        sentence_number = 0
+        for line in f:
+            if not line.strip():
+                word, lang, norm, pos, chunk = None, None, None, None, None
+            else:
+                word, lang, norm, pos, chunk = map(lambda x: x.strip(), line.split('\t'))
+            sentence_dict["WORD"].append(word)
+            sentence_dict["LANG"].append(lang)
+            sentence_dict["POS"].append(pos)
+            sentence_dict["NORM"].append(norm)
+            sentence_dict["CHUNK"].append(chunk)
+    return pd.DataFrame(sentence_dict)
 
 def LoadTestData(lang, unconstrained=False):
+    """
+    To be modified
+    """
     if lang == 'hi':
         if unconstrained:
             filename = './data/test/HI_EN_ARK.txt'
