@@ -487,12 +487,12 @@ par	hi	पर	ADP	I-NP
 bhi	hi	भी	PART	I-NP
 implemnt	en	implement	NOUN	B-NP
 hone	hi	होने	VERB	B-VG
-wala	hi	वाला	AUX	I-VP
-hai	hi	है	AUX	I-VP
+wala	hi	वाला	AUX	I-VG
+hai	hi	है	AUX	I-VG
 ab	hi	अब	ADP	B-NP
 ye	hi	ये	PRON	I-NP
 !	rest	!	PUNCT	I-NP
-:-\\	rest	:\	SYM	BLK
+:-\\	rest	:\	SYM	B-BLK
 
 Haahhhaaa	rest	Haahhhaaa	INTJ	B-BLK
 frgt	en	forget	VERB	B-VG
@@ -4917,7 +4917,7 @@ sense	en	sense	NOUN	I-JP
 bharat	rest	bharat	PROPN	B-NP
 mittal	rest	mittal	PROPN	I-NP
 ek	hi	एक	NUM	I-NP
-pco	rest	pco	NOUN	INP
+pco	rest	pco	NOUN	I-NP
 booth	en	booth	NOUN	I-NP
 ka	hi	का	ADP	I-NP
 maalik	hi	मालिक	NOUN	I-NP
@@ -4963,15 +4963,15 @@ durghatna	hi	दुर्घटना	NOUN	I-NP
 latest	en	latest	ADV	O-NP
 
 Yar	hi	यार	NOUN	B-VG
-shaadi	hi	शादी	NOUN	VG
-aur	hi	और	SCONJ	VG
-frn	en	friend	ADJ	VG
-circle	en	circle	NOUN	VG
-me	hi	में	ADP	VG
-kafi	hi	काफी	ADJ	VG
-diff.	en	difference	NOUN	VG
-h	hi	है	VERB	VG
-..	rest	..	SYM	VG
+shaadi	hi	शादी	NOUN	I-VG
+aur	hi	और	SCONJ	I-VG
+frn	en	friend	ADJ	I-VG
+circle	en	circle	NOUN	I-VG
+me	hi	में	ADP	I-VG
+kafi	hi	काफी	ADJ	I-VG
+diff.	en	difference	NOUN	I-VG
+h	hi	है	VERB	I-VG
+..	rest	..	SYM	I-VG
 Kar	hi	कर	VERB	B-VG
 lo	hi	लो	AUX	I-VG
 shadi	hi	शादी	NOUN	I-VG
@@ -5607,25 +5607,25 @@ bataya	hi	बताया	VERB	I-VG
 
 instead	en	instead	SCONJ	B-VG
 i	en	I	PRON	I-VG
-wrote	en	wrote	VERB	VG
-everything	en	everything	NOUN	VG
-in	en	in	ADP	RBP
-my	en	my	ADJ	RBP
-diary	en	diary	NOUN	RBP
-..	rest	..	SYM	RBP
+wrote	en	wrote	VERB	B-VG
+everything	en	everything	NOUN	I-VG
+in	en	in	ADP	B-RBP
+my	en	my	ADJ	I-RBP
+diary	en	diary	NOUN	I-RBP
+..	rest	..	SYM	O-RBP
 
-jo	hi	जो	CONJ	CCP
-ki	hi	कि	ADP	CCP
-ofcourse	en	of course	X	CCP
-mere	hi	मेरे	PRON	NP
-papa	en	papa	NOUN	NP
-ne	hi	ने	ADP	NP
-padh	hi	पढ़	VERB	VG
-liya	hi	लिया	AUX	VG
-..	rest	..	SYM	VG
+jo	hi	जो	CONJ	B-CCP
+ki	hi	कि	ADP	I-CCP
+ofcourse	en	of course	X	I-CCP
+mere	hi	मेरे	PRON	B-NP
+papa	en	papa	NOUN	I-NP
+ne	hi	ने	ADP	I-NP
+padh	hi	पढ़	VERB	B-VG
+liya	hi	लिया	AUX	I-VG
+..	rest	..	SYM	O-VG
 
-fir	hi	फिर	SCONJ	NP
-mujhe	hi	मुझे	PRON	NP
+fir	hi	फिर	SCONJ	B-NP
+mujhe	hi	मुझे	PRON	I-NP
 unhone	hi	उन्होंने	PRON	O-NP
 bht	hi	बहुत	ADV	B-VG
 mara	hi	मारा	VERB	I-VG
@@ -5776,7 +5776,7 @@ na	hi	ना	ADV	I-VG
 ..	rest	..	SYM	O-VG
 
 time	en	time	NOUN	B-NP
-and	en	and	CONJ	NP
+and	en	and	CONJ	I-NP
 tide	en	tide	NOUN	O-NP
 waits	en	wait	VERB	B-VG
 for	en	for	ADP	I-VG
@@ -7578,7 +7578,7 @@ hai	hi	है	VERB	B-VG
 k	hi	कि	SCONJ	B-CCP
 woh	hi	वो	PRON	I-NP
 dobara	hi	दोबारा	ADV	B-NP
-aisa	hi	ऐसा	PRON	I-NPn
+aisa	hi	ऐसा	PRON	I-NP
 nahe	hi	नहीं	X	B-VG
 karege	hi	करेंगे	VERB	I-VG
 !	rest	!	PUNCT	B-BLK
@@ -11766,7 +11766,7 @@ de	hi	दे	AUX	I-VG
 ladkio	hi	लड़कियों	NOUN	B-NP
 ke	hi	के	PART	I-NP
 lie	hi	लिए	PART	I-NP
-bhulna	hi	भूलना	VERB	BVG
+bhulna	hi	भूलना	VERB	B-VG
 ..	rest	..	SYM	I-VG
 jaise	hi	जैसे	CONJ	B-CCP
 Maggie	en	Maggie	NOUN	B-VG
