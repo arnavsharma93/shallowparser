@@ -66,3 +66,4 @@ class MostFrequentTag(BaseEstimator):
                     ctags.append(self._oov_label)
             y_pred.append(ctags)
         return y_pred
+
