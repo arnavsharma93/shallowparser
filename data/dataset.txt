@@ -6700,9 +6700,9 @@ read	en	read	VERB	B-VG
 cnfesn	en	confession	NOUN	B-NP
 me	hi	में	ADP	I-NP
 difrnce	en	difference	NOUN	B-NP
-hi	hi	ही	PART	B-FRAGP
-ni	hi	नहीं	ADV	B-RBP
-pta	hi	पता	VERB	B-VG
+hi	hi	ही	PART	B-RBP
+ni	hi	नहीं	ADV	B-VG
+pta	hi	पता	VERB	I-VG
 ...	rest	...	PUNCT	B-BLK
 God	en	God	NOUN	B-NP
 bless	en	bless	VERB	B-VG
@@ -6791,12 +6791,12 @@ forever	en	forever	ADV	B-RBP
 alone	en	alone	ADJ	I-RBP
 agar	hi	अगर	SCONJ	B-CCP
 aise	hi	ऐसे	ADV	B-RBP
-hi	hi	ही	PART	B-FRAGP
+hi	hi	ही	PART	I-RBP
 lame	en	lame	ADJ	B-NP
 excuses	en	excuses	NOUN	I-NP
 dete	hi	देते	VERB	B-VG
 rahe	hi	रहे	VERB	I-VG
-toh	hi	तो	PART	B-FRAGP
+toh	hi	तो	PART	B-RBP
 :P	rest	:P	SYM	B-BLK
 :D	rest	:D	SYM	B-BLK
 
@@ -6813,7 +6813,7 @@ karne	hi	करने	VERB	B-VG
 ki	hi	की	AUX	I-VG
 kya	hi	क्या	X	B-NP
 gal	hi	गल	NOUN	I-NP
-thi	hi	थी	AUX	B-FRAGP
+thi	hi	थी	AUX	B-VG
 :v	rest	:v	SYM	B-BLK
 
 Mr	en	Mr	NOUN	B-NP
@@ -7051,8 +7051,8 @@ mrne	hi	मरने	VERB	B-VG
 murane	hi	मुराने	VERB	I-VG
 pe	hi	पर	AUX	I-VG
 to	hi	तो	SCONJ	B-CCP
-mt	hi	मत	X	B-RBP
-aaa	hi	आ	AUX	B-FRAGP
+mt	hi	मत	VERB	B-VG
+aaa	hi	आ	AUX	I-VG
 ....	rest	.	SYM	B-BLK
 Ho	hi	हो	VERB	B-VG
 jaega	hi	जाएगा	AUX	I-VG
@@ -7172,7 +7172,7 @@ gya	hi	गया	AUX	I-VG
 Anyways	en	Anyways	NOUN	B-NP
 youth	en	youth	NOUN	B-NP
 andha	hi	अँधा	NOUN	I-NP
-nhi	hi	नहीं	X	B-VG
+nhi	hi	नहीं	PART	B-VG
 h	hi	है	VERB	I-VG
 congress	en	congress	NOUN	B-NP
 ki	hi	की	ADP	I-NP
@@ -7180,12 +7180,12 @@ party	en	party	NOUN	I-NP
 NSUI	rest	NSUI	PROPN	B-NP
 ko	hi	को	ADP	I-NP
 support	en	support	NOUN	B-NP
-mat	hi	मत	X	B-VG
+mat	hi	मत	VERB	B-VG
 kro	hi	करो	VERB	I-VG
 .	rest	.	PUNCT	B-BLK
 
 please	en	please	INTJ	B-CCP
-kyun	hi	क्यूँ	X	B-FRAGP
+kyun	hi	क्यूँ	ADV	B-FRAGP
 desh	hi	देश	NOUN	B-NP
 ki	hi	की	ADP	I-NP
 maarne	hi	मारने	VERB	B-VG
@@ -7196,13 +7196,13 @@ ho	hi	हो	AUX	I-VG
 .	rest	.	SYM	B-BLK
 .	rest	.	SYM	B-BLK
 
-Kya	hi	क्या	X	B-FRAGP
-itne	hi	इतने	X	B-NP
+Kya	hi	क्या	ADV	B-RBP
+itne	hi	इतने	ADJ	B-NP
 gareeb	hi	गरीब	NOUN	I-NP
 hain	hi	है	VERB	B-VG
 desh	hi	देश	NOUN	B-NP
 me	hi	में	ADP	I-NP
-jo	hi	जो	PRON	B-CCP
+jo	hi	जो	CONJ	B-CCP
 chandd	hi	चन्द	ADJ	B-JJP
 sikkon	hi	सिक्कों	NOUN	B-NP
 me	hi	में	ADP	I-NP
