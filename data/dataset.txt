@@ -18,14 +18,14 @@ paise	hi	पैसे	NOUN	B-NP
 na	hi	ना	PART	I-NP
 kate	hi	कटे	VERB	B-VG
 kuch	hi	कुछ	ADV	B-RBP
-aisa	hi	ऐसा	ADV	B-NP
+aisa	hi	ऐसा	ADV	I-RBP
 karwa	hi	करवा	VERB	B-VG
 do	hi	दो	AUX	I-VG
 :-)	rest	:)	SYM	B-BLK
 :-)	rest	:)	SYM	B-BLK
 :-)	rest	:)	SYM	B-BLK
 
-bdw	rest	by the way	X	B-BLK
+bdw	rest	by the way	X	B-NP
 3rd	en	3rd	ADJ	B-JJP
 yr	en	year	NOUN	B-NP
 m	hi	में	ADP	I-NP
@@ -55,7 +55,7 @@ b	hi	भी	PART	I-RBP
 
 movie	en	movie	NOUN	B-NP
 me	hi	में	PRON	B-NP
-banaunga	hi	बनाऊँगा 	VERB	B-VG
+banaunga	hi	बनाऊँगा	VERB	B-VG
 is	hi	इस	DET	B-NP
 story	en	story	NOUN	I-NP
 pr	hi	पर	ADP	I-NP
@@ -88,10 +88,10 @@ restrsty	en	university	NOUN	B-NP
 m	hi	में	ADP	I-NP
 jaio	hi	जाइयो	VERB	B-VG
 tb	hi	तब	PRON	B-NP
-waha	hi	वहाँ	ADV	B-NP
-b	hi	भी	PART	I-NP
-yahi	hi	यही	ADV	B-NP
-milega	hi	मिलेगा	VERB	B-VG
+waha	hi	वहाँ	ADV	B-RBP
+b	hi	भी	PART	I-RBP
+yahi	hi	यही	ADV	B-VG
+milega	hi	मिलेगा	VERB	I-VG
 
 sex	en	sex	NOUN	B-NP
 to	hi	तो	PART	I-NP
@@ -110,31 +110,31 @@ hoga	hi	होगा	AUX	I-VG
 
 tum	hi	तुम	PRON	B-NP
 log	hi	लोग	NOUN	B-NP
-aur	hi	और	ADJ	B-NP
+aur	hi	और	DET	B-NP
 nakhre	hi	नखरे	NOUN	I-NP
 dikhao	hi	दिखाओ	VERB	B-VG
-!!	rest	!	PUNCT	I-VG
+!!	rest	!	PUNCT	B-BLK
 
 sab	hi	सब	PRON	B-NP
 log	hi	लोग	NOUN	B-NP
 convert	en	convert	NOUN	B-NP
-ho	hi	हो	AUX	B-VG
+ho	hi	हो	VERB	B-VG
 jayenge	hi	जाएंगे	AUX	I-VG
-!	rest	!	PUNCT	I-VG
+!	rest	!	PUNCT	B-BLK
 :/	rest	:/	SYM	B-BLK
 
 bdhya	hi	बढ़िया	ADV	B-RBP
 kia	hi	किया	VERB	B-VG
-,	rest	,	PUNCT	B-CCP
+,	rest	,	PUNCT	B-BLK
 n	en	and	CONJ	B-CCP
 i	en	I	PRON	B-NP
-thnk	en	think	VERB	B-NP
+thnk	en	think	VERB	B-VG
 us	hi	उस	DET	B-NP
 ladki	hi	लड़की	NOUN	I-NP
 ne	hi	ने	ADP	I-NP
 2	rest	2	NUM	B-NP
 hr	en	hour	NOUN	I-NP
-.	rest	.	PUNCT	I-NP
+.	rest	.	PUNCT	B-BLK
 Chudaai	hi	चुदाई	NOUN	B-NP
 krva	hi	करवा	VERB	B-VG
 ke	hi	के	ADP	I-VG
@@ -161,8 +161,8 @@ correct	en	correct	NOUN	B-NP
 karke	hi	करके	VERB	B-VG
 sadai	hi	सड़ाई	VERB	B-VG
 hai	hi	है	AUX	I-VG
-bohot	hi	बहुत	ADV	B-JJP
-kisi	hi	किसी	PRON	B-NP
+bohot	hi	बहुत	DET	B-NP
+kisi	hi	किसी	PRON	I-NP
 ne	hi	ने	ADP	I-NP
 :D	rest	:D	SYM	B-BLK
 
@@ -170,7 +170,7 @@ jo	hi	जो	PRON	B-NP
 tmh	hi	तुम्हें	PRON	B-NP
 sahi	hi	सही	ADJ	B-JJP
 lge	hi	लगे	VERB	B-VG
-vhi	hi	वही	ADV	B-NP
+vhi	hi	वही	ADV	I-VG
 kro	hi	करो	VERB	B-VG
 ....	rest	.	PUNCT	B-BLK
 
@@ -200,7 +200,7 @@ mms	rest	MMS	NOUN	I-NP
 kon	hi	कौन	PRON	B-NP
 si	hi	सी	PART	I-NP
 site	en	site	NOUN	I-NP
-pe	hi	पर	ADP	I-NP
+pe	hi	पे	ADP	I-NP
 hai	hi	है	VERB	B-VG
 ,,,,,	rest	,	PUNCT	B-BLK
 
@@ -223,7 +223,7 @@ dala	hi	डाला	VERB	I-VG
 ha	hi	है	AUX	I-VG
 :)	rest	:)	SYM	B-BLK
 
-its	en	it is	PRON	B-NP
+its	en	it's	PRON	B-NP
 Miranda	rest	Miranda	PROPN	B-NP
 in	en	in	ADP	I-NP
 evry	en	every	DET	B-NP
@@ -251,14 +251,14 @@ har	hi	हर	DET	B-NP
 pal	hi	पल	NOUN	I-NP
 rtae	hi	रोते	VERB	B-VG
 kaiko	hi	क्यों	PRON	B-NP
-!!!	rest	!	PUNCT	I-NP
+!!!	rest	!	PUNCT	B-BLK
 
 Efforts	en	efforts	NOUN	B-NP
 mat	hi	मत	PART	I-NP
 laga	hi	लगा	VERB	B-VG
-,	rest	,	PUNCT	B-CCP
+,	rest	,	PUNCT	B-BLK
 tera	hi	तेरा	PRON	B-NP
-kabhi	hi	कभी		ADV	B-VG
+kabhi	hi	कभी	ADV	B-RBP
 koi	hi	कोई	PRON	B-NP
 boyfrnd	en	boyfriend	NOUN	B-NP
 ni	hi	नहीं	PART	B-VG
@@ -307,7 +307,7 @@ jayegi	hi	जाएगी	AUX	I-VG
 mr.	en	mr.	NOUN	B-NP
 Lecturer	en	Lecturer	NOUN	B-NP
 ...	rest	.	PUNCT	B-BLK
-Huhu	rest	Huhu	SYM	B-BLK
+Huhu	rest	Huhu	INTJ	B-BLK
 :/	rest	:/	SYM	B-BLK
 
 na	hi	ना	PART	B-BLK
@@ -333,9 +333,9 @@ hu	hi	हूँ	AUX	I-VG
 .......	rest	.	PUNCT	B-BLK
 or	hi	और	CONJ	B-CCP
 app	hi	आप	PRON	B-NP
-?	rest	?	PUNCT	I-NP
+?	rest	?	PUNCT	B-BLK
 
-ritu	rest	ritu	PROPN	B-NP
+ritu	rest	Ritu	PROPN	B-NP
 ji	hi	जी	PART	I-NP
 ....	rest	.	PUNCT	B-BLK
 
@@ -371,12 +371,12 @@ me	hi	में	ADP	I-NP
 Jnu	rest	JNU	PROPN	B-NP
 thaa	hi	था	VERB	B-VG
 in	en	in	ADP	I-VG
-raanjhana	rest	raanjhana	PROPN	B-NP
+raanjhana	rest	Raanjhana	PROPN	B-NP
 not	en	not	PART	I-NP
 bhu	rest	BHU	PROPN	B-NP
 ...	rest	.	PUNCT	B-BLK
-Aayien	hi	एवयि	ADV	B-RBP
-he	hi	ही	PART	I-RBP
+Aayien	hi	आएं	VERB	B-VG
+he	hi	है	AUX	I-VG
 kuch	hi	कुछ	ADV	B-RBP
 bhi	hi	भी	PART	I-RBP
 mtlb	hi	मतलब	NOUN	B-NP
@@ -390,7 +390,7 @@ ni	hi	नहीं	ADV	I-RBP
 hga	hi	होगा	VERB	B-FRAGP
 ..	rest	.	PUNCT	B-BLK
 
-ya	hi	या	CONJ	B-CCP
+ya	hi	या	SCONJ	B-CCP
 toh	hi	तो	PART	B-NP
 usi	hi	उसी	PRON	I-NP
 se	hi	से	ADP	I-NP
@@ -491,7 +491,7 @@ wala	hi	वाला	AUX	I-VG
 hai	hi	है	AUX	I-VG
 ab	hi	अब	ADP	B-NP
 ye	hi	ये	PRON	I-NP
-!	rest	!	PUNCT	I-NP
+!	rest	!	PUNCT	B-BLK
 :-\\	rest	:\	SYM	B-BLK
 
 Haahhhaaa	rest	Haahhhaaa	INTJ	B-BLK
@@ -533,14 +533,14 @@ u	en	you	PRON	B-NP
 
 Ya	en	yeah	INTJ	B-BLK
 darling	en	darling	NOUN	B-NP
-!	rest	!	PUNCT	I-NP
+!	rest	!	PUNCT	B-BLK
 M	en	I am	PRON	B-NP
 too	en	too	ADV	B-RBP
 dsprately	en	desperately	ADV	I-RBP
 waiting	en	waiting	VERB	B-VG
 for	en	for	ADP	I-VG
 u	en	you	PRON	B-NP
-(	rest	(	PUNCT	I-NP
+(	rest	(	PUNCT	B-BLK
 sadiyon	hi	सदियों	NOUN	B-NP
 se	hi	से	ADP	I-NP
 isi	hi	इसी	DET	B-NP
@@ -548,12 +548,12 @@ cnfessor	en	confessor	NOUN	I-NP
 ki	hi	की	ADP	I-NP
 talash	hi	तलाश	NOUN	B-NP
 thi	hi	थी	VERB	B-VG
-)	rest	)	PUNCT	I-VG
+)	rest	)	PUNCT	B-BLK
 #foreveralone	en	#foreveralone	X	B-BLK
 
 thoda	hi	थोड़ा	ADV	B-RBP
 aur	hi	और	ADV	I-RBP
-purana	hi	पुराना	ADJ	B-JJP
+purana	hi	पुराना	ADJ	I-JJP
 poochna	hi	पूछना	VERB	B-VG
 tha	hi	था	AUX	I-VG
 na	hi	ना	PART	I-VG
@@ -570,9 +570,9 @@ nw	en	now	ADV	B-RBP
 kahin	hi	कहीं	PRON	B-NP
 mae	hi	मैं	PRON	B-NP
 to	hi	तो	PART	B-NP
-nahin	hi	नहीं	ADV	B-RBP
+nahin	hi	नहीं	PART	B-NP
 hahhaha	rest	hahhaha	INTJ	B-BLK
-!	rest	!	PUNCT	I-BLK
+!	rest	!	PUNCT	B-BLK
 never	en	never	ADV	B-RBP
 dude	en	dude	NOUN	B-NP
 .....	rest	.	PUNCT	B-BLK
@@ -580,7 +580,7 @@ dude	en	dude	NOUN	B-NP
 vse	hi	वैसे	ADV	B-RBP
 peechle	hi	पिछले	ADJ	B-NP
 confsn	en	confession	NOUN	I-NP
-pr	hi	पर	ADP	I-NP
+pr	hi	पर	ADP	B-RBP
 bna	hi	बिना	ADV	B-VG
 padhe	hi	पढ़े	VERB	I-VG
 comment	en	comment	NOUN	B-NP
@@ -593,7 +593,7 @@ croSs	en	cross	NOUN	B-NP
 hgaye	hi	हो गए	VERB	B-VG
 :p	rest	:P	SYM	B-BLK
 
-lolzz	rest	laugh out loud	SYM	B-BLK
+lolzz	rest	laugh out loud	X	B-BLK
 u	en	you	PRON	B-NP
 never	en	never	ADV	B-RBP
 know	en	know	VERB	B-VG
@@ -609,7 +609,7 @@ Yar	hi	यार	INTJ	B-BLK
 aise	hi	ऐसे	ADV	B-RBP
 ni	hi	नहीं	ADV	I-RBP
 hota	hi	होता	VERB	B-VG
-kuch	hi	कुछ	DET	B-NP			
+kuch	hi	कुछ	DET	B-NP
 ache	hi	अच्छे	ADJ	I-NP
 ladke	hi	लड़के	NOUN	I-NP
 bhi	hi	भी	PART	I-NP
@@ -634,7 +634,7 @@ h	hi	हैं	AUX	I-VG
 
 please	en	please	ADV	B-RBP
 trust	en	trust	VERB	B-VG
-some	en	some	DET	B-NP			
+some	en	some	DET	B-NP
 of	en	of	ADP	I-NP
 dem	en	them	PRON	I-NP
 not	en	not	PART	B-NP
@@ -654,9 +654,9 @@ ho	hi	हो	AUX	I-VG
 to	hi	तो	SCONJ	B-CCP
 jnu	rest	JNU	PROPN	B-NP
 jaio	hi	जाइयो	VERB	B-VG
-,	rest	,	PUNCT	B-CCP
+,	rest	,	PUNCT	B-BLK
 muddo	hi	मुद्दों	NOUN	B-NP
-pe	hi	पर	ADP	I-NP
+pe	hi	पे	ADP	I-NP
 politics	en	politics	NOUN	B-NP
 hoti	hi	होती	VERB	B-VG
 h	hi	है	AUX	I-VG
@@ -673,7 +673,7 @@ Aisa	hi	ऐसा	PRON	B-NP
 deserves	en	deserves	VERB	B-VG
 jnu	rest	JNU	PROPN	B-NP
 .	rest	.	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
 
 Tu	hi	तू	PRON	B-NP
 chutiya	hi	चूतिया	NOUN	B-NP
@@ -691,8 +691,8 @@ vote	en	vote	NOUN	B-NP
 kiya	hi	किया	VERB	B-VG
 .	rest	.	PUNCT	B-BLK
 
-Oh	en	Oh	INTJ	B-BLK
-acha	hi	अच्छा	INTJ	I-BLK
+Oh	en	Oh	INTJ	B-NP
+acha	hi	अच्छा	INTJ	I-NP
 ab	hi	अब	PRON	B-NP
 smjha	hi	समझा	VERB	B-VG
 tune	hi	तूने	PRON	B-NP
@@ -710,31 +710,31 @@ ab	hi	अब	PRON	B-NP
 bijli	hi	बिजली	NOUN	B-NP
 sasti	hi	सस्ती	ADJ	I-NP
 kr	hi	कर	VERB	B-VG
-degi	hi	देगी	AUX	I-VG
-,	rest	,	PUNCT	B-CCP
+degi	hi	देंगी	AUX	I-VG
+,	rest	,	PUNCT	B-BLK
 mahngai	hi	महंगाई	NOUN	B-NP
 kam	hi	कम	ADJ	I-NP
 kr	hi	कर	VERB	B-VG
 degi	hi	देगी	AUX	I-VG
-,	rest	,	PUNCT	B-CCP
+,	rest	,	PUNCT	B-BLK
 lokpal	rest	lokpal	NOUN	B-NP
 bill	en	bill	NOUN	I-NP
 le	hi	ले	VERB	B-VG
 aegi	hi	आएगी	AUX	I-VG
-,	rest	,	PUNCT	B-CCP
+,	rest	,	PUNCT	B-BLK
 pak	rest	Pakistan	PROPN	B-NP
 aur	hi	और	CONJ	B-CCP
 china	rest	China	PROPN	B-NP
 ki	hi	की	ADP	I-NP
 prob	en	problem	NOUN	B-NP
-door	hi	दूर	NOUN	B-NP
-kr	hi	कर	VERB	B-VG
+door	hi	दूर	ADV	B-VG
+kr	hi	कर	VERB	I-VG
 degi	hi	देगी	AUX	I-VG
 .	rest	.	PUNCT	B-BLK
 
 Hai	hi	है	VERB	B-VG
 na	hi	ना	PART	I-VG
-?.	rest	?	PUNCT	I-VG
+?.	rest	?	PUNCT	B-BLK
 Shabash	hi	शाबाश	INTJ	B-BLK
 .	rest	.	PUNCT	B-BLK
 
@@ -761,7 +761,7 @@ politics	en	politics	NOUN	B-NP
 m	hi	में	ADP	I-VG
 clg	en	college	NOUN	B-NP
 level	en	level	NOUN	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 probs	en	problems	NOUN	B-NP
 k	hi	के	ADP	I-NP
 muddo	hi	मुद्दों	NOUN	B-NP
@@ -790,12 +790,12 @@ se	hi	से	ADP	I-NP
 
 I	en	I	PRON	B-NP
 hope	en	hope	VERB	I-NP
-k	hi कि	SCONJ	B-CCP	
+k	hi	के	ADP	I-VG
 hum	hi	हम	PRON	B-NP
 du	rest	DU	PROPN	B-NP
 students	en	students	NOUN	B-NP
 m	hi	में	ADP	I-NP
-thodi	hi	थोड़ी	DET	B-NP	??????????
+thodi	hi	थोड़ी	DET	B-NP
 akal	hi	अकल	NOUN	I-NP
 aye	hi	आए	VERB	B-VG
 aur	hi	और	CONJ	B-CCP
@@ -829,7 +829,7 @@ gf	en	girlfriend	NOUN	I-NP
 bnaya	hi	बनाया	VERB	B-VG
 hi	hi	ही	PART	B-RBP
 q	hi	क्यों	ADV	I-RBP
-????	rest	?	PUNCT	I-RBP
+????	rest	?	PUNCT	B-BLK
 
 pehle	hi	पहले	ADP	B-NP
 feminine	en	feminine	NOUN	I-NP
@@ -837,13 +837,13 @@ types	en	types	NOUN	B-NP
 hi	hi	ही	PART	I-NP
 thi	hi	थी	VERB	B-VG
 kya	hi	क्या	ADV	B-RBP
-???	rest	?	PUNCT	I-RBP
+???	rest	?	PUNCT	B-BLK
 
 recently	en	recently	ADV	B-RBP
 tomboy	en	tomboy	NOUN	B-NP
 bni	hi	बनी	VERB	B-VG
 h	hi	है	AUX	I-VG
-???	rest	?	PUNCT	I-VG
+???	rest	?	PUNCT	B-BLK
 
 Is	hi	इस	DET	B-NP
 confession	en	confession	NOUN	I-NP
@@ -885,7 +885,7 @@ hai	hi	है	AUX	I-VG
 
 I'm	en	I’m	X	B-NP
 cent	en	cent	NOUN	B-NP
-%	rest	%	SYM	I-NP
+%	rest	%	SYM	B-BLK
 sure	en	sure	ADJ	B-NP
 this	en	this	DET	I-NP
 gondalf	rest	Gandalf	PROPN	I-NP
@@ -906,12 +906,12 @@ hai	hi	है	AUX	I-VG
 DELHI	rest	Delhi	PROPN	B-NP
 METRO	rest	Metro	PROPN	I-NP
 CONFESSION	rest	Confession	PROPN	I-NP
-pe	hi	पर	ADP	I-NP
+pe	hi	पे	ADP	I-NP
 Bhejna	hi	भेजना	VERB	B-VG
 tha	hi	था	AUX	I-VG
 na	hi	ना	PART	I-VG
 idiot	en	idiot	NOUN	B-NP
-,	rest	,	PUNCT	B-CCP
+,	rest	,	PUNCT	B-BLK
 Yh	hi	ये	DET	B-NP
 DU	rest	D.U.	PROPN	I-NP
 CONFESSION	rest	Confession	PROPN	I-NP
@@ -929,7 +929,7 @@ lgta	hi	लगता	VERB	B-VG
 h	hi	है	AUX	I-VG
 bjp	rest	BJP	PROPN	B-NP
 ne	hi	ने	ADP	I-NP
-tumhe	hi	तुम्हें	PRON	B-NP
+tumhe	hi	तुम्हे	PRON	B-NP
 hire	en	hire	NOUN	B-NP
 kiya	hi	किया	VERB	B-VG
 h	hi	है	AUX	I-VG
@@ -1062,8 +1062,8 @@ dusro	hi	दूसरों	PRON	B-NP
 ke	hi	के	ADP	I-NP
 ghar	hi	घर	NOUN	B-NP
 mei	hi	में	ADP	I-NP
-akar	hi	अलग	NOUN	B-NP
-th	hi	था	VERB	B-VG
+akar	hi	आकर	VERB	B-VG
+th	hi	तो	PART	I-VG
 har	hi	हर	DET	B-NP
 koi	hi	कोई	PRON	I-NP
 haq	hi	हक़	NOUN	B-NP
@@ -1095,8 +1095,8 @@ tht	en	that	PRON	B-NP
 envrnmt	en	environment	NOUN	I-NP
 ...	rest	.	PUNCT	B-BLK
 
-atleast	en	atleast	SCONJ	B-CCP
-suicide	en	suicide	NOUN	B-NP
+atleast	en	at least	SCONJ	B-CCP
+suicide	en	suicide	NOUN	I-NP
 se	hi	से	ADP	I-NP
 to	hi	तो	PART	I-NP
 accha	hi	अच्छा	ADJ	B-JJP
@@ -1110,8 +1110,8 @@ apna	hi	अपना	PRON	B-NP
 alag	hi	अलग	ADJ	B-JJP
 se	hi	से	ADP	B-FRAGP
 kr	hi	कर	VERB	B-VG
-jo	hi	जो	ADV	I-VG
-b	hi	भी	PART	I-VG
+jo	hi	जो	DET	B-NP
+b	hi	भी	PART	I-NP
 krna	hi	करना	VERB	B-VG
 h	hi	है	AUX	I-VG
 ..	rest	.	PUNCT	B-BLK
@@ -1132,7 +1132,7 @@ here	en	here	PRON	B-NP
 
 Kabhi	hi	कभी	PRON	B-NP
 koi	hi	कोई	PRON	B-NP
-muslim	rest	muslim	NOUN	B-NP
+muslim	rest	Muslim	NOUN	B-NP
 tmhare	hi	तुम्हारे	PRON	B-NP
 dharm	hi	धर्म	NOUN	B-NP
 k	hi	के	ADP	I-NP
@@ -1152,7 +1152,7 @@ unhe	hi	उन्हें	PRON	B-NP
 .	rest	.	PUNCT	B-BLK
 
 If	en	if	SCONJ	B-CCP
-islam	rest	islam	NOUN	B-NP
+islam	rest	Islam	NOUN	B-NP
 is	en	is	VERB	B-VG
 nt	en	not	PART	I-VG
 a	en	a	DET	B-NP
@@ -1162,13 +1162,13 @@ then	en	then	SCONJ	B-CCP
 har	hi	हर	DET	B-NP
 country	en	country	NOUN	I-NP
 m	hi	में	ADP	I-NP
-muslim	rest	muslim	NOUN	B-NP
+muslim	rest	Muslim	NOUN	B-NP
 kyu	hi	क्यों	PRON	B-NP
 h	hi	हैं	VERB	B-VG
-,	rest	,	PUNCT	B-CCP
+,	rest	,	PUNCT	B-BLK
 55	rest	55	NUM	B-NP
 countries	en	countries	NOUN	I-NP
-muslimo	rest	मुस्लिमों	NOUN	B-NP
+muslimo	rest	Muslimo	NOUN	B-NP
 k	hi	के	ADP	I-NP
 h	hi	हैं	VERB	B-VG
 .	rest	.	PUNCT	B-BLK
@@ -1178,7 +1178,7 @@ sb	hi	सब	PRON	B-NP
 pagal	hi	पागल	ADJ	B-JJP
 h	hi	हैं	VERB	B-VG
 jo	hi	जो	SCONJ	B-CCP
-islam	rest	islam	NOUN	B-NP
+islam	rest	Islam	NOUN	B-NP
 par	hi	पर	ADP	B-JJP
 blv	en	believe	NOUN	B-NP
 karte	hi	करते	VERB	B-VG
@@ -1201,14 +1201,14 @@ na	hi	ना	ADV	I-VG
 ?	rest	?	PUNCT	B-BLK
 
 Mera	hi	मेरा	PRON	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 ganda	hi	गंदा	ADJ	B-JJP
 dimag	hi	दिमाग	NOUN	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 yeh	hi	यह	PRON	B-NP
 kehta	hi	कहता	VERB	B-VG
 hai	hi	है	AUX	I-VG
-,	rest	,	PUNCT	B-CCP
+,	rest	,	PUNCT	B-BLK
 karle	hi	करले	VERB	B-VG
 incest	en	incest	NOUN	B-NP
 ;-)	rest	;)	SYM	B-BLK
@@ -1228,8 +1228,8 @@ madhur	rest	madhur	PROPN	B-NP
 bhandarkar	rest	bhandarkar	PROPN	B-NP
 ki	hi	की	ADP	I-NP
 movies	en	movies	NOUN	B-NP
-ek	hi	एक	ADJ	I-NP
-jaisi	hi	जैसी	ADV	I-RBP
+ek	hi	एक	DET	B-NP
+jaisi	hi	जैसी	PRON	I-NP
 hai	hi	हैं	VERB	B-VG
 ..	rest	.	PUNCT	B-BLK
 a	en	a	DET	B-NP
@@ -1277,7 +1277,7 @@ kidding	en	kidding	VERB	B-VG
 ..	rest	.	PUNCT	B-BLK
 ghanta	hi	घंटा	ADV	B-NP
 best	en	best	ADJ	I-NP
-friend	en	friend	NOUN	I-NP
+friend	en	friend	NOUN	B-NP
 .	rest	.	PUNCT	B-BLK
 bola	hi	बोला	VERB	B-VG
 bhi	hi	भी	PART	I-VG
@@ -1285,11 +1285,11 @@ mat	hi	मत	PART	I-VG
 kar	hi	कर	VERB	I-VG
 
 toh	hi	तो	PRON	B-NP
-??	rest	?	PUNCT	I-NP
+??	rest	?	PUNCT	B-BLK
 koile	hi	कोयले	NOUN	B-NP
 ki	hi	की	ADP	I-NP
 import	en	import	NOUN	B-NP
-\\	rest	\	PUNCT	I-NP
+\\	rest	\	PUNCT	B-BLK
 export	en	export	NOUN	B-NP
 me	hi	में	ADP	I-NP
 hum	hi	हम	PRON	B-NP
@@ -1315,7 +1315,7 @@ type	en	type	VERB	B-VG
 kiya	hi	किया	VERB	I-VG
 h	hi	है	AUX	I-VG
 kya	hi	क्या	ADV	I-VG
-??	rest	??	PUNCT	B-FRAGP
+??	rest	??	PUNCT	B-BLK
 
 Saala	hi	साला	INTJ	B-FRAGP
 khatm	hi	खत्म	NOUN	B-VG
@@ -1361,7 +1361,7 @@ mne	hi	मैंने	PRON	I-NP
 aisa	hi	ऐसा	DET	B-NP
 koi	hi	कोई	PRON	I-NP
 msg	en	message	NOUN	I-NP
-nai	hi	नहीं	ADV	B-VG
+nai	hi	नहीं	ADJ	B-VG
 kia	hi	किया	VERB	I-VG
 :(	rest	:(	X	B-BLK
 
@@ -1373,8 +1373,8 @@ result	en	result	NOUN	B-NP
 me	hi	में	PART	I-NP
 konsa	hi	कौनसा	PRON	B-NP
 bc	hi	bc	NOUN	I-NP
-restrsty	en	university	NOUN	B-NP
-tope	en	top	NOUN	B-NP
+restrsty	en	-	X	I-NP
+tope	hi	तोप	NOUN	I-NP
 mari	hi	माऱी	VERB	B-VG
 ...	rest	...	SYM	B-BLK
 jo	hi	जो	SCONJ	B-CCP
@@ -1394,25 +1394,25 @@ se	hi	से	PRON	I-NP
 karo	hi	करो	VERB	B-VG
 .................................	rest	.	SYM	B-BLK
 
-dusro	hi	दूसरूँ	PRON	B-NP
+dusro	hi	दूसरों	PRON	B-NP
 ki	hi	की	ADP	I-NP
 gf	rest	gf	NOUN	B-NP
 se	hi	से	ADP	I-NP
 to	hi	तो	PART	I-NP
 humare	hi	हमारे	PRON	I-NP
-parents	en	parents	NOUB	I-NP
+parents	en	parents	NOUN	I-NP
 b	hi	भी	PART	I-NP
 karwate	hi	करवाते	VERB	B-VG
-h	hi	हैं	AUX	I-VG
+h	hi	है	AUX	I-VG
 ..!!	rest	..!!	SYM	B-BLK
-;-)	rest	;)	SYM	B-BLK
+;-)	rest	;-)	SYM	B-BLK
 
 Abe	hi	अबे	INTJ	B-JJP
 dhkan	hi	ढक्कन	NOUN	B-NP
 ...	rest	...	SYM	B-BLK
 3	rest	3	NUM	B-NP
 idiot	en	idiot	NOUN	I-NP
-thodena	hi	थोड़ी न	PART	B-VG
+thodena	hi	थोड़ी ना 	PART	B-VG
 chal	hi	चल	VERB	I-VG
 rhi	hi	रही	AUX	I-VG
 h	hi	है	AUX	I-VG
@@ -1426,7 +1426,7 @@ or	hi	ओर	SCONJ	B-CCP
 job	en	job	NOUN	B-NP
 mill	hi	मिल	VERB	B-VG
 jayegi	hi	जाएगी	AUX	I-VG
-..	rest	.	SYM	B-BLK
+..	rest	..	SYM	B-BLK
 
 Dat	en	That	DET	B-NP
 ws	en	was	AUX	B-VG
@@ -1443,7 +1443,7 @@ ki	hi	की	ADP	I-NP
 subah	hi	सुबह	NOUN	I-NP
 hi	hi	ही	PART	I-NP
 nahi	hi	नहीं	PART	I-NP
-kohinoor	rest	kohinoor	PROPN	B-NP
+kohinoor	rest	Kohinoor	PROPN	B-NP
 xtra	en	extra	ADJ	I-NP
 time	en	time	NOUN	I-NP
 condom	en	condom	NOUN	I-NP
@@ -1459,8 +1459,8 @@ yr	hi	यार	INTJ	B-NP
 yr	en	year	NOUN	I-NP
 to	hi	तो	PART	I-NP
 mujhe	hi	मुझे	PRON	B-NP
-ho	hi	हो	AUX	B-VG
-gye	hi	गए	VERB	I-VG
+ho	hi	हो	VERB	B-VG
+gye	hi	गए	AUX	I-VG
 bhav	hi	भाव	NOUN	B-JJP
 khati	hi	खाती	VERB	B-VG
 h	hi	है	AUX	I-VG
@@ -1501,7 +1501,7 @@ against	en	against	ADP	I-NP
 bol	hi	बोल	VERB	B-VG
 rhe	hi	रहे	AUX	I-VG
 ho	hi	हो	AUX	I-VG
-to	hi	तो	PART	I-VG
+to	hi	तो	SCONJ	B-CCP
 congress	en	Congress	NOUN	B-NP
 k	hi	के	ADP	I-NP
 against	en	against	ADP	I-NP
@@ -1517,10 +1517,10 @@ kisi	hi	किसी	ADJ	B-JJP
 bhi	hi	भी	PART	I-JJP
 apne	hi	अपने	PRON	B-NP
 se	hi	से	ADP	I-NP
-badi	hi	बड़ी	ADJ	I-NP
+badi	hi	बड़ी	ADJ	B-NP
 umar	hi	उम्र	NOUN	I-NP
 k	hi	के	ADP	I-NP
-insan	hi	इनसान	NOUN	I-NP
+insan	hi	इनसान	NOUN	B-NP
 k	hi	के	ADP	I-NP
 liye	hi	लिए	ADP	I-NP
 ye	hi	ये	DET	B-NP
@@ -1530,20 +1530,20 @@ use	en	use	VERB	B-VG
 krna	hi	करना	VERB	I-VG
 sahi	hi	सही	ADV	I-VG
 h	hi	है	AUX	I-VG
-kya	hi	क्या	ADV	I-VG
+kya	hi	क्या	ADV	B-NP
 ???	rest	???	PUNCT	B-BLK
 
-Bahiyya	hi	भईया		INTJ	B-NP
+Bahiyya	hi	भईया	NOUN	B-NP
 ji	hi	जी	PART	I-NP
-sluts	en	sluts	NOUN	I-NP
+sluts	en	sluts	NOUN	B-NP
 works	en	works	VERB	B-VG
-in	en	in	ADP	B-NP
+in	en	ADP	ADP	B-NP
 return	en	return	NOUN	I-NP
 of	en	of	ADP	I-NP
 money	en	money	NOUN	I-NP
-and	en	and	CONJ	B-CCP
-gigolo	en	gigole	NOUN	B-NP
-aswell	en	as well	PART	I-NP
+and	en	and	SCONJ	B-CCP
+gigolo	en	gigole	X	B-BLK
+aswell	en	as well	ADJ	B-JJP
 ....	rest	....	SYM	B-BLK
 
 to	hi	तो	PART	B-NP
@@ -1604,15 +1604,15 @@ jati	hi	जाती	VERB	B-VG
 hain	hi	हैं	AUX	I-VG
 to	hi	तो	PART	I-VG
 zindagi	hi	ज़िन्दगी	NOUN	B-NP
-ek	hi	एक	DET	I-NP
+ek	hi	एक	DET	B-NP
 aise	hi	ऐसे	PRON	I-NP
-aadmi	hi	आदमी	NOUN	I-NP
+aadmi	hi	आदमी	NOUN	B-NP
 k	hi	के	ADP	I-NP
 sath	hi	साथ	NOUN	I-NP
-zindagi	hi	ज़िन्दगी	NOUN	I-NP
-bhar	hi	भर	ADJ	B-JJP
-k	hi	के	ADP	B-FRAGP
-liye	hi	लिए	VERB	B-FRAGP
+zindagi	hi	ज़िन्दगी	NOUN	B-NP
+bhar	hi	भर	ADJ	I-NP
+k	hi	के	ADP	B-VG
+liye	hi	लिए	VERB	I-VG
 dump	en	dump	NOUN	B-NP
 krti	hi	करती	AUX	B-VG
 h	hi	हैं	AUX	I-VG
@@ -1622,7 +1622,7 @@ wah	hi	वह	PRON	B-NP
 na	hi	ना	ADV	B-VG
 nigal	hi	निगल	VERB	I-VG
 pati	hi	पाती	AUX	I-VG
-h	hi	है	AUX	I-VG
+h	hi	हैं	AUX	I-VG
 na	hi	ना	ADJ	B-NP
 ugal	hi	उगल	VERB	B-VG
 pati	hi	पाती	AUX	I-VG
@@ -1631,23 +1631,23 @@ h	hi	है	AUX	I-VG
 
 to	hi	तो	PART	B-NP
 girls	en	girls	NOUN	I-NP
-dhyan	hi	ध्यान	NOUN	B-N{}
-rakhe	hi	रखें 	VERB	B-VG
+dhyan	en	ध्यान	NOUN	B-NP
+rakhe	hi	रखें	VERB	B-VG
 boys	en	boys	NOUN	B-NP
 k	hi	के	ADP	I-NP
 pas	hi	पास	NOUN	I-NP
 optn	en	option	NOUN	I-NP
-bhale	hi	भले	ADJ	B-NP
-kam	hi	कम	NOUN	I-NP
+bhale	hi	भले	ADJ	B-JJP
+kam	hi	कम	ADJ	I-JJP
 ho	hi	हो	AUX	B-VG
 par	hi	पर	SCONJ	B-CCP
 max	en	maximum	ADJ	B-VG
 boys	en	boys	NOUN	B-NP
-girlfriend	en	girlfriend	NOUN	I-NP
+girlfriend	en	girlfriend	NOUN	B-NP
 k	hi	के	ADP	I-NP
-sath	hi	साथ	NOUN	B-NP
-loyal	en	loyal	NOUN	B-NP
-hote	hi	होते	VERB	B-VG
+sath	hi	साथ	ADJ	I-NP
+loyal	en	loyal	ADV	B-VG
+hote	hi	होते	VERB	I-VG
 hain	hi	हैं	AUX	I-VG
 ....	rest	....	SYM	B-BLK
 
@@ -1686,7 +1686,7 @@ bata	hi	बता	VERB	B-VG
 but	en	but	SCONJ	B-CCP
 hint	en	hint	NOUN	B-NP
 de	hi	दे	VERB	B-VG
-k	hi	कर	ADP	B-NP
+k	hi	कर	AUX	I-VG
 rakh	hi	रख	VERB	B-VG
 warna	hi	वरना	SCONJ	B-CCP
 pata	hi	पता	NOUN	B-NP
@@ -1705,7 +1705,7 @@ aaye	hi	आए	VERB	I-VG
 ..	rest	..	SYM	B-BLK
 
 agr	hi	अगर	SCONJ	B-CCP
-MH	rest	MK	PROPN	B-NP
+MH	rest	UNK	PROPN	B-NP
 environment	en	environment	NOUN	B-NP
 itni	hi	इतनी	ADJ	B-JJP
 hi	hi	ही	PART	I-JJP
@@ -1728,7 +1728,7 @@ realize	en	realize	NOUN	I-NP
 ho	hi	हो	VERB	B-VG
 ki	hi	कि	ADP	B-NP
 tune	hi	तूने	PRON	I-NP
-kya	hi	क्या	ADV	B-VP
+kya	hi	क्या	ADV	B-VG
 miss	en	miss	VERB	I-VG
 kia	hi	किया	VERB	I-VG
 hai	hi	है	AUX	I-VG
@@ -1739,7 +1739,7 @@ yeh	hi	यह	DET	B-NP
 bata	hi	बता	VERB	B-VG
 bc	hi	bc	INTJ	B-NP
 ki	hi	कि	SCONJ	B-CCP
-teri	hi	तेरी	PRON	B-NP
+teri	hi	तेरी	PRON	I-NP
 frnd	en	friend	NOUN	I-NP
 rqst	en	request	NOUN	I-NP
 acpt	en	accept	VERB	B-VG
@@ -1790,7 +1790,7 @@ de	hi	दे	AUX	I-VG
 bc	hi	bc	INTJ	B-NP
 ham	hi	हम	PRON	I-NP
 bhi	hi	भी	PART	I-NP
-fb	rest	Facebook	PROPN	B-NP
+fb	rest	Facebook	PROPN	I-NP
 use	en	use	VERB	B-VG
 karte	hi	करते	AUX	I-VG
 hain	hi	हैं	AUX	I-VG
@@ -1825,7 +1825,7 @@ confessor	en	confessor	NOUN	B-NP
 ,	rest	,	SYM	B-BLK
 take	en	take	VERB	B-VG
 ur	en	your	PRON	B-NP
-kohinoor	rest	kohinoor	PROPN	B-NP
+kohinoor	rest	Kohinoor	PROPN	B-NP
 in	en	in	ADP	B-NP
 ur	en	your	PRON	I-NP
 hole	en	hole	NOUN	I-NP
@@ -1851,15 +1851,15 @@ tha	hi	था	AUX	I-VG
 toh	hi	तो	SCONJ	B-CCP
 confession	en	confession	NOUN	B-NP
 hi	hi	ही	PART	I-NP
-kyu	hi	क्यों	ADV	B-VG
+kyu	hi	क्यों	X	B-VG
 daala	hi	डाला	VERB	I-VG
 ,	rest	,	SYM	B-BLK
 beer	en	beer	NOUN	B-NP
 ke	hi	के	ADP	I-NP
 baad	hi	बाद	NOUN	B-NP
-pauua	hi	पउअा	NOUN	B-NP
+pauua	hi	पउआ	NOUN	B-NP
 pi	hi	पी	VERB	B-VG
-ke	hi	कर	AUX	I-VG
+ke	hi	के	AUX	I-VG
 soja	hi	सोजा	VERB	B-VG
 ta	hi	ता	AUX	I-VG
 ...	rest	...	SYM	B-BLK
@@ -1887,9 +1887,9 @@ raha	hi	रहा	VERB	I-VG
 he	hi	है	AUX	I-VG
 ...	rest	...	SYM	B-BLK
 
-LOLZ	rest	laugh out loud	SYM	B-BLK
+LOLZ	rest	laugh out loud	X	B-BLK
 huh	en	huh	INTJ	I-BLK
-??	rest	??	SYM	I-BLK
+??	rest	??	SYM	B-BLK
 well	en	well	ADJ	B-JJP
 surely	en	surely	ADJ	I-JJP
 ab	hi	अब	DET	B-NP
@@ -1902,15 +1902,15 @@ kia	hi	किया	VERB	B-VG
 krega	hi	करेगा	AUX	I-VG
 bcha	hi	बच्चा	NOUN	B-NP
 
-ab	hi	अब	DET	I-NP
+ab	hi	अब	DET	B-NP
 impact	en	impact	NOUN	I-NP
 to	hi	तो	PART	I-NP
 tum	hi	तुम	PRON	B-NP
 pr	hi	पर	ADP	I-NP
 aega	hi	आएगा	VERB	B-VG
-lolzz	rest	laugh out loud	SYM	B-NP
+lolzz	rest	laugh out loud	X	B-NP
 ....	rest	....	SYM	B-BLK
-:-p	rest	:-P	SYM	B-BLK
+:-p	rest	:-p	SYM	B-BLK
 
 are	hi	अरे	INTJ	B-NP
 ye	hi	ये	PRON	B-NP
@@ -1921,8 +1921,8 @@ padosi	hi	पड़ोसी	NOUN	I-NP
 nikla	hi	निकला	VERB	B-VG
 wo	hi	वो	DET	B-NP
 b	hi	भी	PART	I-NP
-ye	hi	ये	DET	B-NP
-wali	hi	वाली	ADJ	I-NP
+ye	hi	ये	ADJ	B-NP
+wali	hi	वाली	DET	I-NP
 muvi	en	movie	NOUN	I-NP
 dkh	hi	देख	VERB	B-VG
 rha	hi	रहा	AUX	I-VG
@@ -1984,7 +1984,7 @@ use	en	use	VERB	B-VG
 nhi	hi	नहीं	ADV	I-VG
 krta	hi	करता	VERB	I-VG
 tha	hi	था	AUX	I-VG
-to	hi	तो	PART	I-VG
+to	hi	तो	PART	B-RBP
 mjhe	hi	मुझे	PRON	B-NP
 de	hi	दे	VERB	B-VG
 diya	hi	दिया	AUX	I-VG
@@ -1997,11 +1997,11 @@ bhi	hi	भी	PART	I-RBP
 prblm	en	problem	NOUN	B-NP
 solve	en	solve	VERB	B-VG
 na	hi	ना	ADV	I-VG
-ho	hi	हो	PART	I-VG
-to	hi	तो	PART	I-VG
+ho	hi	हो	VERB	I-VG
+to	hi	तो	SCONJ	B-CCP
 change	en	change	VERB	B-VG
 ur	en	your	PRON	B-NP
-gf	en	girlfriend	NOUN	I-NP
+gf	en	girlfriend	NOUN	B-NP
 ..	rest	..	SYM	B-BLK
 
 marry	en	marry	VERB	B-VG
@@ -2022,25 +2022,25 @@ shootegi	hi	छूटेगी	VERB	I-VG
 
 aur	hi	और	SCONJ	B-CCP
 tum	hi	तुम	PRON	B-NP
-dono	hi	दोनों	DET	I-NP
+dono	hi	दोनों	DET	B-NP
 ka	hi	का	ADP	I-NP
 happy	en	happy	ADJ	B-NP
 ever	en	ever	NOUN	I-NP
 after	en	after	NOUN	I-NP
 ...	rest	...	SYM	B-BLK
 
-haiiiii	hi	भाई	NOUN	B-NP
+bhaiiiii	hi	भाई	NOUN	B-NP
 wo	hi	वो	PRON	B-NP
-is	hi	इस	DET	I-NP
+is	hi	इस	DET	B-NP
 liye	hi	लिए	ADP	I-NP
 ki	hi	कि	SCONJ	B-CCP
 weh	hi	वह	PRON	B-NP
 seat	en	seat	NOUN	I-NP
-Kewal	hi	केवल	DET	B-NP
-mahilayo	hi	महिलाओं	NOUN	I-NP
+Kewal	hi	केवल	ADV	B-NP
+mahilayo	hi	महिलाओं	NOUN	B-NP
 k	hi	के	ADP	I-NP
 liye	hi	लिए	ADP	I-NP
-aarakshit	hi	आरक्षित	NOUN	B-NP
+aarakshit	hi	आरक्षित	ADJ	B-VG
 tha	hi	थी	VERB	I-VG
 ......	rest	......	SYM	B-BLK
 
@@ -2054,19 +2054,19 @@ flw	en	follow	NOUN	B-NP
 kiya	hi	किया	VERB	I-VG
 ..............	rest	..............	SYM	B-BLK
 
-Yr	hi	यार	INTJ	B-NP
+Yr	hi	यार	CONJ	B-NP
 confesr	en	confessor	NOUN	B-NP
-aisa	hi	ऐसा	ADV	B-VG
+aisa	hi	ऐसा	DET	B-VG
 kar	hi	कर	VERB	I-VG
-thoda	hi	थोड़ा	DET	B-NP
-rolls	rest	rolls	PROPN	B-NP
-royc	rest	royce	PROPN	I-NP
-phntm	en	phantom	NOUN	I-NP
+thoda	hi	थोड़ा	ADV	B-RBP
+rolls	rest	Rolls	PROPN	B-NP
+royc	rest	Royce	PROPN	I-NP
+phntm	rest	Phantom	PROPN	I-NP
 ban	hi	बन	VERB	B-VG
 ja	hi	जा	AUX	I-VG
 aur	hi	और	CONJ	B-CCP
 apni	hi	अपनी	PRON	B-NP
-8oo	rest	8oo	PROPN	I-NP
+8oo	rest	800	PROPN	I-NP
 ka	hi	का	ADP	I-NP
 picha	hi	पीछा	NOUN	I-NP
 chodh	hi	छोड़	VERB	B-VG
@@ -2074,28 +2074,28 @@ purani	hi	पुरानी	ADJ	B-JJP
 ho	hi	हो	VERB	B-VG
 gyi	hi	गई	AUX	I-VG
 he	hi	है	AUX	I-VG
-range	rest	range	PROPN	B-NP
-ovr	rest	rover	PROPN	I-NP
+range	rest	Range	PROPN	B-NP
+rovr	rest	Rover	PROPN	I-NP
 pakad	hi	पकड़	VERB	B-VG
 
-bhai	hi	भाई	INTJ	B-NP
-sahi	hi	सही	NOUN	B-NP
+bhai	hi	भाई	NOUN	B-NP
+sahi	hi	सही	ADJ	B-JJP
 keh	hi	कह	VERB	B-VG
 rahe	hi	रहे	AUX	I-VG
 ho	hi	हो	AUX	I-VG
 aur	hi	और	CONJ	B-CCP
-ab	hi	अब	ADV	B-RBP
-to	hi	तो	PART	I-RBP
+ab	hi	अब	DET	B-JJP
+to	hi	तो	PART	I-JJP
 zindagi	hi	ज़िन्दगी	NOUN	B-NP
 jhand	hi	झंड	ADJ	B-JJP
 bhi	hi	भी	PART	I-JJP
 comment	en	comment	VERB	B-NP
-nahi	hi	नहीं	ADV	B-VG
-karta	hi	करता	VERB	I-VG
-0	rest	0	SYM	B-BLK
-ab	hi	अब	ADV	B-RBP
-to	hi	तो	PART	I-RBP
-ekdam	hi	एकदम		ADV	B-RBP
+nahi	hi	नहीं	ADV	B-RBP
+karta	hi	करता	VERB	B-VG
+0	rest	0	NUM	B-BLK
+ab	hi	अब	DET	B-JJP
+to	hi	तो	PART	I-JJP
+ekdam	hi	एकदम	ADV	B-RBP
 bore	en	bore	VERB	B-VG
 ho	hi	हो	VERB	I-VG
 chuka	hi	चुका	AUX	I-VG
@@ -2121,15 +2121,15 @@ h	hi	है	AUX	I-VG
 
 do	hi	दो	NUM	B-NP
 tarike	hi	तरीके	NOUN	I-NP
-h	hi	है	AUX	B-FRAGP
+h	hi	हैं	VERB	B-VG
 ek	hi	एक	NUM	B-NP
 asan	hi	आसान	NOUN	I-NP
 or	hi	और	CONJ	B-CCP
 ek	hi	एक	NUM	B-NP
-mushkl	hi	मुश्किल	NOUN	I-NP
+mushkl	hi	मुशकिल	NOUN	I-NP
 1	rest	1	NUM	B-NP
 
-phela	hi	पहले	ADV	B-RBP
+phela	hi	पहला	ADV	B-RBP
 bhar	hi	बाहर	NOUN	B-NP
 nikal	hi	निकल	VERB	B-VG
 cos	en	because	SCONJ	B-CCP
@@ -2339,8 +2339,8 @@ pike	hi	पीके	VERB	B-VG
 to	hi	तो	PART	B-NP
 tu	hi	तू	PRON	I-NP
 g_	rest	g_	SYM	B-BLK
-_	rest	_	SYM	I-BLK
-d	rest	d	SYM	I-BLK
+_	rest	_	SYM	B-BLK
+d	rest	d	SYM	B-BLK
 k	hi	को	ADP	B-RBP
 take	hi	तक	CONJ	B-CCP
 khul	hi	खुल	VERB	B-VG
@@ -2425,9 +2425,9 @@ impress	en	impress	NOUN	B-NP
 b	hi	भी	PART	I-NP
 kr	hi	कर	VERB	B-VG
 lio	hi	लियो	AUX	I-VG
-..	rest	..	SYM	I-VG
-.	rest	.	SYM	I-VG
-.	rest	.	SYM	I-VG
+..	rest	..	SYM	B-BLK
+.	rest	.	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 
 ye	hi	ये	PRON	B-NP
 delhi	en	delhi	NOUN	I-NP
@@ -2440,7 +2440,7 @@ jo	hi	जो	PRON	B-NP
 wo	hi	वो	PRON	B-NP
 ab	hi	अब	ADV	B-VG
 milegi	hi	मिलेगी	VERB	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 
 tjhe	hi	तुझे	PRON	B-NP
 ky	hi	क्या	X	B-RBP
@@ -2460,7 +2460,7 @@ impress	en	impress	NOUN	B-NP
 kr	hi	कर	VERB	B-VG
 lega	hi	लेगा	AUX	I-VG
 use	hi	उसे	PRON	B-NP
-...	rest	...	SYM	I-NP
+...	rest	...	SYM	B-BLK
 
 ky	hi	क्या	X	I-NP
 ho	hi	हो	VERB	B-VG
@@ -2577,7 +2577,7 @@ k	hi	की	ADP	I-NP
 yad	hi	याद	NOUN	B-NP
 aa	hi	आ	VERB	B-VG
 gi	hi	गयी	AUX	I-VG
-:	rest	:	SYM	I-VG
+:	rest	:	SYM	B-BLK
 
 wo	hi	वो	PRON	B-NP
 b	hi	भी	ADV	I-NP
@@ -2722,8 +2722,8 @@ bankar	hi	बनकर	VERB	B-VG
 ku	hi	क्यों	X	I-VG
 bethe	hi	बैठे	VERB	B-VG
 h	hi	है	AUX	I-VG
-:	rest	:	SYM	I-VG
-:	rest	:	SYM	I-VG
+:	rest	:	SYM	B-BLK
+:	rest	:	SYM	B-BLK
 
 Jab	hi	जब	PRON	B-NP
 tak	hi	तक	PART	I-NP
@@ -2749,7 +2749,7 @@ wapas	hi	वापस	ADV	B-RBP
 Vinayaka	en	Vinayaka	NOUN	B-NP
 chale	hi	चले	VERB	B-VG
 jao	hi	जाओ	AUX	I-VG
-_	rest	_	SYM	I-VG
+_	rest	_	SYM	B-BLK
 
 Xaviers	en	Xaviers	NOUN	B-NP
 ....	rest	....	SYM	B-BLK
@@ -2768,7 +2768,7 @@ r	en	are	VERB	B-VG
 u	en	you	PRON	B-NP
 looser	en	loser	ADJ	B-JJP
 ????.	rest	????.	SYM	B-BLK
-0	rest	0	SYM	I-BLK
+0	rest	0	SYM	B-BLK
 sucide	en	suicide	NOUN	B-NP
 krne	hi	करने	VERB	B-VG
 s	hi	से	ADP	B-NP
@@ -2788,7 +2788,7 @@ krna	hi	करना	VERB	I-VG
 zaruri	hi	ज़रूरी	ADJ	I-VG
 tha	hi	था	AUX	I-VG
 0	rest	0	SYM	B-BLK
-o_O	rest	o_O	SYM	I-BLK
+o_O	rest	o_O	SYM	B-BLK
 
 moral	en	moral	ADJ	B-JJP
 of	en	of	SCONJ	B-CCP
@@ -2801,7 +2801,7 @@ zyada	hi	ज्यादा	X	I-JJP
 dimag	hi	दिमाग	NOUN	B-NP
 lagati	hi	लगाती	VERB	B-VG
 hai	hi	हैं	AUX	I-VG
-:	rest	:	SYM	I-VG
+:	rest	:	SYM	B-BLK
 
 Abey	hi	अबे	PRON	B-NP
 confessor	en	confessor	NOUN	I-NP
@@ -2826,8 +2826,8 @@ ADP	hi	तो	PART	I-NP
 KUTTE	hi	कुत्ते	NOUN	B-NP
 MARTE	hi	मरते	VERB	B-VG
 HAI	rest	HAI	AUX	I-VG
-:	rest	:	SYM	I-VG
-:	rest	:	SYM	I-VG
+:	rest	:	SYM	B-BLK
+:	rest	:	SYM	B-BLK
 
 Aesi	hi	ऐसी	PRON	B-NP
 hota	hi	होता	VERB	B-VG
@@ -2853,12 +2853,12 @@ hi	hi	ही	AUX	I-VG
 coz	en	because	SCONJ	B-CCP
 grls	en	girls	NOUN	B-NP
 majority	en	majority	NOUN	I-NP
-:	rest	:	SYM	I-NP
+:	rest	:	SYM	B-BLK
 
 koe	hi	कोई	PRON	B-NP
 nie	hi	नहीं	ADV	I-NP
 ...	rest	...	SYM	B-BLK
-0	rest	0	SYM	I-BLK
+0	rest	0	SYM	B-BLK
 bst	en	best	ADJ	B-JJP
 of	en	of	SCONJ	B-CCP
 luck	en	luck	NOUN	I-CCP
@@ -2866,7 +2866,7 @@ fo	en	for	SCONJ	B-CCP
 ua	en	your	PRON	B-NP
 future	en	future	NOUN	I-NP
 ..	rest	..	SYM	B-BLK
-:)	rest	:)	SYM	I-BLK
+:)	rest	:)	SYM	B-BLK
 
 pura	hi	पूरा	ADJ	B-JJP
 filmy	en	filmy	NOUN	B-NP
@@ -2892,7 +2892,7 @@ ki	hi	की	ADP	I-NP
 koshish	hi	कोशिश	VERB	B-VG
 hi	hi	ही	PART	I-VG
 nahiki	hi	नही की	ADP	B-VG
-)	rest	)	SYM	I-VG
+)	rest	)	SYM	B-BLK
 
 jiske	hi	जिसके	PRON	B-NP
 lie	hi	लिए	ADP	I-NP
@@ -2950,7 +2950,7 @@ A	en	A	DET	B-NP
 21st	en	21st	NUM	I-NP
 century	en	century	NOUN	I-NP
 ?	rest	?	SYM	B-BLK
-:	rest	:	SYM	I-BLK
+:	rest	:	SYM	B-BLK
 ab	hi	अब	NOUN	B-NP
 pta	hi	पता	VERB	B-VG
 chala	hi	चला	AUX	I-VG
@@ -2969,8 +2969,8 @@ yaar	hi	यार	PRON	B-NP
 ....	rest	....	SYM	B-BLK
 khulE	hi	खुले	ADJ	B-JJP
 vichaaar	hi	विचार	NOUN	B-NP
-:	rest	:	SYM	I-NP
-0	rest	0	SYM	I-NP
+:	rest	:	SYM	B-BLK
+0	rest	0	NUM	B-NP
 
 vai	hi	वही	NOUN	B-NP
 2	rest	2	NUM	I-NP
@@ -2985,7 +2985,7 @@ tum	hi	तुम	PRON	I-NP
 hi	hi	ही	PART	I-NP
 bnayega	hi	बनाय़ेगा	VERB	B-VG
 
-hahaha	rest	hahaha	SYM	B-NP
+hahaha	rest	hahaha	SYM	B-BLK
 uspe	hi	उसपे	PRON	B-NP
 poster	en	poster	NOUN	I-NP
 chhap	hi	छाप	VERB	B-VG
@@ -2996,7 +2996,7 @@ save	en	save	VERB	B-VG
 gal	en	girl	ADJ	B-JJP
 child	en	child	NOUN	B-NP
 wala	hi	वाला	PRON	I-NP
-:	rest	:	SYM	I-NP
+:	rest	:	SYM	B-BLK
 
 fuck	en	fuck	VERB	B-NP
 u	en	you	PRON	I-NP
@@ -3035,7 +3035,7 @@ Party	en	Party	NOUN	I-NP
 on	en	on	SCONJ	B-CCP
 my	en	my	PRON	B-NP
 Mind	en	Mind	NOUN	I-NP
-:	rest	:	SYM	I-NP
+:	rest	:	SYM	B-BLK
 
 oh	hi	ओह	X	B-NP
 aaj	hi	आज	NOUN	B-NP
@@ -3048,7 +3048,7 @@ pr	hi	पर	ADP	B-VG
 click	en	click	VERB	I-VG
 karungi	hi	करूंगी	AUX	I-VG
 pkka	hi	पक्का	ADV	I-VG
-:	rest	:	SYM	I-VG
+:	rest	:	SYM	B-BLK
 
 admin	en	admin	NOUN	B-NP
 ke	hi	के	ADP	I-NP
@@ -3087,7 +3087,7 @@ india	rest	India	NOUN	B-NP
 azaad	hi	आज़ाद	NOUN	B-VG
 ho	hi	हो	VERB	I-VG
 jayega	hi	जाएगा	AUX	I-VG
-:	rest	:	SYM	I-VG
+:	rest	:	SYM	B-BLK
 
 admin	en	admin	NOUN	B-NP
 us	hi	उस	PRON	B-NP
@@ -3123,8 +3123,8 @@ pg	en	page	NOUN	I-NP
 pe	hi	पे	ADP	I-NP
 h	hi	है 	AUX	B-VG
 ..	rest	..	SYM	B-BLK
-lol	rest	laugh out loud	SYM	B-BLK
-:p	rest	:p	SYM	I-BLK
+lol	rest	laugh_out_loud	SYM	B-BLK
+:p	rest	:p	SYM	B-BLK
 
 Tu	hi	तू 	PRON	B-NP
 to	hi	तो 	PART	B-FRAGP
@@ -3299,7 +3299,7 @@ Almost	en	Almost	ADV	B-RBP
 casualty	en	casualty	NOUN	B-NP
 were	en	were	VERB	B-VG
 Sikhs	en	Sikhs	PROPN	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 which	en	which	PRON	B-NP
 makes	en	makes	VERB	B-VG
 this	en	this	PRON	B-NP
@@ -3336,7 +3336,7 @@ Communal	en	Communal	ADJ	B-NP
 violence	en	violence	NOUN	I-NP
 in	en	in	ADP	B-NP
 Nellie	rest	Nellie	PROPN	I-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 Assam	rest	Assam	PROPN	I-NP
 |	rest	|	SYM	B-BLK
 2000-5000	rest	2000-5000	NUM	B-NP
@@ -3346,10 +3346,10 @@ PM	rest	Prime Minister	NOUN	B-NP
 ?	rest	?	PUNCT	B-BLK
 Indira	rest	Indira	PROPN	B-NP
 Gandhi	rest	Gandhi	PROPN	I-NP
-(	rest	(	PUNCT	I-NP
+(	rest	(	PUNCT	B-BLK
 Congress	en	Congress	PROPN	B-NP
 party	en	party	NOUN	I-NP
-)	rest	)	PUNCT	I-NP
+)	rest	)	PUNCT	B-BLK
 -	rest	-	PUNCT	B-BLK
 
 India's	en	India's	NOUN	B-NP
@@ -3361,11 +3361,11 @@ in	en	in	ADP	B-NP
 any	en	any	DET	I-NP
 single	en	single	ADJ	I-NP
 riot	en	riot	NOUN	I-NP
-(	rest	(	PUNCT	I-NP
+(	rest	(	PUNCT	B-BLK
 just	en	just	ADV	B-RBP
 6	rest	6	NUM	B-NP
 HOURS	en	HOURS	NOUN	I-NP
-)	rest	)	PUNCT	I-NP
+)	rest	)	PUNCT	B-BLK
 Riot	en	Riot	NOUN	B-NP
 
 5	rest	5	NUM	I-NP
@@ -3375,7 +3375,7 @@ Communal	en	Communal	ADJ	I-NP
 riots	en	riots	NOUN	I-NP
 in	en	in	ADP	B-NP
 Rourkela	rest	Rourkela	PROPN	I-NP
-&	rest	and	SYM	B-CCP
+&	rest	and	SYM	B-BLK
 Jamshedpur	rest	Jamshedpur	PROPN	B-NP
 |	rest	|	SYM	B-BLK
 2000	rest	2000	NUM	B-NP
@@ -3447,7 +3447,7 @@ h	hi	हैं	AUX	I-VG
 
 Sunny	rest	Sunny	PROPN	B-NP
 leone	rest	leone	PROPN	I-NP
-.	rest	.	PUNCT	I-NP
+.	rest	.	PUNCT	B-BLK
 s	hi	से	ADP	I-NP
 tie	en	tie	VERB	B-VG
 up	en	up	PART	B-FRAGP
@@ -3481,9 +3481,9 @@ chup	hi	चुप 	ADV	B-RBP
 ho	hi	हो 	VERB	B-VG
 ja	hi	जा 	AUX	I-VG
 bjp	rest	bharatiya janata party	NOUN	B-NP
-..	rest	..	SYM	I-NP
+..	rest	..	SYM	B-BLK
 supporter	en	supporter	NOUN	I-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 ye	hi	ये 	PRON	B-NP
 sb	hi	सब 	ADJ	I-NP
 parties	en	parties	NOUN	I-NP
@@ -3501,7 +3501,7 @@ joke	en	joke	NOUN	B-NP
 crack	en	crack	VERB	B-VG
 kiya	hi	किया	AUX	I-VG
 h	hi	है	AUX	I-VG
-?	rest	?	PUNCT	I-VG
+?	rest	?	PUNCT	B-BLK
 mtlb	hi	मतलब 	PART	B-FRAGP
 ab	hi	अब 	ADV	B-RBP
 hum	hi	हम 	PRON	B-NP
@@ -3534,8 +3534,8 @@ hui	hi	हुई 	VERB	B-VG
 hogi	hi	होगी	AUX	I-VG
 ..	rest	..	SYM	B-BLK
 :	rest	:	PUNCT	B-BLK
-@	rest	@	SYM	B-BLK
-lol	rest	laugh out loud	SYM	B-BLK
+@	rest	at_the_rate_of	SYM	B-BLK
+lol	rest	laugh_out_loud	SYM	B-BLK
 ...	rest	...	SYM	B-BLK
 
 so	en	so	ADV	B-RBP
@@ -3683,7 +3683,7 @@ sunao	hi	सुनाऊँ	VERB	B-VG
 ...	rest	...	PUNCT	B-BLK
 humbhi	hi	हमभी	X	B-NP
 dekhen	hi	देखे	VERB	B-VG
-...	rest	...	PUNCT	I-VG
+...	rest	...	PUNCT	B-BLK
 confessions	en	confessions	NOUN	B-NP
 dalne	hi	डालने	VERB	B-VG
 ke	hi	के	ADP	I-VG
@@ -3805,8 +3805,8 @@ already	en	already	ADV	I-RBP
 have	en	have	VERB	B-VG
 one	en	one	NUM	B-NP
 …	rest	…	SYM	B-BLK
-)	rest	)	SYM	I-BLK
-.	rest	.	SYM	I-BLK
+)	rest	)	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 
 2	rest	2	NUM	I-BLK
 >	rest	>	SYM	B-BLK
@@ -3866,7 +3866,7 @@ h	hi	है	AUX	I-VG
 :-p	rest	:-p	SYM	B-BLK
 
 sweethrt	en	sweetheart	INTJ	B-FRAGP
-…	rest	…	SYM	O-FRAGP
+…	rest	…	SYM	B-BLK
 EID	hi	ईद	NOUN	B-NP
 KA	hi	का	ADP	I-NP
 DIN	hi	दिन	NOUN	I-NP
@@ -4125,7 +4125,7 @@ deti	hi	देती	VERB	B-VG
 :-P	rest	:-P	SYM	B-BLK
 
 Girl	en	Girl	NOUN	B-NP
-:	rest	:	PUNCT	O-NP
+:	rest	:	PUNCT	B-BLK
 where	en	where	ADV	B-JJP
 are	en	are	VERB	I-VG
 you	en	you	PRON	I-NP
@@ -4154,7 +4154,7 @@ BLOCKED	en	BLOCKED	ADJ	I-VG
 from	en	from	ADP	B-RBP
 lifetime	en	lifetime	NOUN	B-NP
 .	rest	.	PUNCT	B-BLK
-..	rest	..	SYM	I-BLK
+..	rest	..	SYM	B-BLK
 :D	rest	:D	SYM	B-BLK
 
 we	en	we	PRON	B-NP
@@ -4360,7 +4360,7 @@ girls	en	girls	NOUN	I-NP
 gt	en	get	VERB	B-VG
 bad	en	bad	ADJ	B-JJP
 boyz	en	boys	NOUN	I-JJP
-&	rest	&	SYM	B-CCP
+&	rest	&	SYM	B-BLK
 all	en	all	ADJ	B-JJP
 good	en	good	ADJ	I-JJP
 boyz	en	boys	NOUN	I-JJP
@@ -4557,17 +4557,17 @@ girls	en	girls	NOUN	I-JJP
 do	en	do	VERB	B-VG
 …	rest	…	SYM	B-BLK
 
-I	en	I	PRON	B-VG
-have	en	have	AUX	I-VG
+I	en	I	PRON	B-NP
+have	en	have	AUX	B-VG
 lost	en	lost	VERB	I-VG
-my	en	my	PRON	I-VG
-self	en	self	ADJ	I-VG
-confidence	en	confidence	NOUN	I-VG
+my	en	my	PRON	B-NP
+self	en	self	ADJ	B-NP
+confidence	en	confidence	NOUN	I-NP
 ,	rest	,	PUNCT	B-BLK
-i	en	i	PRON	B-VG
+i	en	i	PRON	B-NP
 try	en	try	VERB	I-VG
-to	en	to	PART	I-VG
-avoid	en	avoid	ADV	I-VG
+to	en	to	PART	B-RBP
+avoid	en	avoid	ADV	B-VG
 socialising	en	socialising	VERB	I-VG
 ,	rest	,	PUNCT	B-BLK
 meeting	en	meeting	VERB	B-VG
@@ -4576,9 +4576,9 @@ people	en	people	NOUN	B-NP
 
 Dont	en	Don't	ADV	B-VG
 attend	en	attend	VERB	I-VG
-any	en	any	ADJ	I-VG
-family	en	family	ADJ	I-VG
-function	en	function	NOUN	I-VG
+any	en	any	ADJ	B-JJP
+family	en	family	ADJ	I-JJP
+function	en	function	NOUN	B-NP
 ..	rest	..	SYM	B-BLK
 
 avoid	en	avoid	ADV	B-VG
@@ -4588,189 +4588,189 @@ n	en	and	CONJ	B-CCP
 stylish	en	stylish	ADJ	B-NP
 clothes	en	clothes	NOUN	I-NP
 (	rest	(	SYM	B-BLK
-coz	en	because	SCONJ	I-JJP
-they	en	they	PRON	I-JJP
-are	en	are	VERB	I-JJP
-not	en	not	ADV	I-JJP
-meant	en	meant	VERB	I-JJP
-for	en	for	ADP	I-JJP
-me	en	me	PRON	I-JJP
-)	rest	)	SYM	I-JJP
-…	rest	…	SYM	O-JJP
+coz	en	because	SCONJ	B-CCP
+they	en	they	PRON	B-NP
+are	en	are	VERB	B-VG
+not	en	not	ADV	I-VG
+meant	en	meant	VERB	B-VG
+for	en	for	ADP	I-VG
+me	en	me	PRON	B-NP
+)	rest	)	SYM	B-BLK
+…	rest	…	SYM	B-BLK
 
-I	en	I	PRON	B-VG
-have	en	have	AUX	I-VG
+I	en	I	PRON	B-NP
+have	en	have	AUX	B-VG
 got	en	got	VERB	I-VG
-very	en	very	ADV	I-VG
-lovable	en	lovable	ADJ	I-VG
-frnz	en	friends	NOUN	I-VG
-in	en	in	ADP	I-VG
-my	en	my	PRON	I-VG
-life	en	life	NOUN	I-VG
-....	rest	….	SYM	O-VG
+very	en	very	ADV	B-JJP
+lovable	en	lovable	ADJ	I-JJP
+frnz	en	friends	NOUN	I-JJP
+in	en	in	ADP	B-NP
+my	en	my	PRON	B-NP
+life	en	life	NOUN	I-NP
+....	rest	….	SYM	B-BLK
 
-It's	en	It’s	DET	B-VG
-not	en	not	ADJ	I-VG
-like	en	like	PART	I-VG
-no1	en	noone	ADJ	I-VG
-luvs	en	loves	VERB	I-VG
-me	en	me	PRON	I-VG
-or	en	or	CONJ	I-VG
-smthing	en	something	ADJ	I-VG
-....	rest	….	SYM	O-VG
+It's	en	It's	DET	B-NP
+not	en	not	ADJ	B-RBP
+like	en	like	PART	I-RBP
+no1	en	noone	ADJ	B-NP
+luvs	en	loves	VERB	B-VG
+me	en	me	PRON	B-NP
+or	en	or	CONJ	B-CCP
+smthing	en	something	ADJ	B-JJP
+....	rest	….	SYM	B-BLK
 
-It's	en	It’s	DET	B-JJP
-just	en	just	ADV	I-JJP
-that	en	that	SCONJ	O-JJP
-i	en	i	PRON	B-VG
-feel	en	feel	VERB	I-VG
+It's	en	It’s	DET	B-NP
+just	en	just	ADV	B-RBP
+that	en	that	SCONJ	B-CCP
+i	en	i	PRON	B-NP
+feel	en	feel	VERB	B-VG
 like	en	like	PART	I-VG
-m	en	I'm	PRON	I-VG
-left	en	left	VERB	O-VG
-behind	en	behind	ADV	B-RBP
-d	en	the	PART	I-RBP
-world	en	world	NOUN	I-RBP
-..	rest	..	SYM	O-RBP
+m	en	I'm	PRON	B-NP
+left	en	left	VERB	B-VG
+behind	en	behind	ADV	I-VG
+d	en	the	PART	B-NP
+world	en	world	NOUN	I-NP
+..	rest	..	SYM	B-BLK
 
-i	en	i	PRON	B-VG
-feel	en	feel	VERB	I-VG
+i	en	i	PRON	B-NP
+feel	en	feel	VERB	B-VG
 like	en	like	PART	I-VG
-i	en	i	PRON	I-VG
-dun	en	don't	ADV	I-VG
+i	en	i	PRON	B-NP
+dun	en	don't	ADV	B-VG
 look	en	look	VERB	I-VG
-good	en	good	ADV	I-VG
-..	rest	..	SYM	O-VG
+good	en	good	ADJ	B-JJP
+..	rest	..	SYM	B-BLK
 
-i	en	i	PRON	B-VG
-dun	en	don't	ADV	I-VG
+i	en	i	PRON	B-NP
+dun	en	don't	ADV	B-VG
 feel	en	feel	VERB	I-VG
-like	en	like	PART	I-VG
-getting	en	getting	VERB	I-VG
+like	en	like	PART	B-RBP
+getting	en	getting	VERB	B-VG
 clicked	en	clicked	AUX	I-VG
-:-(	rest	:-(	SYM	I-VG
-.	rest	.	PUNCT	O-VG
+:-(	rest	:-(	SYM	B-BLK
+.	rest	.	PUNCT	B-BLK
 
 Day	en	Day	NOUN	B-NP
 by	en	by	ADP	I-NP
-day	en	day	NOUN	O-NP
-dis	en	this	DET	B-VG
-feeling	en	feeling	NOUN	I-VG
+day	en	day	NOUN	I-NP
+dis	en	this	DET	B-NP
+feeling	en	feeling	NOUN	I-NP
 is	en	is	AUX	I-VG
 getting	en	getting	VERB	I-VG
 worse	en	worse	ADV	I-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 Feel	en	Feel	VERB	B-VG
 irritated	en	irritated	ADV	I-VG
-,	rest	,	PUNCT	I-VG
-inferior	en	inferior	ADJ	I-VG
-..	rest	..	SYM	O-VG
+,	rest	,	PUNCT	B-BLK
+inferior	en	inferior	ADJ	B-JJP
+..	rest	..	SYM	B-BLK
 
-I	en	I	PRON	B-VG
+I	en	I	PRON	B-NP
 have	en	have	AUX	I-VG
 got	en	got	VERB	I-VG
-some	en	some	ADJ	I-VG
-proposals	en	proposals	NOUN	I-VG
-but	en	but	SCONJ	I-VG
-,	rest	,	PUNCT	O-VG
-i	en	i	PRON	B-VG
-dun	en	don't	ADV	I-VG
+some	en	some	ADJ	B-NP
+proposals	en	proposals	NOUN	I-NP
+but	en	but	SCONJ	B-CCP
+,	rest	,	PUNCT	B-BLK
+i	en	i	PRON	B-NP
+dun	en	don't	ADV	B-VG
 say	en	say	VERB	I-VG
 yes	en	yes	ADV	I-VG
-to	en	to	PART	I-VG
-any	en	any	ADJ	I-VG
-of	en	of	ADP	I-VG
-them	en	them	PRON	O-VG
+to	en	to	PART	B-RBP
+any	en	any	ADJ	B-NP
+of	en	of	ADP	I-NP
+them	en	them	PRON	I-NP
 just	en	just	ADJ	B-RBP
-bcoz	en	because	SCONJ	I-RBP
-i	en	i	PRON	I-RBP
-feel	en	feel	VERB	I-RBP
-like	en	like	PART	I-RBP
-d	en	the	PART	I-RBP
-person	en	person	NOUN	O-RBP
+bcoz	en	because	SCONJ	B-CCP
+i	en	i	PRON	B-NP
+feel	en	feel	VERB	B-VG
+like	en	like	PART	B-RBP
+d	en	the	DET	B-NP
+person	en	person	NOUN	I-NP
 will	en	will	AUX	B-VG
 leave	en	leave	VERB	I-VG
-me	en	me	PRON	I-VG
-bcoz	en	because	SCONJ	I-VG
-M	en	I’M	PRON	I-VG
-FAT	en	FAT	ADJ	I-VG
-!!.	rest	!!.	SYM	O-VG
+me	en	me	PRON	B-NP
+bcoz	en	because	SCONJ	B-CCP
+M	en	I’M	PRON	B-NP
+FAT	en	FAT	ADJ	B-JJP
+!!.	rest	!!.	SYM	B-BLK
 
-People	en	People	NOUN	B-VG
-say	en	say	VERB	I-VG
-that	en	that	CONJ	I-VG
-weight	en	weight	NOUN	I-VG
-does	en	does	AUX	I-VG
+People	en	People	NOUN	B-NP
+say	en	say	VERB	B-VG
+that	en	that	CONJ	B-CCP
+weight	en	weight	NOUN	B-NP
+does	en	does	AUX	B-VG
 not	en	not	ADV	I-VG
-matter	en	matter	VERB	O-VG
-but	en	but	SCONJ	B-CCP
-,	rest	,	PUNCT	O-CCP
-trust	en	trust	VERB	B-VG
-me	en	me	PRON	I-VG
-..	rest	..	SYM	O-VG
-it	en	it	PRON	B-VG
-does	en	does	AUX	I-VG
 matter	en	matter	VERB	I-VG
-to	en	to	PART	I-VG
-guys	en	guys	NOUN	I-VG
-..	rest	..	SYM	O-VG
+but	en	but	SCONJ	B-CCP
+,	rest	,	PUNCT	B-BLK
+trust	en	trust	VERB	B-VG
+me	en	me	PRON	B-NP
+..	rest	..	SYM	B-BLK
+it	en	it	PRON	B-NP
+does	en	does	AUX	B-VG
+matter	en	matter	VERB	I-VG
+to	en	to	PART	B-RBP
+guys	en	guys	NOUN	B-NP
+..	rest	..	SYM	B-BLK
 
 It's	en	It’s	DET	B-NP
 just	en	just	ADJ	I-NP
 a	en	a	PART	I-NP
-bullshit	en	bullshit	NOUN	O-NP
+bullshit	en	bullshit	NOUN	B-BLK
 that	en	that	SCONJ	B-CCP
-people	en	people	NOUN	O-CCP
+people	en	people	NOUN	B-NP
 say	en	say	VERB	B-VG
-that	en	that	CONJ	I-VG
-they	en	they	PRON	I-VG
-fall	en	fall	VERB	O-VG
+that	en	that	CONJ	B-CCP
+they	en	they	PRON	B-NP
+fall	en	fall	VERB	B-VG
 for	en	for	ADP	B-RBP
-nature	en	nature	NOUN	I-RBP
-,	rest	,	PUNCT	O-RBP
+nature	en	nature	NOUN	B-NP
+,	rest	,	PUNCT	B-BLK
 heart	en	heart	NOUN	B-NP
 of	en	of	ADP	I-NP
-d	en	the	PART	I-NP
-girl	en	girl	NOUN	O-NP
+d	en	the	PART	B-NP
+girl	en	girl	NOUN	I-NP
 but	en	but	SCONJ	B-CCP
-,	rest	,	PUNCT	O-CCP
+,	rest	,	PUNCT	B-BLK
 the	en	the	PART	B-NP
-truth	en	truth	NOUN	O-NP
+truth	en	truth	NOUN	B-NP
 is	en	is	VERB	B-VG
-that	en	that	CONJ	I-VG
-they	en	they	PRON	I-VG
-fall	en	fall	VERB	O-VG
+that	en	that	CONJ	B-CCP
+they	en	they	PRON	B-NP
+fall	en	fall	VERB	B-VG
 for	en	for	ADP	B-RBP
-the	en	the	PART	O-RBP
+the	en	the	PART	B-NP
 looks	en	looks	VERB	B-VG
 first	en	first	ADV	I-VG
-and	en	and	CONJ	O-VG
-then	en	then	SCONJ	B-RBP
-d	en	the	PART	I-RBP
-heart	en	heart	NOUN	I-RBP
-....	rest	….	SYM	O-RBP
+and	en	and	CONJ	B-CCP
+then	en	then	SCONJ	I-CCP
+d	en	the	PART	B-NP
+heart	en	heart	NOUN	I-NP
+....	rest	….	SYM	B-BLK
 
-I	en	I	PRON	B-VG
-m	en	am	AUX	I-VG
+I	en	I	PRON	B-NP
+m	en	am	AUX	B-VG
 trying	en	trying	VERB	I-VG
-hard	en	hard	ADV	O-VG
+hard	en	hard	ADV	I-VG
 to	en	to	PART	B-RBP
-get	en	get	VERB	I-RBP
-back	en	back	ADV	I-RBP
+get	en	get	VERB	B-VG
+back	en	back	ADV	B-RBP
 in	en	in	ADP	I-RBP
-shape	en	shape	NOUN	I-RBP
-very	en	very	ADV	I-RBP
+shape	en	shape	NOUN	B-NP
+very	en	very	ADV	B-RBP
 soon	en	soon	ADV	I-RBP
-.	rest	.	PUNCT	I-RBP
-.	rest	.	SYM	O-RBP
+.	rest	.	PUNCT	B-BLK
+.	rest	.	SYM	B-BLK
 
 Just	en	Just	ADV	B-VG
 wish	en	wish	VERB	I-VG
-me	en	me	PRON	I-VG
-luck	en	luck	NOUN	I-VG
-:-)	rest	:-)	SYM	O-VG
-.	rest	.	PUNCT	B-VG
-Ameen	hi	अमीन	INTJ	I-VG
-!!!	rest	!!!	SYM	O-VG
+me	en	me	PRON	B-NP
+luck	en	luck	NOUN	B-NP
+:-)	rest	:-)	SYM	B-BLK
+.	rest	.	PUNCT	B-BLK
+Ameen	hi	अमीन	INTJ	B-NP
+!!!	rest	!!!	SYM	B-BLK
 
 tere	hi	तेरे	PRON	B-NP
 jaisa	hi	जैसा	CONJ	I-NP
@@ -4780,7 +4780,7 @@ music	en	music	ADJ	B-NP
 release	en	release	NOUN	O-NP
 
 laufed	en	laughed	VERB	B-VG
-…	rest	…	SYM	I-VG
+…	rest	…	SYM	B-BLK
 first	en	first	ADV	I-VG
 u	en	you	PRON	I-VG
 hav	en	have	AUX	I-VG
@@ -4792,7 +4792,7 @@ baad	hi	बाद	ADV	I-VG
 me	en	me	PRON	I-VG
 sochna	hi	सोचना	VERB	I-VG
 use	en	use	VERB	I-VG
-!!!	rest	!!!	SYM	O-VG
+!!!	rest	!!!	SYM	B-BLK
 
 usama	rest	usama	PROPN	B-NP
 ahmed	rest	ahmed	PROPN	O-NP
@@ -4818,17 +4818,17 @@ cut	en	cut	VERB	I-VG
 off	en	off	ADV	I-VG
 with	en	with	ADP	I-VG
 them	en	them	PRON	I-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 negative	en	negative	ADJ	B-NP
 ppl	en	people	NOUN	I-NP
 ll	en	will	AUX	I-NP
 only	en	only	ADV	I-NP
-.	rest	.	PUNCT	O-NP
+.	rest	.	PUNCT	B-BLK
 c	en	see	VERB	B-VG
 ur	en	your	PRON	I-VG
 negative	en	negative	ADJ	I-VG
 traits	en	traits	NOUN	I-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 
 be	en	be	AUX	B-VG
 wit	en	with	ADP	I-VG
@@ -4842,7 +4842,7 @@ look	en	look	VERB	I-JJP
 down	en	down	ADV	I-JJP
 upon	en	upon	ADP	I-JJP
 u	en	you	PRON	I-JJP
-!	rest	!	PUNCT	O-JJP
+!	rest	!	PUNCT	B-BLK
 
 chodo	hi	छोड़ो	VERB	B-VG
 bekaar	hi	बेकार	ADJ	I-VG
@@ -4861,8 +4861,8 @@ In	en	In	ADP	B-JJP
 d	en	the	PART	I-JJP
 same	en	same	ADJ	I-JJP
 sense	en	sense	NOUN	I-JJP
-.	rest	.	SYM	I-JJP
-.	rest	.	SYM	O-JJP
+.	rest	.	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 bharat	rest	bharat	PROPN	B-NP
 mittal	rest	mittal	PROPN	I-NP
 ek	hi	एक	NUM	I-NP
@@ -4871,39 +4871,39 @@ booth	en	booth	NOUN	I-NP
 ka	hi	का	ADP	I-NP
 maalik	hi	मालिक	NOUN	I-NP
 hai	hi	है	VERB	I-NP
-.	rest	.	SYM	I-NP
-.	rest	.	SYM	O-NP
+.	rest	.	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 
 birla	rest	birla	PROPN	B-NP
 ki	hi	की	ADP	I-NP
 cement	en	cement	ADJ	I-NP
 shop	en	shop	NOUN	I-NP
 hai	hi	है	VERB	I-NP
-.	rest	.	SYM	I-NP
-.	rest	.	SYM	O-NP
+.	rest	.	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 and	en	and	SCONJ	B-CCP
-.	rest	.	SYM	I-CCP
-.	rest	.	SYM	O-CCP
+.	rest	.	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 ratan	rest	ratan	PROPN	B-NP
 tata	rest	tata	PROPN	I-NP
-is	en	is	VERB	I-NP
-owner	en	owner	NOUN	I-NP
+is	en	is	VERB	B-VG
+owner	en	owner	NOUN	B-NP
 of	en	of	ADP	I-NP
-a	en	a	PART	I-NP
-garrage	en	garage	NOUN	O-NP
+a	en	a	PART	B-NP
+garrage	en	garage	NOUN	I-NP
 
 agar	hi	अगर	CONJ	B-CCP
-izzat	hi	इज़्ज़त	NOUN	I-CCP
-nahi	hi	नहीं	ADV	I-CCP
-rahi	hi	रही	VERB	I-CCP
-to	hi	तो	PART	O-CCP
+izzat	hi	इज़्ज़त	NOUN	B-NP
+nahi	hi	नहीं	ADV	B-VG
+rahi	hi	रही	VERB	I-VG
+to	hi	तो	PART	B-RBP
 ucchalo	hi	उछालो	VERB	B-VG
 bhi	hi	भी	PART	I-VG
 mat	hi	मत	ADV	I-VG
 yaar	hi	यार	INTJ	I-VG
-(	rest	(	SYM	I-VG
-Y	en	Y	SYM	I-VG
-)	rest	)	SYM	O-VG
+(	rest	(	SYM	B-BLK
+Y	en	Y	SYM	B-BLK
+)	rest	)	SYM	B-BLK
 
 bokaro	rest	bokaro	PROPN	B-NP
 steel	en	steel	ADJ	I-NP
@@ -4920,28 +4920,28 @@ me	hi	में	ADP	I-VG
 kafi	hi	काफी	ADJ	I-VG
 diff.	en	difference	NOUN	I-VG
 h	hi	है	VERB	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 Kar	hi	कर	VERB	B-VG
 lo	hi	लो	AUX	I-VG
 shadi	hi	शादी	NOUN	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 Hume	hi	हमें	PRON	B-VG
 bhi	hi	भी	PART	I-VG
 invite	en	invite	VERB	I-VG
 kar	hi	कर	AUX	I-VG
 dena	hi	देना	VERB	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 Bhai	hi	भाई	ADJ	B-NP
 logon	hi	लोगों	NOUN	O-NP
 maaje	hi	मज़्ज़े	VERB	B-VG
 karo	hi	करो	AUX	I-VG
-..	rest	..	SYM	O-VG
-ye	hi	ये	DET	B-VG
-apsabd	hi	अपशब्द	NOUN	I-VG
-use	en	use	VERB	I-VG
+..	rest	..	SYM	B-BLK
+ye	hi	ये	DET	B-NP
+apsabd	hi	अपशब्द	NOUN	I-NP
+use	en	use	VERB	B-VG
 na	hi	ना	ADV	I-VG
-karo	hi	करो	VERB	O-VG
+karo	hi	करो	VERB	I-VG
 
 true	en	true	ADJ	B-NP
 love	en	love	NOUN	I-NP
@@ -4952,7 +4952,7 @@ kya	hi	क्या	ADV	I-NP
 relation	en	relation	NOUN	O-NP
 h	hi	ह	VERB	B-VG
 bhai	hi	भाई	INTJ	I-VG
-?????	rest	?????	SYM	O-VG
+?????	rest	?????	SYM	B-BLK
 
 Bhai	hi	भाई	INTJ	B-NP
 cnfsr	en	confessor	NOUN	I-NP
@@ -4960,7 +4960,7 @@ cnfsr	en	confessor	NOUN	I-NP
 ye	hi	ये	DET	I-NP
 mera	hi	मेरा	PRON	I-NP
 nmbr	en	number	NOUN	I-NP
-,	rest	,	PUNCT	O-NP
+,	rest	,	PUNCT	B-BLK
 cal	en	call	NOUN	B-VG
 kr	hi	कर	VERB	I-VG
 m	hi	मैं	PRON	I-VG
@@ -4972,7 +4972,7 @@ bt	en	but	SCONJ	I-VG
 suicide	en	suicide	NOUN	I-VG
 na	hi	ना	ADV	I-VG
 kr	hi	कर	VERB	I-VG
-,	rest	,	PUNCT	I-VG
+,	rest	,	PUNCT	B-BLK
 pls	en	please	ADV	O-VG
 
 It	en	It	PRON	B-VG
@@ -4984,29 +4984,18 @@ ki	hi	की	ADP	I-NP
 ladki	hi	लड़की	NOUN	O-NP
 cute	en	cute	ADJ	B-JJP
 h	hi	है	VERB	I-JJP
-.	rest	.	PUNCT	I-JJP
+.	rest	.	PUNCT	B-BLK
 
 Its	en	It's	PRON	B-NP
-CBSE	rest	CBSE	PROPN	I-NP
-u	en	you	PRON	I-NP
+CBSE	rest	CBSE	PROPN	B-NP
+u	en	you	PRON	B-NP
 dumbass	en	dumbass	NOUN	I-NP
--	rest	-	PUNCT	O-NP
+-	rest	-	PUNCT	B-BLK
 Central	en	Central	ADJ	B-NP
 Board	en	Board	NOUN	I-NP
 of	en	of	ADP	I-NP
 Secondary	en	Secondary	ADJ	I-NP
-Education	en	Education	NOUN	O-NP
-
-Oye	hi	ओय	INTJ	B-NP
-yr	hi	य़ार	NOUN	I-NP
-dil	hi	दिल	NOUN	I-NP
-nu	hi	नू	ADP	I-NP
-touch	en	touch	NOUN	I-NP
-kr	hi	कर	VERB	I-NP
-dita	hi	दिता	AUX	I-NP
-ae	hi	ए	ADJ	I-NP
-cnfrn	en	confession	NOUN	I-NP
-ta	hi	ता	ADP	I-NP
+Education	en	Education	NOUN	I-NP
 
 Delhi	rest	Delhi	PROPN	B-NP
 University	en	University	NOUN	I-NP
@@ -5015,9 +5004,9 @@ campus	en	campus	NOUN	O-NP
 is	en	is	VERB	B-VG
 a	en	a	PART	I-VG
 PARADISE	en	paradise	NOUN	I-VG
-…	rest	…	SYM	I-VG
-It	en	It	PRON	I-VG
-Rocks	en	Rocks	VERB	O-VG
+…	rest	…	SYM	B-BLK
+It	en	It	PRON	B-NP
+Rocks	en	Rocks	VERB	B-VG
 
 bc	rest	bc	X	B-BLK
 admission	en	admission	NOUN	I-BLK
@@ -5037,7 +5026,7 @@ h	hi	है	VERB	I-JJP
 to	hi	तो	PART	O-JJP
 contact	en	contact	NOUN	B-VG
 karo	hi	करो	VERB	I-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 urgent	en	urgent	ADV	B-RBP
 h	hi	है	VERB	B-VG
 
@@ -5099,7 +5088,7 @@ Nd	en	And	SCONJ	B-CCP
 agree	en	agree	VERB	B-VG
 to	en	to	PART	I-VG
 vikas	rest	विकास	PROPN	B-NP
-.....	rest	.	SYM	O-VG
+.....	rest	.	SYM	B-BLK
 gandhi	rest	gandhi	PROPN	B-NP
 k	hi	की	ADP	I-NP
 wajeh	hi	वजह	ADV	B-RBP
@@ -5136,7 +5125,7 @@ difference	en	difference	NOUN	O-NP
 hta	hi	होता	VERB	B-VG
 h	hi	है	AUX	I-VG
 dkbos	rest	dkbos	X	I-VG
-.....	rest	…..	SYM	O-VG
+.....	rest	…..	SYM	B-BLK
 
 Summer	en	Summer	NOUN	B-NP
 k	hi	के	ADP	I-NP
@@ -5183,10 +5172,10 @@ difference	en	difference	NOUN	I-VG
 hai	hi	है	VERB	O-VG
 
 1239	rest	1239	NUM	B-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
 M	en	M	X	I-BLK
 22	rest	22	NUM	I-BLK
-,.	rest	,.	SYM	I-BLK
+,.	rest	,.	SYM	B-BLK
 mc	en	mc	X	B-BLK
 Apni	hi	अपनी	PRON	B-NP
 ijjat	hi	इज्जत	NOUN	O-NP
@@ -5196,17 +5185,17 @@ dusro	hi	दुसरो	PRON	B-NP
 ki	hi	की	ADP	I-NP
 ijjat	hi	इज्जत	NOUN	I-NP
 se	hi	से	ADP	I-NP
-.	rest	.	PUNCT	O-NP
+.	rest	.	PUNCT	B-BLK
 tujhe	hi	तुझे	PRON	B-VG
 pyaar	hi	प्यार	NOUN	I-VG
 nahi	hi	नही	ADV	I-VG
-,	rest	,	PUNCT	O-VG
+,	rest	,	PUNCT	B-BLK
 Kabhi	hi	कभी	PART	B-VG
 Venn	rest	Venn	ADJ	I-VG
 Diagram	en	Diagram	NOUN	I-VG
 banake	hi	बनाके	VERB	I-VG
 kabhi	hi	कभी	PART	I-VG
-.	rest	.	PUNCT	O-VG
+.	rest	.	PUNCT	B-BLK
 concentric	en	concentric	ADJ	B-VG
 circle	en	circle	NOUN	I-VG
 banake	hi	बनाके	VERB	I-VG
@@ -5236,15 +5225,15 @@ of	en	of	ADP	I-NP
 ,	rest	,	PUNCT	B-BLK
 2	rest	2	NUM	B-NP
 pages	en	pages	NOUN	I-NP
-,.	rest	,.	SYM	I-BLK
+,.	rest	,.	SYM	B-BLK
 
 Hint	en	Hint	NOUN	B-NP
 :	rest	:	SYM	B-BLK
-(	rest	(	SYM	B-NP
+(	rest	(	SYM	B-BLK
 MUFC	rest	MUFC	PROPN	I-NP
 n	en	and	CONJ	I-NP
 RMA	rest	RMA	PROPN	I-NP
-)	rest	)	SYM	I-NP
+)	rest	)	SYM	B-BLK
 .	rest	.	SYM	B-BLK
 .	rest	.	SYM	B-BLK
 
@@ -5307,12 +5296,12 @@ check	en	check	VERB	B-VG
 karte	hi	करते	VERB	I-VG
 rahiyo	hi	रहियो	AUX	I-VG
 tu	hi	तू	PRON	I-VG
-.	rest	.	PUNCT	O-VG
+.	rest	.	PUNCT	B-BLK
 bahut	hi	बहुत	ADJ	B-RBP
 jald	hi	जल्द	ADV	O-RBP
 maregi	hi	मरेगी	VERB	B-VG
 teri	hi	तेरी	PRON	I-VG
-!!.	rest	!!.	SYM	I-VG
+!!.	rest	!!.	SYM	B-BLK
 
 Thanks	en	Thanks	NOUN	B-NP
 fella	en	fellow	NOUN	I-NP
@@ -5396,7 +5385,7 @@ uncle	en	uncle	NOUN	I-NP
 ne	hi	ने	ADP	I-NP
 kr	hi	कर	VERB	B-VG
 di	hi	दी	AUX	I-VG
-,	rest	,	PUNCT	I-VG
+,	rest	,	PUNCT	B-BLK
 or	hi	ओर	SCONJ	B-CCP
 teri	hi	तेरी	PRON	B-NP
 phuk	hi	फुक	VERB	I-VG
@@ -5405,8 +5394,8 @@ gai	hi	गयी	AUX	I-VG
 
 Tera	hi	तेरा	PRON	B-NP
 to	hi	तो	PART	I-NP
-'	rest	‘	SYM	O-NP
-LoL	rest	laugh out loud	SYM	B-BLK
+'	rest	‘	SYM	B-BLK
+LoL	rest	LoL	X	B-BLK
 "	rest	“	SYM	B-BLK
 ho	hi	हो	VERB	B-VG
 gaya	hi	गया	AUX	I-VG
@@ -5454,15 +5443,15 @@ ko	hi	को	ADP	O-NP
 belong	en	belong	VERB	B-VG
 karta	hi	करता	AUX	I-VG
 hoon	hi	हूँ	AUX	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 and	en	and	SCONJ	B-JJP
 delhi	rest	delhi	PROPN	I-JJP
 mein	hi	में	ADP	O-JJP
 padta	hi	पढ़ता	VERB	B-VG
 hoon	hi	हूँ	AUX	I-VG
-..	rest	..	SYM	I-VG
-.	rest	.	SYM	O-VG
+..	rest	..	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 
 baat	hi	बात	NOUN	B-NP
 kuch	hi	कुछ	ADJ	I-NP
@@ -5470,7 +5459,7 @@ saal	hi	सा	NOUN	I-NP
 pehle	hi	पहले	ADP	I-NP
 ki	hi	की	ADP	O-NP
 hai	hi	है	VERB	B-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 
 mere	hi	मेरे	PRON	B-NP
 papa	en	papa	NOUN	I-NP
@@ -5485,9 +5474,9 @@ bathinda	rest	bathinda	PROPN	I-NP
 mein	hi	में	ADP	B-NP
 padta	hi	पढ़ता	VERB	B-VG
 tha	hi	था	AUX	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 8th	en	8th	NUM	I-VG
-....	rest	….	SYM	O-VG
+....	rest	….	SYM	B-BLK
 
 maine	hi	मैंने	PRON	B-NP
 new	en	new	ADJ	I-NP
@@ -5495,7 +5484,7 @@ friends	en	friends	NOUN	O-NP
 banane	hi	बनाने	VERB	B-VG
 shuru	hi	शुरू	ADV	I-VG
 kiye	hi	किए	AUX	I-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 aur	hi	और	SCONJ	B-VG
 even	en	even	PART	I-VG
 mujhe	hi	मुझे	PRON	I-VG
@@ -5504,7 +5493,7 @@ ladki	hi	लड़की	NOUN	I-VG
 pasand	hi	पसन्द	ADJ	I-VG
 aaa	hi	आ	VERB	I-VG
 gyi	hi	गयी	AUX	I-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 
 but	en	but	SCONJ	B-VG
 maine	hi	मैंने	PRON	I-VG
@@ -5512,7 +5501,7 @@ usko	hi	उसको	PRON	I-VG
 kabhi	hi	कभी	PART	I-VG
 nahi	hi	नहीं	ADV	I-VG
 bataya	hi	बताया	VERB	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 instead	en	instead	SCONJ	B-VG
 i	en	I	PRON	I-VG
@@ -5521,7 +5510,7 @@ everything	en	everything	NOUN	I-VG
 in	en	in	ADP	B-RBP
 my	en	my	ADJ	I-RBP
 diary	en	diary	NOUN	I-RBP
-..	rest	..	SYM	O-RBP
+..	rest	..	SYM	B-BLK
 
 jo	hi	जो	CONJ	B-CCP
 ki	hi	कि	ADP	I-CCP
@@ -5531,14 +5520,14 @@ papa	en	papa	NOUN	I-NP
 ne	hi	ने	ADP	I-NP
 padh	hi	पढ़	VERB	B-VG
 liya	hi	लिया	AUX	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 fir	hi	फिर	SCONJ	B-NP
 mujhe	hi	मुझे	PRON	I-NP
 unhone	hi	उन्होंने	PRON	O-NP
 bht	hi	बहुत	ADV	B-VG
 mara	hi	मारा	VERB	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 fri	hi	फिर	SCONJ	B-CCP
 yeh	hi	यह	DET	I-NP
@@ -5551,7 +5540,7 @@ baat	hi	बात	NOUN	I-VG
 pe	hi	पर	ADP	I-VG
 marte	hi	मारते	VERB	I-VG
 the	hi	थे	AUX	O-VG
-..	rest	..	SYM	B-NP
+..	rest	..	SYM	B-BLK
 
 ghar	hi	घर	NOUN	I-NP
 se	hi	से	ADP	O-NP
@@ -5559,14 +5548,14 @@ nikalna	hi	निकलना	VERB	B-VG
 band	hi	बंद	ADV	I-VG
 karwa	hi	करवा	AUX	I-VG
 diya	hi	दिया	AUX	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 school	en	school	NOUN	B-NP
 m	hi	में	ADP	I-NP
 bhi	hi	भी	PART	O-NP
 suffocation	en	suffocation	NOUN	B-VG
 hoti	hi	होती	VERB	I-VG
 thi	hi	थी	AUX	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 aek	hi	एक	NUM	B-NP
 din	hi	दिन	NOUN	O-NP
@@ -5587,7 +5576,7 @@ unko	hi	उनको	PRON	B-VG
 dhakka	hi	धक्का	NOUN	I-VG
 de	hi	दे	VERB	I-VG
 diya	hi	दिया	AUX	I-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 
 mere	hi	मेरे	PRON	B-VG
 paapa	hi	पापा	NOUN	I-VG
@@ -5595,7 +5584,7 @@ ko	hi	को	ADP	I-VG
 bahut	hi	बहुत	ADV	I-VG
 bura	hi	बुरा	ADJ	I-VG
 laga	hi	लगा	VERB	I-VG
-.....	rest	.	SYM	O-VG
+.....	rest	.	SYM	B-BLK
 
 uske	hi	उसके	PRON	B-NP
 baad	hi	बाद	ADP	O-NP
@@ -5604,13 +5593,13 @@ muujhe	hi	मुझे	PRON	I-VG
 kabhi	hi	कभी	PART	I-VG
 nahi	hi	नहीं	ADV	I-VG
 mara	hi	मारा	VERB	I-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 waqt	hi	वक़्त	NOUN	B-VG
 guzra	hi	गुज़रा	VERB	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 pichle	hi	पिछले	ADJ	B-NP
 saal	hi	साल	NOUN	I-NP
-..	rest	..	SYM	I-NP
+..	rest	..	SYM	B-BLK
 
 mere	hi	मेरे	PRON	I-NP
 dad	en	dad	NOUN	O-NP
@@ -5621,7 +5610,7 @@ misss	en	miss	VERB	I-VG
 him	en	him	PRON	I-VG
 a	en	a	PART	I-VG
 lot	en	lot	ADV	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 abb	hi	अब	ADV	B-RBP
 koi	hi	कोई	ADJ	I-RBP
@@ -5630,7 +5619,7 @@ hai	hi	है	VERB	B-VG
 to	en	to	PART	I-VG
 scold	en	scold	VERB	I-VG
 me	en	me	PRON	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 aur	hi	और	SCONJ	B-NP
 abb	hi	अब	ADV	I-NP
@@ -5646,7 +5635,7 @@ bahut	hi	बहुत	ADV	I-VG
 pyar	hi	प्यार	NOUN	I-VG
 karte	hi	करते	VERB	I-VG
 the	hi	थे	AUX	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 maine	hi	मैंने	PRON	B-NP
 kabhi	hi	कभी	PART	I-NP
@@ -5654,7 +5643,7 @@ unko	hi	उनको	PRON	O-NP
 hug	en	hug	NOUN	B-VG
 naih	hi	नहीं	ADV	I-VG
 kiya	hi	किया	VERB	I-VG
-…	rest	…	SYM	O-VG
+…	rest	…	SYM	B-BLK
 
 i	en	I	PRON	B-VG
 wish	en	wish	VERB	I-VG
@@ -5677,12 +5666,12 @@ i	en	I	PRON	I-VG
 love	en	love	VERB	I-VG
 you	en	you	PRON	I-VG
 daddy	en	daddy	NOUN	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 par	hi	पर	CONJ	B-VG
 kehte	hi	कहते	VERB	I-VG
 hai	hi	है	AUX	I-VG
 na	hi	ना	ADV	I-VG
-..	rest	..	SYM	O-VG
+..	rest	..	SYM	B-BLK
 
 time	en	time	NOUN	B-NP
 and	en	and	CONJ	I-NP
@@ -5690,8 +5679,8 @@ tide	en	tide	NOUN	O-NP
 waits	en	wait	VERB	B-VG
 for	en	for	ADP	I-VG
 none	en	none	NOUN	I-VG
-..	rest	..	SYM	I-VG
-.	rest	.	PUNCT	O-VG
+..	rest	..	SYM	B-BLK
+.	rest	.	PUNCT	B-BLK
 
 Please	en	Please	ADV	B-RBP
 guys	en	guys	NOUN	I-RBP
@@ -5703,7 +5692,7 @@ ko	hi	को	ADP	I-VG
 dhakka	hi	धक्का	NOUN	I-VG
 mat	hi	मत	ADV	I-VG
 marna	hi	मारना	VERB	I-VG
-.....	rest	…..	SYM	O-VG
+.....	rest	…..	SYM	B-BLK
 
 aaaj	hi	आज	ADV	B-RBP
 bhi	hi	भी	PART	I-RBP
@@ -5723,8 +5712,8 @@ liye	hi	लिए	ADP	O-RBP
 socha	hi	सोचा	VERB	B-VG
 hota	hi	होता	AUX	I-VG
 tab	hi	तब	ADV	I-VG
-...	rest	…	SYM	I-VG
-.	rest	.	SYM	I-VG
+...	rest	…	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 #DadYouAreMyHero	rest	#DadYouAreMyHero	X	O-VG
 
 Us	hi	उस	ADJ	B-NP
@@ -5756,7 +5745,7 @@ on	en	on	ADP	B-NP
 DMCC	en	DMCC	NOUN	I-NP
 and	en	and	CONJ	B-CCP
 MEC	en	MEC	NOUN	B-NP
-:/	rest	:/	SYM	I-NP
+:/	rest	:/	SYM	B-BLK
 .	rest	.	PUNCT	B-BLK
 
 Ab	hi	अब	ADV	B-RBP
@@ -5766,7 +5755,7 @@ sympathy	en	sympathy	NOUN	B-NP
 k	hi	के	ADP	I-NP
 liye	hi	लिए	ADP	B-RBP
 agya	hi	आ गया	VERB	B-VG
-:/	rest	:/	SYM	I-VG
+:/	rest	:/	SYM	B-BLK
 
 koi	hi	कोई	ADJ	B-NP
 bt	hi	बात	NOUN	I-NP
@@ -5828,13 +5817,13 @@ de	hi	दे	VERB	I-VG
 beti	hi	बेटी	NOUN	B-NP
 khus	hi	खुश	ADV	B-RBP
 rahegi	hi	रहेगी	VERB	B-VG
-:-P	rest	:-P	SYM	I-VG
-:-D	rest	:-D	SYM	I-VG
+:-P	rest	:-P	SYM	B-BLK
+:-D	rest	:-D	SYM	B-BLK
 .	rest	.	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
 #confused	en	#confused	X	B-BLK
 sperm	en	sperm	NOUN	B-NP
-:-P	rest	:-P	SYM	I-NP
+:-P	rest	:-P	SYM	B-BLK
 
 Ab	hi	अब	ADV	B-RBP
 diyo	hi	दियो	VERB	B-VG
@@ -5875,7 +5864,7 @@ sunao	hi	सुनाऊँ	VERB	B-VG
 ...	rest	...	PUNCT	B-BLK
 humbhi	hi	हमभी	X	B-NP
 dekhen	hi	देखे	VERB	B-VG
-...	rest	...	PUNCT	I-VG
+...	rest	...	PUNCT	B-BLK
 confessions	en	confessions	NOUN	B-NP
 dalne	hi	डालने	VERB	B-VG
 ke	hi	के	ADP	I-VG
@@ -5906,7 +5895,7 @@ h	hi	हैं	AUX	I-VG
 
 Ok	en	Ok	INTJ	B-BLK
 prachi	rest	prachi	NOUN	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 party	en	party	NOUN	B-NP
 kab	hi	कब	ADV	B-RBP
 he	hi	हैं	AUX	I-RBP
@@ -5923,7 +5912,7 @@ jayenge	hi	जाएँगे	VERB	I-VG
 
 Chor	hi	छोड़	NOUN	B-NP
 diya	hi	दिया	VERB	B-VG
-,	rest	,	PUNCT	I-VG
+,	rest	,	PUNCT	B-BLK
 bs	hi	बस	ADV	B-FRAGP
 ?,	rest	?,	PUNCT	B-BLK
 Aisi	hi	ऐसी	DET	B-NP
@@ -5936,7 +5925,7 @@ suicide	en	suicide	NOUN	B-NP
 kr	hi	कर	VERB	B-VG
 lena	hi	लेना	VERB	I-VG
 tha	hi	था	AUX	I-VG
-!!	rest	!!	PUNCT	I-VG
+!!	rest	!!	PUNCT	B-BLK
 
 maa	hi	माँ	NOUN	B-NP
 ko	hi	को	ADP	I-NP
@@ -5975,7 +5964,7 @@ waha	hi	वहाँ	ADV	B-RBP
 @	rest	@	PUNCT	B-BLK
 Shivya	rest	Shivya	NOUN	B-NP
 Pandey	rest	Pandey	NOUN	I-NP
-:	rest	:	PUNCT	I-NP
+:	rest	:	PUNCT	B-BLK
 Accha	hi	अच्छा	ADJ	B-BLK
 tum	hi	तुम	PRON	B-NP
 he	hi	ही	PART	I-NP
@@ -5996,11 +5985,11 @@ lunga	hi	लूँगा	VERB	I-VG
 aunty	en	aunty	NOUN	B-NP
 uncle	en	uncle	NOUN	I-NP
 se	hi	से	ADP	I-NP
-..	rest	..	PUNCT	I-NP
+..	rest	..	PUNCT	B-BLK
 will	en	will	AUX	B-VG
 convince	en	convince	VERB	I-VG
 them	en	them	PRON	B-NP
-..	rest	..	PUNCT	I-NP
+..	rest	..	PUNCT	B-BLK
 tu	hi	तू	PRON	B-NP
 darr	hi	डर	VERB	B-VG
 mat	hi	मत	ADV	I-VG
@@ -6098,7 +6087,7 @@ meeeans	en	means	VERB	B-VG
 caring	en	caring	NOUN	B-NP
 and	en	and	CONJ	B-CCP
 happiness	en	happiness	NOUN	B-NP
-:)	rest	:)	SYM	I-NP
+:)	rest	:)	SYM	B-BLK
 of	en	of	ADP	B-NP
 the	en	the	DET	I-NP
 person	en	person	NOUN	I-NP
@@ -6157,12 +6146,12 @@ tujhe	hi	तुझे	PRON	B-NP
 pyar	hi	प्यार	NOUN	B-NP
 nahi	hi	नहीं	ADV	B-VG
 hota	hi	होता	VERB	I-VG
-..	rest	..	PUNCT	I-VG
+..	rest	..	PUNCT	B-BLK
 Think	en	Think	VERB	B-VG
 about	en	about	ADP	B-NP
 it	en	it	PRON	I-NP
-:	rest	:	PUNCT	I-NP
-->	rest	->	PUNCT	I-NP
+:	rest	:	PUNCT	B-BLK
+->	rest	->	PUNCT	B-BLK
 
 yr	hi	यार	NOUN	B-NP
 tum	hi	तुम	PRON	B-NP
@@ -6178,9 +6167,9 @@ buk	en	book	NOUN	I-NP
 chaaappp	hi	छाप	VERB	B-VG
 dete	hi	देते	VERB	I-VG
 ho	hi	हो	AUX	I-VG
-:/	rest	:/	SYM	I-VG
-:	rest	:	PUNCT	I-VG
-@	rest	@	PUNCT	I-VG
+:/	rest	:/	SYM	B-BLK
+:	rest	:	PUNCT	B-BLK
+@	rest	@	PUNCT	B-BLK
 
 beta	hi	बेटा	NOUN	B-NP
 kuch	hi	कुछ	ADJ	B-NP
@@ -6206,7 +6195,7 @@ pehla	hi	पहला	ADJ	B-NP
 match	en	match	NOUN	I-NP
 jeet	hi	जीत	VERB	B-VG
 lo	hi	लो	VERB	I-VG
-,	rest	,	PUNCT	I-VG
+,	rest	,	PUNCT	B-BLK
 bc	en	bc	NOUN	B-NP
 world	en	world	NOUN	B-NP
 cup	en	cup	NOUN	I-NP
@@ -6215,7 +6204,7 @@ pehle	hi	पहले	ADV	B-RBP
 bhi	hi	भी	ADV	B-RBP
 jeeta	hi	जीता	VERB	B-VG
 hai	hi	है	AUX	I-VG
-~	rest	~	PUNCT	I-VG
+~	rest	~	PUNCT	B-BLK
 Kohli	rest	Kohli	NOUN	B-NP
 
 arre	hi	अरे	INTJ	B-BLK
@@ -6252,7 +6241,7 @@ story	en	story	NOUN	I-NP
 keep	en	keep	VERB	B-VG
 it	en	it	PRON	B-NP
 up	en	up	ADV	B-FRAGP
-;-)	rest	;-)	SYM	I-FRAGP
+;-)	rest	;-)	SYM	B-BLK
 
 hey	en	hey	INTJ	B-BLK
 ..	rest	..	PUNCT	B-BLK
@@ -6402,7 +6391,7 @@ time	en	time	NOUN	I-NP
 mujhse	hi	मुझसे	PRON	B-NP
 pucha	hi	पूछा	VERB	B-VG
 usne	hi	उसने	PRON	B-NP
-\	rest	\	PUNCT	I-NP
+\	rest	\	PUNCT	B-BLK
 "	rest	"	PUNCT	B-BLK
 tuje	hi	तुझे	PRON	B-NP
 kaun	hi	कौन	ADV	B-RBP
@@ -6413,7 +6402,7 @@ lagti	hi	लगती	VERB	B-VG
 hai	hi	है	AUX	I-VG
 class	en	class	NOUN	B-NP
 mein	hi	में	ADP	I-NP
-"	rest	"	PUNCT	I-NP
+"	rest	"	PUNCT	B-BLK
 .	rest	.	PUNCT	B-BLK
 
 Usne	hi	उसने	PRON	B-NP
@@ -6476,10 +6465,10 @@ jhank	hi	झाँक	VERB	B-VG
 jara	hi	ज़रा	ADV	B-RBP
 tune	hi	तूने	PRON	B-NP
 b	hi	भी	ADV	B-RBP
-'	rest	'	PUNCT	B-NP
+'	rest	'	PUNCT	B-BLK
 he	en	he	PRON	I-NP
 have	en	have	AUX	B-VG
-'	rest	'	PUNCT	I-VG
+'	rest	'	PUNCT	B-BLK
 likha	hi	लिखा	VERB	B-VG
 hai	hi	है	AUX	I-VG
 
@@ -6505,7 +6494,7 @@ ksh	hi	खुश	NOUN	B-NP
 ho	hi	हो	AUX	B-VG
 jaenge	hi	जायेंगे	VERB	I-VG
 kya	hi	क्या	ADV	B-RBP
-:/	rest	:/	SYM	I-RBP
+:/	rest	:/	SYM	B-BLK
 ...	rest	...	PUNCT	B-BLK
 
 N	en	and	CONJ	B-CCP
@@ -6536,7 +6525,7 @@ mil	hi	मिल	VERB	B-VG
 gae	hi	गए	VERB	I-VG
 h	hi	हैं	AUX	I-VG
 mere	hi	मेरे	PRON	B-NP
-:/	rest	:/	SYM	I-NP
+:/	rest	:/	SYM	B-BLK
 ....	rest	....	PUNCT	B-BLK
 
 tera	hi	तेरा	PRON	B-NP
@@ -6654,7 +6643,7 @@ aa	hi	आ	VERB	B-VG
 gye	hi	गए	VERB	I-VG
 du	en	du	NOUN	B-NP
 mein	hi	में	ADP	B-NP
-:P	rest	:P	SYM	I-NP
+:P	rest	:P	SYM	B-BLK
 is	hi	इस	DET	B-NP
 saal	hi	साल	NOUN	I-NP
 to	hi	तो	PART	I-NP
@@ -6674,7 +6663,7 @@ kiss	en	kiss	NOUN	B-NP
 ki	hi	की	ADP	I-NP
 padi	hi	पड़ी	VERB	B-VG
 h	hi	हैं	AUX	I-VG
-:P	rest	:P	SYM	I-VG
+:P	rest	:P	SYM	B-BLK
 
 Aisa	hi	ऐसा	ADV	B-RBP
 mt	hi	मत	ADV	B-RBP
@@ -6711,9 +6700,9 @@ read	en	read	VERB	B-VG
 cnfesn	en	confession	NOUN	B-NP
 me	hi	में	ADP	I-NP
 difrnce	en	difference	NOUN	B-NP
-hi	hi	ही	PART	B-FRAGP
-ni	hi	नहीं	ADV	B-RBP
-pta	hi	पता	VERB	B-VG
+hi	hi	ही	PART	B-RBP
+ni	hi	नहीं	ADV	B-VG
+pta	hi	पता	VERB	I-VG
 ...	rest	...	PUNCT	B-BLK
 God	en	God	NOUN	B-NP
 bless	en	bless	VERB	B-VG
@@ -6772,11 +6761,11 @@ mazaak	hi	मज़ाक	NOUN	B-NP
 mat	hi	मत	ADV	B-VG
 udao	hi	उड़ाओ	VERB	I-VG
 iska	hi	इसका	PRON	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 thodi	hi	थोड़ी	ADJ	B-JJP
-'	rest	'	PUNCT	B-JJP
+'	rest	'	PUNCT	B-BLK
 gayrahi	hi	गैराही	ADJ	I-JJP
-'	rest	'	PUNCT	I-JJP
+'	rest	'	PUNCT	B-BLK
 mai	hi	में	ADP	B-VG
 jhaanko	hi	झाँको	VERB	I-VG
 
@@ -6802,14 +6791,14 @@ forever	en	forever	ADV	B-RBP
 alone	en	alone	ADJ	I-RBP
 agar	hi	अगर	SCONJ	B-CCP
 aise	hi	ऐसे	ADV	B-RBP
-hi	hi	ही	PART	B-FRAGP
+hi	hi	ही	PART	I-RBP
 lame	en	lame	ADJ	B-NP
 excuses	en	excuses	NOUN	I-NP
 dete	hi	देते	VERB	B-VG
 rahe	hi	रहे	VERB	I-VG
-toh	hi	तो	PART	B-FRAGP
-:P	rest	:P	SYM	I-FRAGP
-:D	rest	:D	SYM	I-FRAGP
+toh	hi	तो	PART	B-RBP
+:P	rest	:P	SYM	B-BLK
+:D	rest	:D	SYM	B-BLK
 
 Read	en	Read	VERB	B-VG
 Hindu	rest	Hindu	PROPN	B-NP
@@ -6817,18 +6806,18 @@ then	en	then	ADV	I-NP
 !!.	rest	!	PUNCT	B-BLK
 Switch	en	Switch	VERB	B-VG
 papers	en	papers	NOUN	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 isme	hi	इसमें	PRON	B-NP
 confession	en	confession	NOUN	I-NP
 karne	hi	करने	VERB	B-VG
 ki	hi	की	AUX	I-VG
 kya	hi	क्या	X	B-NP
 gal	hi	गल	NOUN	I-NP
-thi	hi	थी	AUX	B-FRAGP
+thi	hi	थी	AUX	B-VG
 :v	rest	:v	SYM	B-BLK
 
 Mr	en	Mr	NOUN	B-NP
-.	rest	.	SYM	I-NP
+.	rest	.	SYM	B-BLK
 Aap	hi	आ. आ. प.	PROPN	B-NP
 se	hi	से	ADP	I-NP
 b	hi	भी	PART	B-FRAGP
@@ -6855,7 +6844,7 @@ jo	hi	जो	PRON	B-NP
 nhi	hi	नहीं	X	B-VG
 smjhe	hi	समझे	VERB	I-VG
 wo	hi	वो	PRON	B-NP
-......	rest	.	SYM	B-VG
+......	rest	.	SYM	B-BLK
 h	hi	है	VERB	I-VG
 
 itni	hi	इतनी	X	B-NP
@@ -6867,7 +6856,7 @@ shaadi	hi	शादी	NOUN	B-NP
 kar	hi	कर	VERB	B-VG
 li	hi	ली	AUX	I-VG
 ..	rest	.	SYM	B-BLK
-:P	rest	:P	SYM	I-BLK
+:P	rest	:P	SYM	B-BLK
 ye	hi	ये	DET	B-NP
 kaam	hi	काम	NOUN	I-NP
 toh	hi	तो	PART	I-NP
@@ -6882,7 +6871,7 @@ se	hi	से	ADP	I-NP
 kar	hi	कर	VERB	B-VG
 leta	hi	लेता	AUX	I-VG
 hu	hi	हूँ	AUX	I-VG
-,	rest	,	PUNCT	I-VG
+,	rest	,	PUNCT	B-BLK
 wat	en	what	X	B-NP
 a	en	a	DET	B-NP
 big	en	big	ADJ	B-JJP
@@ -6942,7 +6931,7 @@ Angry	en	Angry	ADJ	B-JJP
 young	en	young	ADJ	I-JJP
 woman	en	woman	NOUN	B-NP
 _	rest	_	SYM	B-BLK
-:p	rest	:p	SYM	I-BLK
+:p	rest	:p	SYM	B-BLK
 koe	hi	कोई	PRON	B-NP
 thanda	hi	ठंडा	ADJ	B-JJP
 pilao	hi	पिलाओ	VERB	B-VG
@@ -7062,8 +7051,8 @@ mrne	hi	मरने	VERB	B-VG
 murane	hi	मुराने	VERB	I-VG
 pe	hi	पर	AUX	I-VG
 to	hi	तो	SCONJ	B-CCP
-mt	hi	मत	X	B-RBP
-aaa	hi	आ	AUX	B-FRAGP
+mt	hi	मत	VERB	B-VG
+aaa	hi	आ	AUX	I-VG
 ....	rest	.	SYM	B-BLK
 Ho	hi	हो	VERB	B-VG
 jaega	hi	जाएगा	AUX	I-VG
@@ -7093,7 +7082,7 @@ wale	hi	वाले	PRON	I-NP
 hi	en	hi	PART	I-NP
 hain	hi	हैं	AUX	B-FRAGP
 :	rest	:	SYM	B-BLK
-:(	rest	:(	SYM	I-BLK
+:(	rest	:(	SYM	B-BLK
 
 Admn	en	Admin	NOUN	B-NP
 tune	hi	तूने	PRON	I-NP
@@ -7124,7 +7113,7 @@ Mummy	en	Mummy	NOUN	B-NP
 meri	hi	मेरी	PRON	B-NP
 white	en	white	ADJ	B-JJP
 t	en	t	NOUN	I-JJP
-.	rest	.	SYM	I-JJP
+.	rest	.	SYM	B-BLK
 shrt	en	shirt	NOUN	B-NP
 to	hi	तो	PART	I-NP
 laana	hi	लाना	VERB	B-VG
@@ -7183,7 +7172,7 @@ gya	hi	गया	AUX	I-VG
 Anyways	en	Anyways	NOUN	B-NP
 youth	en	youth	NOUN	B-NP
 andha	hi	अँधा	NOUN	I-NP
-nhi	hi	नहीं	X	B-VG
+nhi	hi	नहीं	PART	B-VG
 h	hi	है	VERB	I-VG
 congress	en	congress	NOUN	B-NP
 ki	hi	की	ADP	I-NP
@@ -7191,12 +7180,12 @@ party	en	party	NOUN	I-NP
 NSUI	rest	NSUI	PROPN	B-NP
 ko	hi	को	ADP	I-NP
 support	en	support	NOUN	B-NP
-mat	hi	मत	X	B-VG
+mat	hi	मत	VERB	B-VG
 kro	hi	करो	VERB	I-VG
 .	rest	.	PUNCT	B-BLK
 
 please	en	please	INTJ	B-CCP
-kyun	hi	क्यूँ	X	B-FRAGP
+kyun	hi	क्यूँ	ADV	B-FRAGP
 desh	hi	देश	NOUN	B-NP
 ki	hi	की	ADP	I-NP
 maarne	hi	मारने	VERB	B-VG
@@ -7204,16 +7193,16 @@ me	hi	में	AUX	I-VG
 lge	hi	लगे	VERB	B-VG
 ho	hi	हो	AUX	I-VG
 ..	rest	.	SYM	B-BLK
-.	rest	.	SYM	I-BLK
-.	rest	.	SYM	I-BLK
+.	rest	.	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 
-Kya	hi	क्या	X	B-FRAGP
-itne	hi	इतने	X	B-NP
+Kya	hi	क्या	ADV	B-RBP
+itne	hi	इतने	ADJ	B-NP
 gareeb	hi	गरीब	NOUN	I-NP
 hain	hi	है	VERB	B-VG
 desh	hi	देश	NOUN	B-NP
 me	hi	में	ADP	I-NP
-jo	hi	जो	PRON	B-CCP
+jo	hi	जो	CONJ	B-CCP
 chandd	hi	चन्द	ADJ	B-JJP
 sikkon	hi	सिक्कों	NOUN	B-NP
 me	hi	में	ADP	I-NP
@@ -7242,7 +7231,7 @@ general	en	general	ADJ	B-JJP
 cast	en	caste	NOUN	B-NP
 ko	hi	को	ADP	I-NP
 sc	rest	SC	NOUN	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 st	rest	ST	NOUN	I-NP
 se	hi	से	ADP	I-NP
 koi	hi	कोई	NOUN	B-NP
@@ -7272,7 +7261,7 @@ kitne	hi	कितने	X	B-NP
 states	en	states	NOUN	I-NP
 mai	hi	में	ADP	I-NP
 school	en	school	NOUN	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 college	en	college	NOUN	B-NP
 fee	en	fee	NOUN	I-NP
 bhi	hi	भी	PART	I-NP
@@ -7307,8 +7296,8 @@ chahiye	hi	चाहिए	AUX	I-VG
 ....	rest	.	SYM	B-BLK
 
 n	en	and	CONJ	B-CCP
-aisa	hi	ऐसा	PRON	B-FRAGP
-ni	hi	नहीं	X	B-VG
+aisa	hi	ऐसा	PRON	B-NP
+ni	hi	नहीं	ADV	B-VG
 hai	hi	है	VERB	I-VG
 ki	hi	कि	SCONJ	B-CCP
 saare	hi	सारे	ADJ	I-NP
@@ -7337,13 +7326,13 @@ jaisi	hi	जैसी	PRON	I-NP
 reservation	en	reservation	NOUN	B-NP
 ki	hi	की	ADP	I-NP
 support	en	support	NOUN	I-NP
-ni	hi	नहीं	X	B-VG
+ni	hi	नहीं	ADV	B-VG
 hoti	hi	होती	VERB	I-VG
 n	en	and	CONJ	B-CCP
 wo	hi	वो	PRON	B-NP
 complaint	en	complaint	NOUN	I-NP
 bhi	hi	भी	PART	B-VG
-ni	hi	नहीं	X	I-VG
+ni	hi	नहीं	ADV	I-VG
 karte	hi	करते	VERB	I-VG
 ..	rest	.	SYM	B-BLK
 
@@ -7377,8 +7366,8 @@ na	hi	ना	X	B-VG
 krna	hi	करना	VERB	I-VG
 ....	rest	.	SYM	B-BLK
 
-acc	en	according	DET	B-CCP
-to	en	to	PART	I-CCP
+acc	en	according	DET	B-NP
+to	en	to	PART	I-NP
 u	en	you	PRON	B-NP
 sirf	hi	सिर्फ़	ADV	B-RBP
 aap	hi	आप	PRON	B-NP
@@ -7397,7 +7386,7 @@ aj	hi	आज	NOUN	B-NP
 to	hi	तो	PART	I-NP
 chooza	hi	चूज़ा	NOUN	B-NP
 booza	hi	बूज़ा	NOUN	I-NP
-,	rest	,	SYM	I-NP
+,	rest	,	SYM	B-BLK
 old	en	old	NOUN	B-NP
 monk	en	monk	NOUN	I-NP
 nd	en	and	CONJ	B-CCP
@@ -7441,7 +7430,7 @@ ke	hi	के	ADP	I-NP
 chala	hi	चला	VERB	B-VG
 gaya	hi	गया	AUX	I-VG
 ..	rest	.	SYM	B-BLK
-:o	rest	:o	SYM	I-BLK
+:o	rest	:o	SYM	B-BLK
 
 Pyar	hi	प्यार	NOUN	B-NP
 to	hi	तो	PART	I-NP
@@ -7455,10 +7444,10 @@ aur	hi	और	CONJ	B-CCP
 sirf	hi	सिर्फ़	ADV	B-RBP
 paisa	hi	पैसा	NOUN	B-NP
 ......	rest	.	SYM	B-BLK
-how	en	how	X	B-RBP
+how	en	how	ADV	B-RBP
 mean	en	mean	VERB	B-VG
 ......	rest	.	SYM	B-BLK
-:	rest	:	SYM	I-BLK
+:	rest	:	SYM	B-BLK
 
 dnt	en	don't	VERB	B-VG
 gve	en	give	ADV	I-VG
@@ -7466,14 +7455,14 @@ second	en	second	ADJ	B-NP
 chance	en	chance	NOUN	I-NP
 .	rest	.	PUNCT	B-BLK
 iske	hi	इसकी	PRON	B-NP
-kya	hi	क्या	X	B-FRAGP
+kya	hi	क्या	ADV	B-FRAGP
 guarrnti	en	guarantee	NOUN	B-NP
 hai	hi	है	VERB	B-VG
 k	hi	कि	SCONJ	B-CCP
 woh	hi	वो	PRON	I-NP
 dobara	hi	दोबारा	ADV	B-NP
 aisa	hi	ऐसा	PRON	I-NP
-nahe	hi	नहीं	X	B-VG
+nahe	hi	नहीं	ADV	B-VG
 karege	hi	करेंगे	VERB	I-VG
 !	rest	!	PUNCT	B-BLK
 
@@ -7489,10 +7478,10 @@ ghota	hi	गोटा	NOUN	I-NP
 mila	hi	मिला	VERB	B-VG
 de	hi	दे	AUX	I-VG
 .....	rest	.	SYM	B-BLK
-:)	rest	:)	SYM	I-BLK
+:)	rest	:)	SYM	B-BLK
 fursat	hi	फ़ुरसत	NOUN	B-NP
 hi	hi	ही	PART	I-NP
-nahi	hi	नहीं	X	B-VG
+nahi	hi	नहीं	ADV	B-VG
 milegi	hi	मिलेगी	VERB	I-VG
 use	hi	उसे	PRON	B-NP
 fir	hi	फिर	ADV	B-RBP
@@ -7515,7 +7504,7 @@ to	hi	तो	CONJ	B-CCP
 aj	hi	आज	NOUN	B-NP
 ye	hi	ये	DET	B-NP
 haal	hi	हाल	NOUN	I-NP
-ni	hi	नहीं	X	B-VG
+ni	hi	नहीं	ADV	B-VG
 hota	hi	होता	VERB	I-VG
 .	rest	.	SYM	B-BLK
 
@@ -7528,7 +7517,7 @@ thi	hi	थी	AUX	I-VG
 to	hi	तो	CONJ	B-CCP
 tu	hi	तू	PRON	B-NP
 bhi	hi	भी	PART	I-NP
-nhi	hi	नहीं	X	B-VG
+nhi	hi	नहीं	ADV	B-VG
 bacha	hi	बचा	VERB	I-VG
 hoga	hi	होगा	AUX	I-VG
 cause	en	because	CONJ	B-CCP
@@ -7542,20 +7531,20 @@ call	en	call	VERB	B-VG
 kiya	hi	किया	AUX	I-VG
 tha	hi	था	AUX	I-VG
 .	rest	.	SYM	B-BLK
-.	rest	.	SYM	I-BLK
-.	rest	.	SYM	I-BLK
+.	rest	.	SYM	B-BLK
+.	rest	.	SYM	B-BLK
 
 Phir	hi	फिर	ADV	B-RBP
 bhi	hi	भी	PART	I-RBP
-,	rest	,	PUNCT	I-RBP
+,	rest	,	PUNCT	B-BLK
 koi	hi	कोई	PRON	B-NP
-ni	hi	नहीं	X	I-NP
+ni	hi	नहीं	PART	I-NP
 keep	en	keep	VERB	B-VG
 trolling	en	trolling	NOUN	I-VG
 !!	rest	!	PUNCT	B-BLK
 
 Chalo	hi	चलो	VERB	B-VG
-phli	hi	पहली	X	B-NP
+phli	hi	पहली	ADJ	B-NP
 bar	hi	बार	PART	I-NP
 lv	en	love	PROPN	B-NP
 sex	en	sex	PROPN	I-NP
@@ -7563,13 +7552,13 @@ aur	hi	और	PROPN	B-CCP
 dhokhe	hi	धोके	PROPN	B-NP
 se	hi	से	ADP	I-NP
 alag	hi	अलग	ADJ	B-JJP
-kch	hi	कुछ	X	I-JJP
+kch	hi	कुछ	ADV	I-JJP
 kiya	hi	किया	VERB	B-VG
 h	hi	है	AUX	I-VG
 admin	en	admin	NOUN	B-NP
 ne	hi	ने	ADP	I-NP
 #appreciated	rest	#appreciated	SYM	B-BLK
-#	rest	#	SYM	I-BLK
+#	rest	#	SYM	B-BLK
 
 bhaee	hi	भाई	NOUN	B-NP
 main	hi	मैं	PRON	B-NP
@@ -7582,7 +7571,7 @@ cmnt	en	comment	NOUN	I-NP
 pe	hi	पर	ADP	I-NP
 like	en	like	NOUN	B-NP
 todi	hi	थोड़ी	ADV	B-VG
-na	hi	ना	X	I-VG
+na	hi	ना	ADV	I-VG
 ayengeee	hi	आएँगे	VERB	I-VG
 .......	rest	.	SYM	B-BLK
 agree	en	agree	VERB	B-VG
@@ -7602,7 +7591,7 @@ elections	en	elections	NOUN	I-NP
 b	hi	भी	PART	B-JJP
 prachar	hi	प्रचार	NOUN	B-NP
 karega	hi	करेगा	VERB	B-VG
-kya	hi	क्या	X	B-NP
+kya	hi	क्या	ADV	B-NP
 ?	rest	?	SYM	B-BLK
 
 #oldmonk	rest	#oldmonk	SYM	B-BLK
@@ -7639,7 +7628,7 @@ har	hi	हर	ADJ	B-JJP
 kisi	hi	किसी	PRON	B-NP
 ne	hi	ने	ADP	I-NP
 ....	rest	.	SYM	B-BLK
-:	rest	:	SYM	I-BLK
+:	rest	:	SYM	B-BLK
 
 Dont	en	Don't	X	B-VG
 worry	en	worry	VERB	I-VG
@@ -7648,7 +7637,7 @@ b	hi	भी	PART	I-NP
 koi	hi	कोई	PRON	B-NP
 virgin	en	virgin	ADJ	B-JJP
 pati	hi	पति	NOUN	B-NP
-nhi	hi	नहीं	X	B-VG
+nhi	hi	नहीं	ADV	B-VG
 milne	hi	मिलने	VERB	I-VG
 waala	hi	वाला	AUX	I-VG
 ...	rest	.	SYM	B-BLK
@@ -7659,7 +7648,7 @@ suna	hi	सूना	VERB	I-VG
 h	hi	है	AUX	I-VG
 south	en	south	NOUN	B-NP
 aacha	hi	अच्छा	VERB	B-VG
-na	hi	ना	X	I-VG
+na	hi	ना	ADV	I-VG
 h	hi	है	AUX	I-VG
 north	en	north	NOUN	B-NP
 iz	en	is	VERB	B-VG
@@ -7672,12 +7661,12 @@ sonali	rest	sonali	PROPN	B-NP
 khanna	rest	khanna	PROPN	I-NP
 k	hi	के	ADP	B-NP
 piche	hi	पीछे	NOUN	I-NP
-kitne	hi	कितने	X	B-JJP
+kitne	hi	कितने	ADJ	B-JJP
 kutte	hi	कुत्ते	NOUN	B-NP
 pad	hi	पड़	VERB	B-VG
 gye	hi	गए	AUX	I-VG
 
-kya	hi	क्या	X	B-NP
+kya	hi	क्या	ADV	B-NP
 larke	hi	लड़के	NOUN	B-NP
 sach	hi	सच	NOUN	B-NP
 bolte	hi	बोलते	VERB	B-VG
@@ -7707,7 +7696,7 @@ bht	hi	बहुत	ADJ	B-JJP
 udd	hi	उड़	VERB	B-VG
 rha	hi	रहा	AUX	I-VG
 tha	hi	था	AUX	I-VG
-na	hi	ना	X	B-RBP
+na	hi	ना	ADV	B-RBP
 ....	rest	.	SYM	B-BLK
 ab	hi	अब	ADV	B-VG
 bhugat	hi	भुगत	VERB	I-VG
@@ -7728,7 +7717,7 @@ guys	en	guys	NOUN	B-NP
 Khudke	hi	खुदके	PRON	B-NP
 male	en	male	ADJ	B-JJP
 friends	en	friends	NOUN	B-NP
-ni	hi	नहीं	X	B-VG
+ni	hi	नहीं	ADV	B-VG
 ae	hi	आए	VERB	I-VG
 ?	rest	?	SYM	B-BLK
 Unhe	hi	उन्हें	PRON	B-NP
@@ -7753,7 +7742,7 @@ Modi	en	Modi	PROPN	B-NP
 is	en	is	VERB	B-VG
 the	en	the	DET	B-NP
 best	en	best	ADJ	B-JJP
-,	rest	,	PUNCT	I-JJP
+,	rest	,	PUNCT	B-BLK
 Rahul	en	Rahul	PROPN	B-NP
 is	en	is	VERB	B-VG
 maha	hi	महा	ADJ	B-JJP
@@ -7802,7 +7791,7 @@ tha	hi	था	AUX	I-VG
 meri	hi	मेरी	PRON	B-NP
 koi	hi	कोई	DET	I-NP
 gf	en	girlfriend	NOUN	I-NP
-nhi	hi	नहीं	X	B-FRAGP
+nhi	hi	नहीं	ADV	B-FRAGP
 par	hi	पर	CONJ	B-CCP
 bhut	hi	बहुत	ADV	B-RBP
 chahat	hi	चाहत	NOUN	I-RBP
@@ -7842,7 +7831,7 @@ is	hi	इस	DET	B-NP
 confession	en	confession	NOUN	I-NP
 ne	hi	ने	ADP	I-NP
 ..	rest	.	SYM	B-BLK
-:	rest	:	SYM	I-BLK
+:	rest	:	SYM	B-BLK
 
 Krishna	rest	Krishna	PROPN	B-NP
 ke	hi	के	ADP	I-NP
@@ -7859,11 +7848,11 @@ India	hi	India	NOUN	I-NP
 Polio	rest	Polio	NOUN	B-NP
 wala	hi	वाला	PRON	I-NP
 pair	hi	पैर	NOUN	B-NP
-,	rest	,	PUNCT	I-NP
+,	rest	,	PUNCT	B-BLK
 peace	en	peace	NOUN	B-NP
 k	hi	के	ADP	I-NP
 liye	hi	लिए	ADP	I-NP
-kaise	hi	कैसे	X	B-FRAGP
+kaise	hi	कैसे	ADV	B-FRAGP
 use	en	use	VERB	B-VG
 hoga	hi	होगा	AUX	I-VG
 ??	rest	?	PUNCT	B-BLK
@@ -7971,7 +7960,7 @@ post	en	post	NOUN	B-VG
 kia	hi	किय़ा	VERB	I-VG
 tha	hi	था	AUX	I-VG
 ???????????????????	rest	?	PUNCT	B-BLK
-lol	rest	laugh out loud	SYM	B-NP
+lol	rest	lol	NOUN	B-NP
 
 apni	hi	अपनी	PART	B-NP
 behen	hi	बहन	NOUN	I-NP
@@ -7993,9 +7982,9 @@ apna	hi	अपना	PART	B-NP
 career	en	career	NOUN	I-NP
 banao	hi	बनाओ	VERB	B-VG
 
-ye	hi	ये	DET	B-JJP
-teenage	en	teenage	ADJ	I-JJP
-love	en	love	NOUN	B-NP
+ye	hi	ये	DET	B-NP
+teenage	en	teenage	ADJ	B-NP
+love	en	love	NOUN	I-NP
 sub	hi	सब	PART	B-NP
 bakwas	hi	बकवास	NOUN	I-NP
 h	hi	है	VERB	B-VG
@@ -8098,7 +8087,7 @@ itna	hi	इतना	ADV	B-RBP
 likh	hi	लिख	VERB	B-VG
 dala	hi	डाला	AUX	I-VG
 .	rest	.	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
 
 pdhne	hi	पढने	VERB	B-VG
 me	hi	में	ADP	B-BLK
@@ -8114,9 +8103,9 @@ chep	hi	चेप	NOUN	B-NP
 hi	hi	ही	PART	I-NP
 diya	hi	दिया	VERB	B-VG
 .	rest	.	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
-hats	en	hats	NOUN	B-FRAGP
-off	en	off	ADV	I-FRAGP
+.	rest	.	PUNCT	B-BLK
+hats	en	hats	NOUN	B-NP
+off	en	off	ADV	I-NP
 
 kaafi	hi	काफ़ी	ADV	B-RBP
 serious	en	serious	NOUN	I-RBP
@@ -8232,9 +8221,9 @@ likha	hi	लिखा	VERB	B-VG
 h	hi	है	AUX	I-VG
 yr	hi	यार	X	B-BLK
 .	rest	.	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
-.	rest	.	PUNCT	I-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
+.	rest	.	PUNCT	B-BLK
+.	rest	.	PUNCT	B-BLK
 Sach	hi	सच	NOUN	B-NP
 m	hi	में	ADP	I-NP
 ye	hi	ये	DET	B-NP
@@ -8441,7 +8430,7 @@ hai	hi	हैं	AUX	I-VG
 
 1356	rest	1356	NUM	B-BLK
 .	rest	.	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
 \"\"\"	rest	""	SYM	B-BLK
 All	en	All	DET	B-NP
 new	en	new	ADJ	B-JJP
@@ -8452,7 +8441,7 @@ your	en	your	PART	B-NP
 kind	en	kind	NOUN	I-NP
 attention	en	attention	NOUN	I-NP
 .	rest	.	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
 
 \"\"	rest	""	SYM	B-BLK
 AISA	rest	AISA	PRON	B-NP
@@ -8502,10 +8491,10 @@ dab	hi	दब	NOUN	B-NP
 na	hi	ना	ADV	B-RBP
 jaye	hi	जाए	VERB	B-VG
 ,	rest	,	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
-.	rest	.	PUNCT	I-BLK
-.	rest	.	PUNCT	I-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
+.	rest	.	PUNCT	B-BLK
+.	rest	.	PUNCT	B-BLK
+.	rest	.	PUNCT	B-BLK
 ..	rest	..	SYM	B-BLK
 
 aap	hi	आप	PRON	B-NP
@@ -8528,9 +8517,9 @@ dimaag	hi	दिमाग	NOUN	B-NP
 kha	hi	खा	VERB	B-VG
 jayenge	hi	जाएंगे	AUX	I-VG
 .	rest	.	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
 ..	rest	..	SYM	B-BLK
-..	rest	..	SYM	I-BLK
+..	rest	..	SYM	B-BLK
 
 aapko	hi	आपको	PART	B-NP
 ulta	hi	उल्टा	ADJ	B-JJP
@@ -8558,7 +8547,7 @@ le	hi	ले	AUX	B-VG
 doobenge	hi	डूबेंगे	VERB	I-VG
 .	rest	.	PUNCT	B-BLK
 ..	rest	..	SYM	B-BLK
-..	rest	..	SYM	I-BLK
+..	rest	..	SYM	B-BLK
 
 yeh	hi	यह	DET	B-BLK
 nahi	hi	नहीं	ADV	B-JJP
@@ -8764,8 +8753,8 @@ h	hi	हैं	AUX	I-VG
 Haha	en	Haha	INTJ	B-BLK
 ,	rest	,	PUNCT	B-BLK
 kitna	hi	कितना	ADJ	B-JJP
-show	en	show	NOUN	B-FRAGP
-off	en	off	PART	I-FRAGP
+show	en	show	NOUN	B-NP
+off	en	off	PART	I-NP
 karega	hi	करेगा	VERB	B-VG
 (	rest	(	SYM	B-BLK
 met	en	met	VERB	B-VG
@@ -9309,10 +9298,10 @@ like	en	like	X	B-BLK
 you	en	you	PRON	B-NP
 are	en	are	VERB	B-VG
 after	en	after	INTJ	B-BLK
-"	rest	"	SYM	B-JJP
+"	rest	"	SYM	B-BLK
 Inky	en	Inky	ADJ	I-JJP
 pinky	en	pinky	ADJ	I-JJP
-"	rest	"	SYM	I-JJP
+"	rest	"	SYM	B-BLK
 girls	en	girls	NOUN	B-NP
 !	rest	!	SYM	B-BLK
 Bimbos	en	bimbos	NOUN	B-NP
@@ -9349,9 +9338,9 @@ s	hi	से	ADP	B-BLK
 h	hi	है	VERB	B-VG
 mre	hi	मेरे	PRON	B-NP
 naag	hi	नाग	ADJ	B-JJP
-(	rest	(	SYM	B-NP
+(	rest	(	SYM	B-BLK
 admin	en	admin	NOUN	I-NP
-)	rest	)	SYM	I-NP
+)	rest	)	SYM	B-BLK
 
 Watch	en	Watch	VERB	B-VG
 out	en	out	PART	I-VG
@@ -9435,7 +9424,7 @@ tjhe	hi	तुझे	PRON	B-NP
 ye	hi	ये	DET	B-NP
 sb	hi	सब	PART	I-NP
 pta	hi	पता	NOUN	I-NP
-kese	hi	कैसे	X	B-BLK
+kese	hi	कैसे	ADV	B-BLK
 chala	hi	चला	VERB	B-VG
 .....	rest	.....	SYM	B-BLK
 
@@ -9615,7 +9604,7 @@ kafi	hi	काफी	ADJ	B-JJP
 he	hi	हैं	AUX	B-VG
 yr	hi	यार	INTJ	B-BLK
 
-eg	en	example	NOUN	B-FRAGP
+eg	en	example	NOUN	B-NP
 .	rest	.	PUNCT	B-BLK
 On	en	On	ADP	B-NP
 ma	en	my	PRON	I-NP
@@ -9853,8 +9842,8 @@ tjhe	hi	तुझे	PRON	B-NP
 ye	hi	ये	PRON	B-NP
 bole	hi	बोले	VERB	B-VG
 k	hi	के	SCONJ	B-CCP
-sorry	en	sorry	INTJ	B-FRAGP
-janu	hi	जणू	INTJ	B-FRAGP
+sorry	en	sorry	INTJ	B-NP
+janu	hi	जणू	INTJ	I-NP
 vo	hi	वो	DET	B-NP
 shadi	hi	शादी	NOUN	I-NP
 krni	hi	करनी	VERB	B-VG
@@ -9862,8 +9851,8 @@ padi	hi	पड़ी	VERB	I-VG
 par	hi	पर	CONJ	B-CCP
 aapke	hi	आपके	PRON	B-NP
 sath	hi	साथ	ADP	I-NP
-time	en	time	NOUN	B-FRAGP
-pass	en	pass	NOUN	B-FRAGP
+time	en	time	NOUN	B-NP
+pass	en	pass	NOUN	I-NP
 jaari	hi	जारी	VERB	B-VG
 rhega	hi	रहेगा	VERB	I-VG
 to	hi	तो	SCONJ	B-CCP
@@ -9893,8 +9882,8 @@ jhagda	hi	झगड़ा	NOUN	B-NP
 kiya	hi	किया	VERB	B-VG
 divorce	en	divorce	NOUN	B-NP
 dega	hi	देगा	VERB	B-VG
-nd	en	and	CONJ	B-FRAGP
-all	en	all	DET	B-FRAGP
+nd	en	and	CONJ	B-CCP
+all	en	all	DET	B-NP
 ..	rest	..	SYM	B-BLK
 
 hindi	rest	hindi	NOUN	B-NP
@@ -10174,7 +10163,7 @@ hona	hi	होना	VERB	B-VG
 chahiye	hi	चाहिए	VERB	I-VG
 tha	hi	था	VERB	I-VG
 .	rest	.	PUNCT	B-BLK
-lol	rest	laugh out loud	SYM	B-BLK
+lol	rest	lol	X	B-BLK
 
 gaana	hi	गाना	NOUN	B-NP
 gaa-	hi	गा 	VERB	B-VG
@@ -10458,11 +10447,11 @@ of	en	of	ADP	I-CCP
 its	en	its	PRON	B-NP
 real	en	real	ADJ	B-JJP
 development	en	development	NOUN	B-NP
-(	rest	(	SYM	B-RBP
+(	rest	(	SYM	B-BLK
 not	en	not	ADV	I-RBP
 documentry	en	documentary	NOUN	B-NP
 development	en	development	NOUN	I-NP
-)	rest	)	SYM	I-NP
+)	rest	)	SYM	B-BLK
 
 so	en	so	SCONJ	B-CCP
 bhai	hi	भाई	INTJ	B-BLK
@@ -10799,7 +10788,7 @@ kam	hi	कम	ADJ	B-JJP
 hti	hi	होती	VERB	B-VG
 h	hi	हैं	AUX	I-VG
 .	rest	.	PUNCT	B-BLK
-.	rest	.	PUNCT	I-BLK
+.	rest	.	PUNCT	B-BLK
 
 Sahi	hi	सही	ADV	B-RBP
 bat	hi	बात	VERB	B-VG
@@ -10940,7 +10929,7 @@ hona	hi	होना	AUX	B-VG
 hi	hi	ही	AUX	I-VG
 ni	hi	नहीं	ADV	I-VG
 chaiye	hi	चाहिए	VERB	I-VG
-,	rest	,	SYM	I-VG
+,	rest	,	SYM	B-BLK
 students	en	students	NOUN	B-NP
 ko	hi	को	PART	I-NP
 unki	hi	उनकी	PRON	B-NP
@@ -10967,8 +10956,8 @@ hi	hi	ही	PART	I-VG
 maar	hi	मार	VERB	I-VG
 diya	hi	दिया	AUX	I-VG
 ...	rest	...	SYM	B-BLK
-Lol	rest	laugh out loud	SYM	I-BLK
-!!	rest	!!	SYM	I-BLK
+Lol	rest	lauging out loud	X	I-BLK
+!!	rest	!!	SYM	B-BLK
 
 N	en	and	CONJ	B-CCP
 bhai	hi	भाई	NOUN	B-NP
@@ -11027,19 +11016,19 @@ padh	hi	पढ़	VERB	B-VG
 kr	hi	कर	AUX	I-VG
 mje	hi	मुझे	PRON	B-NP
 lga	hi	लगा	VERB	B-VG
-'	rest	'	SYM	B-NP
+'	rest	'	SYM	B-BLK
 Malaji	rest	Malaji	PROPN	I-NP
 garvnirodhk	hi	गर्भनिरोधक	PROPN	I-NP
 pills	en	pills	NOUN	I-NP
 n	en	and	CONJ	I-NP
 condoms	en	condoms	NOUN	I-NP
-'	rest	'	SYM	I-NP
+'	rest	'	SYM	B-BLK
 ka	hi	का	PART	B-RBP
 add	en	advertisement	NOUN	B-NP
 aa	hi	आ	VERB	B-VG
 gya	hi	गया	AUX	I-VG
 !	rest	!	INTJ	B-BLK
-#	rest	#	SYM	I-BLK
+#	rest	#	SYM	B-BLK
 
 superhero	en	superhero	NOUN	B-NP
 kitna	hi	कितना	ADJ	B-JJP
@@ -11050,7 +11039,7 @@ hote	hi	होते	VERB	B-VG
 popat	hi	पोपट	NOUN	I-VG
 hi	hi	ही	PART	I-VG
 the	en	the	AUX	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 saale	hi	साले	NOUN	B-NP
 chaddi	hi	चड्डी	NOUN	B-NP
 pants	en	pants	NOUN	B-NP
@@ -11058,7 +11047,7 @@ ke	hi	के	PART	B-RBP
 upar	hi	ऊपर	ADP	B-VG
 pehente	hi	पहेनते	VERB	I-VG
 the	hi	थे	AUX	I-VG
-....	rest	....	SYM	I-VG
+....	rest	....	SYM	B-BLK
 :-p	rest	:-p	X	B-BLK
 
 wind	en	wind	VERB	B-VG
@@ -11067,7 +11056,7 @@ in	en	in	ADP	I-VG
 .	rest	.	SYM	B-BLK
 totaly	en	totally	ADJ	B-JJP
 crazy	en	crazy	NOUN	I-JJP
-....!.	rest	....!.	SYM	I-JJP
+....!.	rest	....!.	SYM	B-BLK
 
 india	rest	india	NOUN	B-NP
 m	hi	में	ADP	B-RBP
@@ -11078,7 +11067,7 @@ rha	hi	राहा	AUX	I-VG
 h	hi	है	AUX	I-VG
 kya	hi	क्या	AUX	I-VG
 aajkal	hi	आजकाल	ADV	I-VG
-!.	rest	!.	SYM	I-VG
+!.	rest	!.	SYM	B-BLK
 
 jo	hi	जो	PART	B-JJP
 bilkul	hi	बिल्कुल	ADJ	I-JJP
@@ -11094,14 +11083,14 @@ DUC	rest	DUC	NOUN	B-NP
 pe	hi	पर	ADP	B-RBP
 cnfssn	en	confession	NOUN	B-VG
 karne	hi	करने	VERB	I-VG
--	rest	-	SYM	I-VG
-!.	rest	!.	SYM	I-VG
+-	rest	-	SYM	B-BLK
+!.	rest	!.	SYM	B-BLK
 
 stop	en	stop	VERB	B-VG
 nonsense	en	nonsense	NOUN	I-VG
 ol	en	all	ADV	I-VG
 dis	en	this	DET	I-VG
-!	rest	!	SYM	I-VG
+!	rest	!	SYM	B-BLK
 
 mjhe	hi	मुझे	PRON	B-NP
 to	hi	तो	PART	I-NP
@@ -11110,7 +11099,7 @@ hai	hi	है	AUX	I-VG
 they	en	they	PRON	B-NP
 hate	en	hate	VERB	B-VG
 Hindu	rest	Hindu	NOUN	B-NP
-'	rest	'	SYM	I-NP
+'	rest	'	SYM	B-BLK
 too	hi	तो	CONJ	B-CCP
 tbhi	hi	तभी 	CONJ	I-CCP
 unki	hi	उनकी	PRON	B-NP
@@ -11124,7 +11113,7 @@ hai	hi	है	AUX	I-VG
 :-p	rest	:-p	X	B-BLK
 
 Namo	rest	Namo	INTJ	B-BLK
-.....,	rest	.....,	SYM	I-BLK
+.....,	rest	.....,	SYM	B-BLK
 iss	hi	इस	ADJ	B-JJP
 baar	hi	बार	ADJ	I-JJP
 v	hi	भी	ADJ	I-JJP
@@ -11134,14 +11123,14 @@ ko	hi	को	ADP	I-NP
 vote	en	vote	NOUN	B-NP
 de	hi	दे	VERB	B-VG
 diya	hi	दिया	AUX	I-VG
-...,	rest	...,	SYM	I-VG
+...,	rest	...,	SYM	B-BLK
 usse	hi	उससे	PRON	B-NP
 bada	hi	बड़ा	ADJ	B-NP
 chutiyaa	hi	चूतिया	NOUN	I-NP
 koi	hi	कोई	PRON	B-NP
 nhi	hi	नहीं	ADV	B-VG
 hoga	hi	होगा	VERB	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 
 padai	hi	पढ़ाई	NOUN	B-NP
 likhai	hi	लिखाई	NOUN	I-NP
@@ -11162,7 +11151,7 @@ beta	hi	बेटा	NOUN	B-NP
 apki	hi	आपकी	PRON	B-NP
 12th	en	12th	NOUN	B-NP
 mai	hi	में	ADP	I-NP
-?	rest	?	SYM	I-NP
+?	rest	?	SYM	B-BLK
 
 tumhe	hi	तुम्हें	PRON	B-NP
 yaad	hi	याद	NOUN	B-VG
@@ -11174,7 +11163,7 @@ dukh	hi	दुख	NOUN	I-NP
 gaya	hi	गया	VERB	B-VG
 xD	rest	xD	X	B-BLK
 .	rest	.	SYM	B-BLK
-.	rest	.	SYM	I-BLK
+.	rest	.	SYM	B-BLK
 
 The	en	The	DET	B-JJP
 most	en	most	ADJ	I-JJP
@@ -11182,7 +11171,7 @@ funny	en	funny	ADJ	I-JJP
 yet	en	yet	CONJ	B-CCP
 witty	en	witty	ADJ	B-NP
 dialogue	en	dialogue	NOUN	I-NP
-.	rest	.	SYM	I-NP
+.	rest	.	SYM	B-BLK
 :P	rest	:P	X	B-BLK
 
 y	en	why	ADV	B-RBP
@@ -11191,7 +11180,7 @@ wana	en	want to	ADV	B-VG
 leav	en	leave	VERB	I-VG
 ua	en	your	ADJ	B-NP
 fmly''	en	family	NOUN	I-NP
-?.	rest	?.	SYM	I-NP
+?.	rest	?.	SYM	B-BLK
 .	rest	.	SYM	B-BLK
 
 or	en	or	CONJ	B-CCP
@@ -11204,7 +11193,7 @@ pge	en	page	NOUN	I-NP
 pr	hi	पर	PART	B-BLK
 h	hi	है	VERB	B-VG
 kya	hi	क्या	AUX	I-VG
-????	rest	????	SYM	I-VG
+????	rest	????	SYM	B-BLK
 
 n	en	and	CONJ	B-CCP
 wadra	rest	wadra	PROPN	B-NP
@@ -11214,17 +11203,17 @@ ki	hi	की	PART	I-VG
 main	hi	मैं	PRON	B-NP
 kaun	hi	कौन	ADV	B-VG
 hoon	hi	हूँ	VERB	I-VG
-....	rest	....	SYM	I-VG
+....	rest	....	SYM	B-BLK
 
 i	en	i	PRON	B-NP
 guess	en	guess	VERB	B-VG
 koi	hi	कोई	PRON	B-NP
 nai	hi	नहीं	ADV	B-VG
 janta	hi	जानता	VERB	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 he	rest	he	X	B-BLK
 he	rest	he	X	I-BLK
-.	rest	.	SYM	I-BLK
+.	rest	.	SYM	B-BLK
 :p	rest	:p	X	B-BLK
 
 Puchiyo	hi	पुछिओ	PROPN	B-NP
@@ -11234,14 +11223,14 @@ laga	hi	लगा	VERB	B-VG
 hai	hi	है	AUX	I-VG
 bhai	hi	भाई	NOUN	B-NP
 log	hi	लोग	NOUN	I-NP
-..	rest	..	SYM	I-NP
+..	rest	..	SYM	B-BLK
 
 brush	en	brush	NOUN	B-VG
 kr	hi	कर	VERB	I-VG
 k	hi	के	PART	I-VG
 ready	en	ready	NOUN	B-VG
 rho	hi	रहो	VERB	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 
 shayad	hi	शायद	ADV	B-RBP
 kuch	hi	कुछ	ADV	I-RBP
@@ -11251,7 +11240,7 @@ jaaye	hi	जाए	AUX	I-VG
 
 sirf	hi	सिर्फ़	ADJ	B-NP
 SALWAAR	hi	सलवार	NOUN	I-NP
-????	rest	????	SYM	B-NP
+????	rest	????	SYM	B-BLK
 Abe	hi	अबे	INTJ	B-RBP
 aese	hi	ऐसे	PART	I-RBP
 to	hi	तो	PART	I-RBP
@@ -11259,7 +11248,7 @@ hr	hi	हर	ADJ	B-NP
 ldki	hi	लड़की	NOUN	I-NP
 achi	hi	अच्छी	ADV	B-VG
 lgegi	hi	लगेगी	VERB	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 :p	rest	:p	X	B-BLK
 
 or	hi	और	CONJ	B-CCP
@@ -11267,14 +11256,14 @@ sweating	en	sweating	NOUN	B-NP
 b	hi	भी	ADV	B-VG
 hogi	hi	होगी	VERB	I-VG
 he	hi	ही	AUX	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 :D	rest	:D	X	B-BLK
 
 are	hi	अरे	INTJ	B-CCP
 results	en	results	NOUN	B-NP
 ko	hi	को	PART	I-NP
 chod	hi	छोड़	VERB	B-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 
 admsn	en	admission	NOUN	B-NP
 to	hi	तो	PART	I-NP
@@ -11282,7 +11271,7 @@ hua	hi	हुआ	VERB	B-VG
 nhi	hi	नहीं	ADV	I-VG
 abhi	hi	अभी	ADV	B-RBP
 tak	hi	तक	ADV	I-RBP
-...	rest	...	SYM	I-RBP
+...	rest	...	SYM	B-BLK
 
 cut	en	cut	NOUN	B-NP
 off	en	off	NOUN	I-NP
@@ -11307,7 +11296,7 @@ tumhari	hi	तुम्हारी	PRON	B-NP
 dream	en	dream	NOUN	B-NP
 girl	en	girl	NOUN	I-NP
 ko	hi	को	PART	I-NP
-.	rest	.	SYM	I-NP
+.	rest	.	SYM	B-BLK
 
 Gud	en	Good	ADJ	B-NP
 luck	en	luck	NOUN	I-NP
@@ -11373,7 +11362,7 @@ smile	en	smile	VERB	B-VG
 Love	en	Love	VERB	B-VG
 Your	en	Your	PRON	B-NP
 nation	en	love	NOUN	B-NP
-/	rest	/	SYM	I-NP
+/	rest	/	SYM	B-BLK
 pray	en	pray	NOUN	I-NP
 for	en	for	ADP	B-NP
 the	hi	थे	DET	I-NP
@@ -11381,7 +11370,7 @@ people	en	people	NOUN	I-NP
 in	en	in	ADP	B-NP
 danger/help	en	danger/help	NOUN	I-NP
 them	en	them	PRON	B-NP
-atleast	en	atleast	ADV	B-FRAGP
+atleast	en	atleast	ADV	B-RBP
 4	en	for	PART	B-NP
 some	en	some	ADJ	I-NP
 days	en	days	NOUN	I-NP
@@ -11414,7 +11403,7 @@ boyfrnd	en	boyfriend	NOUN	I-NP
 timepas	en	timepass	VERB	B-VG
 wid	en	with	ADP	B-NP
 u	en	you	NOUN	I-NP
-...	rest	...	SYM	I-NP
+...	rest	...	SYM	B-BLK
 
 jb	hi	जब	X	B-BLK
 use	hi	उसे	PRON	B-NP
@@ -11427,20 +11416,20 @@ wo	hi	वो	PRON	B-NP
 tmhre	hi	तुमहारे	PRON	B-NP
 pas	hi	पास	ADP	B-VG
 ajata	hi	आजाता	VERB	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 
 laat	hi	लात	NOUN	B-NP
 maro	hi	मरो	VERB	B-VG
 ase	hi	ऐसे	PART	B-NP
 bf	rest	boyfriend	NOUN	I-NP
 ko	hi	को	PART	I-NP
-...	rest	...	SYM	I-NP
+...	rest	...	SYM	B-BLK
 
 dis	en	this	DET	B-NP
 is	en	is	VERB	B-VG
 nt	en	not	ADV	B-NP
 love	en	love	NOUN	I-NP
-...	rest	...	SYM	I-NP
+...	rest	...	SYM	B-BLK
 
 tmhe	hi	तुम्हें	PRON	B-NP
 khud	hi	खुद	ADJ	B-NP
@@ -11462,15 +11451,15 @@ kre	hi	करे	VERB	B-VG
 mt	hi	मत	ADV	I-VG
 reply	en	reply	NOUN	B-NP
 do	hi	दो	VERB	B-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 huhh	rest	huhh	INTJ	B-BLK
-...	rest	...	SYM	I-BLK
+...	rest	...	SYM	B-BLK
 
 Confessor	en	Confessor	NOUN	B-NP
 tum	hi	तुम	PRON	B-NP
 sangharsh	hi	संघर्ष	NOUN	B-VG
 karo	hi	करो	VERB	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 
 mai	hi	मैं	PRON	B-NP
 to	hi	तो	PART	I-NP
@@ -11479,7 +11468,7 @@ kar	hi	कर	VERB	B-VG
 hi	hi	ही	AUX	I-VG
 raha	hi	रहा	AUX	I-VG
 hun	hi	हूँ	AUX	I-VG
-!!	rest	!!	SYM	I-VG
+!!	rest	!!	SYM	B-BLK
 
 tere	hi	तेरे	PRON	B-NP
 ma	hi	मा	NOUN	B-NP
@@ -11530,18 +11519,18 @@ finnest	en	funniest	ADJ	I-JJP
 cnfsn	en	confession	NOUN	B-NP
 til	en	till	ADJ	I-NP
 now	en	now	NOUN	I-NP
-(y)	rest	(y)	SYM	I-NP
+(y)	rest	(y)	SYM	B-BLK
 thts	en	thats	DET	B-VG
 cald	en	called	VERB	I-VG
 DUC	rest	DUC	NOUN	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 :-P	rest	:-P	X	B-BLK
 
 Have	en	Have	VERB	B-VG
 some	en	some	ADV	I-VG
 patriot	en	patriot	ADJ	B-NP
 dreams	en	dreams	NOUN	I-NP
-...	rest	...	SYM	I-NP
+...	rest	...	SYM	B-BLK
 
 bole	hi	बोले	VERB	B-VG
 to	hi	तो	PART	I-VG
@@ -11557,13 +11546,13 @@ jaunga	hi	जाऊँगा	AUX	I-VG
 desh	hi	देश	NOUN	B-NP
 ke	hi	के	PART	I-NP
 liye	hi	लिए	PART	I-NP
-....	rest	....	SYM	I-NP
+....	rest	....	SYM	B-BLK
 
 just	en	just	ADV	B-VG
 share	en	share	VERB	I-VG
 with	en	with	ADP	I-VG
 us	en	us	PRON	B-NP
-....	rest	....	SYM	I-NP
+....	rest	....	SYM	B-BLK
 :P	rest	:P	X	B-BLK
 
 phir	hi	फिर	CONJ	B-CCP
@@ -11607,7 +11596,7 @@ ho	hi	हो	VERB	I-VG
 jati	hi	जाती	AUX	I-VG
 hai	hi	है	AUX	I-VG
 ye	hi	ये	AUX	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 
 aise	hi	ऐसे	DET	B-NP
 ldke	hi	लड़के	NOUN	I-NP
@@ -11617,7 +11606,7 @@ exist	en	exist	NOUN	B-VG
 krte	hi	करते	VERB	I-VG
 h	hi	हैं	AUX	I-VG
 ya	hi	या	CONJ	B-CCP
-....	rest	....	SYM	I-CCP
+....	rest	....	SYM	B-BLK
 copy	en	copy	NOUN	B-NP
 paste	en	paste	NOUN	I-NP
 kia	hi	किया	VERB	B-VG
@@ -11644,7 +11633,7 @@ ladkio	hi	लड़कियों	NOUN	B-NP
 ke	hi	के	PART	I-NP
 lie	hi	लिए	PART	I-NP
 bhulna	hi	भूलना	VERB	B-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 jaise	hi	जैसे	CONJ	B-CCP
 Maggie	en	Maggie	NOUN	B-VG
 banana	hi	बनाना	VERB	I-VG
@@ -11663,15 +11652,15 @@ dal	hi	डाल	VERB	B-VG
 ke	hi	के	AUX	I-VG
 soiyo	hi	सोइओ	VERB	B-VG
 hamesha	hi	हमेशा	ADV	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 :p	rest	:p	X	B-BLK
 
 acha	hi	अच्छा	INTJ	B-BLK
 ji	hi	जी	INTJ	I-BLK
-....	rest	....	SYM	I-BLK
+....	rest	....	SYM	B-BLK
 aisa	hi	ऐसा	ADJ	B-NP
 kya	hi	क्या	NOUN	I-NP
-????	rest	????	SYM	I-NP
+????	rest	????	SYM	B-BLK
 
 bt	en	but	CONJ	B-CCP
 we	en	we	PRON	B-NP
@@ -11682,7 +11671,7 @@ dt	en	that	DET	I-NP
 knd	en	kind	NOUN	I-NP
 f	en	of	ADP	I-NP
 seniors	en	seniors	NOUN	I-NP
-....	rest	....	SYM	I-NP
+....	rest	....	SYM	B-BLK
 
 i	en	i	PRON	B-NP
 mean	en	mean	VERB	B-VG
@@ -11696,18 +11685,18 @@ the	hi	थे	VERB	I-VG
 ...	rest	...	SYM	B-BLK
 
 hy	en	hi	INTJ	B-BLK
-...	rest	...	SYM	I-BLK
+...	rest	...	SYM	B-BLK
 try	en	try	VERB	B-VG
 fr	en	for	ADP	I-VG
 sm	en	some	ADJ	B-NP
 gov	en	government	NOUN	I-NP
 job	en	job	NOUN	I-NP
-...	rest	...	SYM	I-NP
+...	rest	...	SYM	B-BLK
 jiske	hi	जिसके	CONJ	B-CCP
 forms	en	forms	NOUN	B-NP
 niklte	hi	निकलते	VERB	B-VG
 h	hi	हैं	AUX	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 
 abe	hi	अबे	INTJ	B-BLK
 yeh	hi	यह	PART	B-NP
@@ -11721,7 +11710,7 @@ chance	en	chance	NOUN	B-VG
 mar	hi	मार	VERB	I-VG
 rha	hi	राहा	AUX	I-VG
 tha	hi	था	AUX	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 
 mohabbt	hi	मोहोब्बत	VERB	B-VG
 hai	hi	है	AUX	I-VG
@@ -11759,7 +11748,7 @@ ds	en	this	DET	B-VG
 z	en	is	VERB	I-VG
 nt	en	not	ADV	I-VG
 gud	en	good	NOUN	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 cns	en	cause	CONJ	B-CCP
 smwhr	en	somewhere	ADP	B-JJP
 smbdy	en	somebody	NOUN	B-NP
@@ -11777,22 +11766,22 @@ abt	en	about	ADV	I-VG
 diz	en	this	DET	B-NP
 song	en	song	NOUN	I-NP
 den	en	then	PART	I-NP
-....	rest	....	SYM	I-NP
+....	rest	....	SYM	B-BLK
 
 Tanha	hi	तन्हा	ADJ	B-NP
 dil	hi	दिल	NOUN	I-NP
-..	rest	..	SYM	I-NP
+..	rest	..	SYM	B-BLK
 tanha	hi	तन्हा	ADJ	B-NP
 safar	hi	सफ़र	NOUN	I-NP
-..	rest	..	SYM	I-NP
+..	rest	..	SYM	B-BLK
 dhunde	hi	ढूँढे	VERB	B-VG
 tujhe	hi	तुझे	PRON	B-NP
 fir	hi	फिर	PART	B-NP
 kyu	hi	क्यू	ADV	I-NP
 nazar	hi	नज़र	NOUN	I-NP
-...	rest	...	SYM	I-NP
-lol	rest	laugh out loud	SYM	B-BLK
-..	rest	..	SYM	I-BLK
+...	rest	...	SYM	B-BLK
+lol	rest	lol	X	B-BLK
+..	rest	..	SYM	B-BLK
 :p	rest	:p	X	B-BLK
 
 Jis	hi	जिस	PRON	B-NP
@@ -11813,7 +11802,7 @@ Use	en	Use	VERB	B-VG
 Western	en	Western	ADJ	B-NP
 style	en	style	NOUN	I-NP
 toilet	en	toilet	NOUN	I-NP
-..	rest	..	SYM	I-NP
+..	rest	..	SYM	B-BLK
 
 Mobile	en	Mobile	NOUN	B-NP
 ke	hi	के	PART	I-NP
@@ -11834,7 +11823,7 @@ samajhna	hi	समझना	VERB	B-VG
 mushkil	hi	मुश्किल	ADV	B-RBP
 he	hi	ही	PART	I-RBP
 nai	hi	नहीं	ADV	I-RBP
-....	rest	....	SYM	I-RBP
+....	rest	....	SYM	B-BLK
 namumkin	hi	नामुमकिन	VERB	B-VG
 hai	hi	है	AUX	I-VG
 
@@ -11859,20 +11848,20 @@ cricket	en	cricket	NOUN	I-NP
 
 Did	en	Did	VERB	B-VG
 he	en	he	PRON	B-NP
-actually	en	actually	ADV	B-FRAGP
-..??	rest	..??	SYM	I-FRAGP
+actually	en	actually	ADV	B-RBP
+..??	rest	..??	SYM	B-BLK
 
 Mai	hi	मैं	PRON	B-NP
 khta-2	hi	केहता-केहता	VERB	B-VG
 thk	hi	थक	ADV	I-VG
 gyaa	hi	गया	AUX	I-VG
-,	rest	,	SYM	I-VG
+,	rest	,	SYM	B-BLK
 gandalf	rest	gandalf	NOUN	B-NP
 hatao	hi	हटाओ	VERB	B-VG
-,	rest	,	SYM	I-VG
+,	rest	,	SYM	B-BLK
 duc	rest	duc	PROPN	B-NP
 bachao	hi	बचाओ	VERB	B-VG
-!!	rest	!!	SYM	I-VG
+!!	rest	!!	SYM	B-BLK
 
 Kisi	hi	किसी	PRON	B-NP
 ne	hi	ने	PART	I-NP
@@ -11880,20 +11869,20 @@ suni	hi	सुनी	VERB	B-VG
 nai	hi	नहीं	ADV	I-VG
 meri	hi	मेरी	PRON	B-NP
 baat	hi	बात	NOUN	I-NP
-!	rest	!	SYM	I-NP
+!	rest	!	SYM	B-BLK
 #	rest	#	SYM	B-BLK
 
 Past	en	Past	NOUN	B-NP
 ko	hi	को	PART	I-NP
 bhul	hi	भूल	VERB	B-VG
 ja	hi	जा	AUX	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 
 presnt	en	present	NOUN	B-NP
 pe	hi	पे	ADP	I-NP
 dyaan	hi	ध्यान	NOUN	B-VG
 de	hi	दे	VERB	I-VG
-..	rest	..	SYM	I-VG
+..	rest	..	SYM	B-BLK
 
 go	en	go	VERB	B-VG
 fr	en	for	DET	B-NP
@@ -11903,7 +11892,7 @@ itna	hi	इतना	ADJ	B-NP
 dard	hi	दर्द	NOUN	I-NP
 h	hi	है	VERB	B-VG
 post	en	post	NOUN	B-NP
-..	rest	..	SYM	I-NP
+..	rest	..	SYM	B-BLK
 me	hi	में	PRON	B-NP
 shayed	hi	शायद	ADV	B-RBP
 apni	hi	अपनी	PRON	B-NP
@@ -11924,7 +11913,7 @@ sb	hi	सब	NOUN	B-NP
 thik	hi	ठीक	NOUN	B-VG
 ho	hi	हो	VERB	I-VG
 jayega	hi	जाएगा	AUX	I-VG
-...	rest	...	SYM	I-VG
+...	rest	...	SYM	B-BLK
 :)	rest	:)	X	B-BLK
 
 Keh	hi	कह	NOUN	B-NP
@@ -11932,7 +11921,7 @@ ke	hi	के	PART	I-NP
 leli	hi	लेली	VERB	B-VG
 sbne	hi	सबने	NOUN	I-VG
 tumhari	hi	तुम्हारी	PRON	B-NP
-....	rest	....	SYM	B-NP
+....	rest	....	SYM	B-BLK
 :P	rest	:P	X	B-BLK
 
 feel	en	feel	VERB	B-VG
