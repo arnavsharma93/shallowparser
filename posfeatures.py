@@ -14,18 +14,35 @@ class AddLexTransformer(BaseEstimator):
     def fit(self, X, Y=None):
         return self
 
-class PoSTransformer(BaseEstimator):
+class ComputedPOSTransformer(BaseEstimator):
     '''
     Adds the POS tag computed from other sources as a feature
     '''
-    def __init__(self, ignore=False):
+    def __init__(self, strategy='combined', ignore=False):
         self.ignore = ignore
+        self.strategy = strategy
 
     def transform(self, X, **transform_params):
-        return [['EPOS:%s' % (obv['EPOS'] if (not self.ignore and obv['LANG'] != 'hi') else 'False')  for obv in x] for x in X]
+        _X = []
+        for x in X:
+            _x = []
+            for obv in x:
+                if self.strategy == 'combined':
+                    pos = obv['HPOS'] if obv['LANG'] == 'hi' else obv['EPOS']
+                elif self.strategy == 'only_hi':
+                    pos = obv['HPOS']
+                elif self.strategy == 'only_en':
+                    pos = obv['EPOS']
+                else:
+                    raise Exception('Invalid strategy')
+                _x.append('ComputedPOS:%s' % pos)
+
+            _X.append(_x)
+        return _X
 
     def fit(self, X, Y=None):
         return self
+
 
 class PoSConfidenceTransformer(BaseEstimator):
     '''
@@ -40,18 +57,20 @@ class PoSConfidenceTransformer(BaseEstimator):
     def fit(self, X, Y=None):
         return self
 
+class NormLexTransformer(BaseEstimator):
+    '''
+    Adds the POS tag computed from other sources as a feature
+    '''
+    def __init__(self, ignore=False):
+        self.ignore = ignore
 
-class GoldLangTransformer(BaseEstimator):
-    '''
-    Adds the gold language id as a feature
-    '''
     def transform(self, X, **transform_params):
-        return [['LANG:%s' % obv['LANG'] for obv in x] for x in X]
+        return [['NORMLEX:%s' % (obv['NORM'] if (not self.ignore and obv['LANG'] == 'hi') else 'False')  for obv in x] for x in X]
 
     def fit(self, X, Y=None):
         return self
 
-class PredictedLangTransformer(BaseEstimator):
+class AddLangTransformer(BaseEstimator):
     '''
     Adds the gold language id as a feature
     '''
@@ -101,10 +120,10 @@ class AffixesTransformer(BaseEstimator):
     1 - Hin Norm + Eng + Rest
     2 - Hin + Eng + Rest
     '''
-    def __init__(self, suffix_len=5, prefix_len=5, form=0):
+    def __init__(self, suffix_len=5, prefix_len=5, strategy='only_hi'):
         self.prefix_len = prefix_len
         self.suffix_len = suffix_len
-        self.form = form
+        self.strategy = strategy
 
     def transform(self, X, Y=None, **transform_params):
         _X = []
@@ -112,10 +131,10 @@ class AffixesTransformer(BaseEstimator):
             _x = []
             for i, obv in enumerate(x):
                 lex = ''
-                if self.form in (1, 2):
+                if self.strategy in ('all_norm', 'all_raw'):
                     lex = obv['WORD']
-                if self.form in (0, 1) and obv['LANG'] == 'hi':
-                    lex = obv['WX']
+                if self.strategy in ('only_hi', 'all_norm') and obv['LANG'] == 'hi':
+                    lex = obv['NORM']
 
                 _obv = []
 

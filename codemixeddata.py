@@ -1,4 +1,5 @@
 from sklearn.datasets.base import Bunch
+from copy import deepcopy
 from collections import namedtuple
 import numpy as np
 import pandas as pd
@@ -76,11 +77,7 @@ def LoadDataSetWFeatures(filename="./data/datasetWfeatures.txt", xlabels=["WORD"
                 y.append(_y)
                 _X, _y = [], []
             else:
-                try:
-                    WORD, LANG, NORM, POS, CHUNK, EPOS, EPOSSCORE, WX = map(lambda x: x.strip(), line.split('\t'))
-                except:
-                    WORD, LANG, NORM, POS, CHUNK, EPOS, EPOSSCORE = map(lambda x: x.strip(), line.split('\t'))
-                    WX = ''
+                WORD, LANG, NORM, POS, CHUNK, EPOS, EPOSSCORE, HPOS, _HPOS = map(lambda x: x.strip(), line.split('\t'))
 
                 x_word = {}
                 for label in xlabels:
@@ -94,9 +91,50 @@ def LoadDataSetWFeatures(filename="./data/datasetWfeatures.txt", xlabels=["WORD"
         if _X:
             X.append(_X)
             y.append(_y)
-    return X, y
+    return np.array(X), np.array(y)
 
-def TakeOutColumn(X, LABEL="LANG"):
+
+def LoadDataSetWFeatures2(filename="./data/datasetWfeatures.txt"):
+    X = []
+
+    with open(filename) as f:
+        _X, _y = [], []
+        xlabels = ['WORD', 'NORM', 'POS', 'CHUNK', 'EPOS', 'EPOSSCORE', 'HPOS', '_HPOS', 'LANG', 'POSITION']
+        for line in f:
+            if not line.strip() and _X:
+                #add normailzed position to every word
+                if "POSITION" in xlabels:
+                    sent_length = len(_X)
+                    for i, x_word in enumerate(_X):
+                        x_word['POSITION'] = (i*1.0)/sent_length
+
+                X.append(_X)
+                _X, _y = [], []
+            else:
+                WORD, LANG, NORM, POS, CHUNK, EPOS, EPOSSCORE, HPOS, _HPOS = map(lambda x: x.strip(), line.split('\t'))
+
+                x_word = {}
+                for label in xlabels:
+                    try:
+                        x_word[label] = eval(label)
+                    except NameError:
+                        pass
+
+                _X.append(x_word)
+        if _X:
+            X.append(_X)
+    return np.array(X)
+
+def GetColumn(X, LABEL="LANG"):
+    y = []
+    for x in X:
+        _y = []
+        for obv in x:
+            _y.append(obv[LABEL])
+        y.append(_y)
+    return y
+
+def SeperateColumn(X, LABEL="LANG"):
     y = []
     for x in X:
         _y = []
@@ -104,11 +142,18 @@ def TakeOutColumn(X, LABEL="LANG"):
             _y.append(obv[LABEL])
             del obv[LABEL]
         y.append(_y)
-    return np.array(X), y
+    return np.array(X), np.array(y)
 
 def AddColumn(X, y, LABEL="LANG"):
     for x, _y in zip(X, y):
         for obv, label in zip(x, _y):
+            obv[LABEL] = label
+    return deepcopy(X)
+
+def OverwriteColumn(X, y, LABEL="LANG"):
+    for x, _y in zip(X, y):
+        for obv, label in zip(x, _y):
+            del obv[LABEL]
             obv[LABEL] = label
     return X
 

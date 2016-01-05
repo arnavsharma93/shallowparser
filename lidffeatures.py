@@ -55,6 +55,45 @@ class PoSConfidenceTransformer(BaseEstimator):
     def fit(self, X, Y=None):
         return self
 
+class AffixesTransformer(BaseEstimator):
+    '''
+    Adds suffixes of length from [1, suffix_len] as features
+    Adds prefixes of length from [1, prefix_len] as features
+    forms:
+    '''
+    def __init__(self, suffix_len=5, prefix_len=5):
+        self.prefix_len = prefix_len
+        self.suffix_len = suffix_len
+
+    def transform(self, X, Y=None, **transform_params):
+        _X = []
+        for x in X:
+            _x = []
+            for i, obv in enumerate(x):
+                lex = obv['WORD']
+
+                _obv = []
+
+                for j in xrange(-self.suffix_len, 0):
+                    suffix = lex[j:] if abs(j) <= len(lex) else ''
+                    #if len(suffix) > 3:
+                    if True:
+                        f = 'word[%d:]=%s' % (j, suffix)
+                        _obv.append(f)
+
+                for j in xrange(1, self.prefix_len+1):
+                    prefix = lex[:j] if abs(j) <= len(lex) else ''
+                    #if len(prefix) > 3:
+                    if True:
+                        f = 'word[:%d]=%s' % (j, prefix)
+                        _obv.append(f)
+
+                _x.append(_obv)
+            _X.append(_x)
+        return _X
+
+    def fit(self, X, Y=None):
+        return self
 class BNCCountsTransformer(BaseEstimator):
     '''
     BNC dictionary counts
