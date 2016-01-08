@@ -70,6 +70,16 @@ def add_hi_pos_tagger(X):
                 obv['NORM'] = obv['WORD']
     return ypos
 
+def add_dummy_hi_pos(X):
+    Y = []
+    for x in X:
+        y = []
+        for obv in x:
+            y.append('UNK')
+        Y.append(y)
+    return Y
+
+
 def add_pos_tag(X):
     y_pred = pos_model.predict(X)
     return y_pred
@@ -104,14 +114,37 @@ def print_output(X):
             print '\t'.join(line)
         print '\n'
 
+def tokenizer(sentence):
+    X_test = tokenize_epos_eposscore(sentence)
+    return X_test
 
-sentence = raw_input()
-X_test = tokenize_epos_eposscore(sentence)
+def language_identifier(sentence):
+    X_test = tokenize_epos_eposscore(sentence)
 
-AddColumn(X_test, add_language_idf(X_test), 'LANG')
-AddColumn(X_test, add_norm_model(X_test), 'NORM')
-AddColumn(X_test, add_hi_pos_tagger(X_test), 'HPOS')
-AddColumn(X_test, add_pos_tag(X_test), 'POS')
-AddColumn(X_test, add_chunk_tag(X_test), 'CHUNK')
+    AddColumn(X_test, add_language_idf(X_test), 'LANG')
+    return X_test
 
-print_output(X_test)
+def pos_tagger(sentence):
+    X_test = tokenize_epos_eposscore(sentence)
+
+    AddColumn(X_test, add_language_idf(X_test), 'LANG')
+    AddColumn(X_test, add_norm_model(X_test), 'NORM')
+    return X_test
+
+def shallow_parser(sentence):
+    X_test = tokenize_epos_eposscore(sentence)
+
+    AddColumn(X_test, add_language_idf(X_test), 'LANG')
+    AddColumn(X_test, add_norm_model(X_test), 'NORM')
+    #AddColumn(X_test, add_hi_pos_tagger(X_test), 'HPOS')
+    AddColumn(X_test, add_dummy_hi_pos(X_test), 'HPOS')
+    AddColumn(X_test, add_pos_tag(X_test), 'POS')
+    AddColumn(X_test, add_chunk_tag(X_test), 'CHUNK')
+    return X_test
+
+
+if __name__ == '__main__':
+
+    sentence = raw_input()
+    X_test = shallow_parser(sentence)
+    print_output(X_test)
