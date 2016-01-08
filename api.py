@@ -9,16 +9,13 @@ api = Api(app)
 parser = reqparse.RequestParser()
 parser.add_argument('sentence')
 
-def serializer(X_test):
+def serializer(X_test, keys=['LANG', 'POS', 'CHUNK']):
     out = []
     for x in X_test:
         for obv in x:
-            cobv = {
-                    #'WORD': obv['WORD'],
-                    'LANG': obv['LANG'],
-                     'POS': obv['POS'],
-                     'CHUNK': obv['CHUNK']
-            }
+            cobv = {}
+            for key in keys:
+                cobv[key] = obv[key]
             out.append({obv['WORD']:cobv})
 
     return out
@@ -32,7 +29,7 @@ class ShallowParser(Resource):
     def post(self):
         args = parser.parse_args()
         X_test = shallow_parser(args['sentence'])
-        return serializer(X_test)
+        return serializer(X_test, ['LANG', 'POS', 'CHUNK'])
 
 api.add_resource(ShallowParser, '/')
 

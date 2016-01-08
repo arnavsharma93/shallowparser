@@ -1,25 +1,9 @@
 '''
 Runner file for the pipeline
 '''
-from codemixeddata import *
-from customclassifiers import *
-from preprocessor import *
-from customutils import *
 from estimators import *
-from pipeline import CMSTPipeline
-
-import posfeatures as pos
-import lidffeatures as lidf
-import chunkfeatures as chunk
-
-from sklearn_crfsuite import scorers, metrics, CRF
-
+from customutils import *
 import numpy as np
-from sklearn.base import BaseEstimator
-from sklearn.cross_validation import cross_val_score, train_test_split, cross_val_predict, KFold
-from sklearn.pipeline import Pipeline, FeatureUnion
-from sklearn.metrics import make_scorer, accuracy_score
-from collections import namedtuple
 from sklearn.externals import joblib
 
 from subprocess import check_output
