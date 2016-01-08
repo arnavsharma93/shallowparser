@@ -2,7 +2,6 @@ import numpy as np
 import requests
 import os
 import pickle
-from sklearn.datasets.base import Bunch
 from sklearn.metrics import make_scorer, accuracy_score
 from sklearn.base import TransformerMixin, BaseEstimator
 import itertools
@@ -11,6 +10,7 @@ from customclassifiers import *
 from irtrans import transliterator
 from converter_indic import wxConvert
 import codecs
+from estimators import *
 
 class FeatureStacker(BaseEstimator):
     """Stacks several transformer objects to yield concatenated features.
@@ -74,108 +74,27 @@ def postagger_accuracy_score(y_true, y_pred, normailze=True):
     y_pred = list(itertools.chain(*y_pred))
     return accuracy_score(y_true, y_pred, normailze)
 
-def chunk_label_boundary_accuracy_2(y_true, y_pred, normailze=True):
-    y_true = list(itertools.chain(*y_true))
-    y_pred = list(itertools.chain(*y_pred))
-    y_true_boundary = [label.split('-')[0] for label in y_true]
-    y_pred_boundary = [label.split('-')[0] for label in y_pred]
-    y_true_label = [label.split('-')[1] for label in y_true]
-    y_pred_label = [label.split('-')[1] for label in y_pred]
-    return (accuracy_score(y_true_boundary, y_pred_boundary), accuracy_score(y_true_label, y_pred_boundary))
+def write_colums_to_file(y1, y2, name):
+    fp = open('./data/.%s_err' % name, 'w')
+    for _y1, _y2 in zip(y1, y2):
+        for l1, l2 in zip(_y1, _y2):
+            fp.write('%s\t%s\n' % (l1, l2))
+        fp.write('\n')
 
-def write_for_error_analysis(filepath, X_test, y_test, y_pred):
-    filep = open(filepath, 'w')
-    sents = []
-    for X, Y in zip(X_test, y_test):
-        sent = []
-        for x, y in zip(X, Y):
-            temp = list(x)
-            temp.append(y)
-            sent.append(temp)
-        sents.append(sent)
-
-    for sent, Y in zip(sents, y_pred):
-        for obv, y in zip(sent, Y):
-            obv.append(y)
-
-    for sent in sents:
-        for obv in sent:
-            filep.write('\t'.join(obv) + '')
-
-        filep.write('\n')
-    filep.close()
-
-def write_test_output(filepath, X_test, y_pred):
-    filep = open(filepath, 'w')
-    sents = []
-    for X, Y in zip(X_test, y_pred):
-        if len(X) != len(Y):
-            print X
-        sent = []
-        for x, y in zip(X, Y):
-            temp = list(x)
-            temp.append(y)
-            sent.append(temp)
-        sents.append(sent)
-
-    for sent in sents:
-        for obv in sent:
-            filep.write('\t'.join(obv) + '\n')
-
-        filep.write('\n')
-    filep.close()
-
-def add_twitter_pos_tags(rerun=False):
-    if rerun:
-        X, y = LoadDataSet()
-        sents = []
-        for x in X:
-            sent = []
-            for obv in x:
-                sent.append(obv['WORD'])
-            sents.append(sent)
-
-        inf = open("./ark_tweet/.ark_input", "w")
-        for sent in sents:
-            inf.write(' '.join(sent) + "\n")
-        inf.close()
-
-        os.system('./ark_tweet/runTagger.sh --input-format conll ./data/dataset.txt | cut -f2,3 > ./ark_tweet/.ark_output')
-    os.system('paste ./data/dataset.txt ./ark_tweet/.ark_output > ./data/datasetWfeatures.txt')
-
-def add_transliterated_words(script='wx'):
-    if not os.path.exists('./data/datasetWfeatures.txt'):
-        raise Exception('first run add_twitter_pos_tags()')
-    con = wxConvert(order='utf2wx', lang='hin')
-    trn = transliterator(source='eng', target='hin')
+def fix_indent_dataset_file():
     X, y = LoadDataSet()
-    sents = []
-    for x in X:
-        sent = []
-        for obv in x:
-            sent.append(obv['WORD'])
-        sents.append(" ".join(sent))
-    out_sents = []
-    for sent in sents:
-        out_sent = trn.transform(sent)
-        if script == 'wx':
-            out_sent = con.convert(out_sent).decode('utf-8')
-        if len(sent.split(' ')) != len(out_sent.split(' ')):
-            out_sent = ' ' + out_sent
-        out_sents.append(out_sent)
-
-    outfilename = './data/.translit'
-    outf = codecs.open(outfilename, 'w', 'utf-8')
-    for line in out_sents:
-        for word in line.split(' '):
-            if script != 'wx':
-                outf.write(word.decode('utf-8') + '\n')
-            else:
-                outf.write(word + '\n')
-        outf.write('\n')
-
-    os.system('paste ./data/datasetWfeatures.txt '+  outfilename +' > ./data/temp.txt')
-    os.system('mv ./data/temp.txt ./data/datasetWfeatures.txt')
+    of = open('./data/dataset.txt', 'w')
+    for x, _y in zip(X, y):
+        for obv, label in zip(x, _y):
+            line = []
+            line.append(obv['WORD'])
+            line.append(obv['LANG'])
+            line.append(obv['NORM'])
+            line.append(obv['POS'])
+            line.append(label)
+            of.write('\t'.join(line) + '\n')
+        of.write('\n')
+    of.close()
 
 def run_hindi_pos_tagger(X, gold):
     ypos = []
@@ -251,51 +170,96 @@ def convert_pos_tag(word, tag):
      'WQ ': 'ADV'}
     return mapper[tag]
 
-
-def add_hindi_pos_tags(gold, rerun=False):
-    X, y = LoadDataSet(xlabels=['NORM', 'LANG', 'WORD'], ylabel='CHUNK')
+def hindi_pos_tags(X, gold=True, rerun=False):
     outfilename = './data/.hin_pos_tags_%s.out' % ('gold' if gold else 'pred')
     if rerun:
+        fp = open('./data/.hin_pos_tags_%s.out', 'w')
         ypos = run_hindi_pos_tagger(X, gold)
-        outfile = open(outfilename, 'w')
-        X = AddColumn(X, ypos, LABEL="HPOS")
+        for _y1 in ypos:
+            for l1 in _y1:
+                if not l1.strip():
+                    l1 = 'UNK'
+                fp.write('%s\n' % l1)
+            fp.write('\n')
+        fp.close()
+        return ypos
+    else:
+        outfile = open(outfilename, 'r')
+        y = []
+        _y = []
+        for line in outfile:
+            if not line.strip() and _y:
+                y.append(_y)
+                _y = []
+            else:
+                _y.append(line.strip())
+        if _y:
+            y.append(_y)
+        return y
+
+def twitter_pos_tags(X, rerun=False):
+    outfilename = './ark_tweet/.ark_output'
+    if rerun:
+        sents = []
         for x in X:
+            sent = []
             for obv in x:
-                try:
-                    outfile.write(obv['HPOS'] + '\n')
-                except KeyError:
-                    outfile.write('UNK\n')
-            outfile.write('\n')
-        outfile.close()
-    os.system('paste ./data/datasetWfeatures.txt '+  outfilename +' > ./data/temp.txt')
-    os.system('mv ./data/temp.txt ./data/datasetWfeatures.txt')
+                sent.append(obv['WORD'])
+            sents.append(sent)
+
+        inf = open("./ark_tweet/.ark_input", "w")
+        for sent in sents:
+            inf.write(' '.join(sent) + "\n")
+        inf.close()
+
+        os.system('./ark_tweet/runTagger.sh --output-format conll ./ark_tweet/.ark_input | cut -f2,3 > ' + outfilename)
+
+    outfile = open(outfilename, 'r')
+    y_epos = []
+    y_score = []
+    y = []
+    _y = []
+    for line in outfile:
+        if not line.strip() and _y:
+            y_epos.append(y)
+            y_score.append(_y)
+            _y = []
+            y = []
+        else:
+            epos, score = map(lambda word: word.strip(), line.split())
+            _y.append(score)
+            y.append(epos)
+    if _y:
+        y_score.append(_y)
+        y_epos.append(y)
+    return y_epos, y_score
+
+def write_dataset_to_file(X, filename='./data/datasetWfeatures.txt'):
+    of = codecs.open(filename, 'w')
+    for x in X:
+        for obv in x:
+            line = []
+            line.append(obv['WORD'])
+            line.append(obv['LANG'])
+            line.append(obv['NORM'])
+            line.append(obv['POS'])
+            line.append(obv['CHUNK'])
+            line.append(obv['EPOS'])
+            line.append(obv['EPOSSCORE'])
+            line.append(obv['HPOS'])
+            line.append(obv['_HPOS'])
+            of.write('\t'.join(line) + '\n')
+        of.write('\n')
+    of.close()
 
 def create_dataset_with_features_file(rerun_pos_tagger=False):
-    add_twitter_pos_tags(rerun_pos_tagger)
-    add_hindi_pos_tags(True, rerun_pos_tagger)
-    add_hindi_pos_tags(False, rerun_pos_tagger)
+    X, y = LoadDataSet(xlabels=['NORM', 'LANG', 'WORD', 'POS', 'CHUNK'], ylabel='CHUNK')
+    X_EPOS, X_EPOSSCORE = twitter_pos_tags(X, rerun_pos_tagger)
+    X_HPOS = hindi_pos_tags(X, gold=True, rerun=rerun_pos_tagger)
+    X__HPOS = hindi_pos_tags(X, gold=False, rerun=rerun_pos_tagger)
+    X = AddColumn(X, X_EPOS, 'EPOS')
+    X = AddColumn(X, X_EPOSSCORE, 'EPOSSCORE')
+    X = AddColumn(X, X_HPOS, 'HPOS')
+    X = AddColumn(X, X__HPOS, '_HPOS')
+    write_dataset_to_file(X)
 
-def create_pickle_from_file(filename, lang):
-    filename = "./hin/%s-trans" % lang
-    mapper = dict()
-    for line in open(filename):
-        line = line.strip()
-        if line:
-            line = line.split()
-            try:
-                mapper[line[0].lower()] = line[1]
-            except:
-                raise Exception("Could not split into two %s " % ("\t".join(line)))
-    pickle.dump(mapper, open("hin/%stranslit.p" % lang, "wb"))
-
-def write_twitterpos_to_file():
-    """
-    To be generalized
-    """
-    outfile = open("./data/test/HI_EN_ARK.txt", "w")
-    X = LoadTestData('hi')
-    for i, (x1, x2) in enumerate(zip(data, X)):
-        for (word_lang, ark_tag) in zip(x2, x1):
-            outfile.write("%s\n" % " ".join([word_lang[0], word_lang[1], ark_tag[1]]))
-        outfile.write("\n")
-    outfile.close()

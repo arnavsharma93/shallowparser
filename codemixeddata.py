@@ -44,7 +44,11 @@ def LoadDataSet(filename="./data/dataset.txt", xlabels=["WORD", "LANG", "NORM", 
                 y.append(_y)
                 _X, _y = [], []
             else:
-                WORD, LANG, NORM, POS, CHUNK = map(lambda x: x.strip(), line.split('\t'))
+                try:
+                    WORD, LANG, NORM, POS, CHUNK = map(lambda x: x.strip(), line.split('\t'))
+                except:
+                    print line
+
                 x_word = {}
                 for label in xlabels:
                     try:
@@ -77,7 +81,10 @@ def LoadDataSetWFeatures(filename="./data/datasetWfeatures.txt", xlabels=["WORD"
                 y.append(_y)
                 _X, _y = [], []
             else:
-                WORD, LANG, NORM, POS, CHUNK, EPOS, EPOSSCORE, HPOS, _HPOS = map(lambda x: x.strip(), line.split('\t'))
+                try:
+                    WORD, LANG, NORM, POS, CHUNK, EPOS, EPOSSCORE, HPOS, _HPOS = map(lambda x: x.strip(), line.split('\t'))
+                except:
+                    print line
 
                 x_word = {}
                 for label in xlabels:
@@ -92,7 +99,6 @@ def LoadDataSetWFeatures(filename="./data/datasetWfeatures.txt", xlabels=["WORD"
             X.append(_X)
             y.append(_y)
     return np.array(X), np.array(y)
-
 
 def LoadDataSetWFeatures2(filename="./data/datasetWfeatures.txt"):
     X = []
@@ -156,46 +162,4 @@ def OverwriteColumn(X, y, LABEL="LANG"):
             del obv[LABEL]
             obv[LABEL] = label
     return X
-
-def LoadTestData(lang, unconstrained=False):
-    """
-    To be modified
-    """
-    if lang == 'hi':
-        if unconstrained:
-            filename = './data/test/HI_EN_ARK.txt'
-        else:
-            filename = './data/test/HI_EN.txt'
-
-    elif lang == 'ta':
-        filename = './data/test/TA_EN.txt'
-    elif lang == 'bn':
-        filename = './data/test/BN_EN.txt'
-    else:
-        raise Exception("Language not identified")
-
-    data = []
-
-    cdata = []
-    for line in open(filename):
-        line = line.strip()
-        if line:
-            line = line.split()
-            #try:
-                #word, lang, cluster, tag = line.split()
-            #except:
-                #continue
-            cdata.append(np.array(line))
-        else:
-            if cdata or ctarget:
-                data.append(np.array(cdata))
-                cdata = list()
-            else:
-                print "Another empty line found"
-    if cdata:
-        data.append(np.array(cdata))
-
-    data=np.array(data)
-    return data
-
 

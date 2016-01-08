@@ -19,15 +19,15 @@ class CMSTPipeline(BaseEstimator):
             print '\tfitting and adding %s' % name
             model.fit(X, GetColumn(X, name))
 
-        print '\tfitting %s' % self.final_step[0]
-        self.final_step[1].fit(X, y)
+        print '\tfitting %s' % self.final_step.name
+        self.final_step.model.fit(X, y)
 
     def predict(self, X):
         _X = np.copy(X)
         for i, (name, model) in enumerate(self.steps):
             _X = OverwriteColumn(_X, model.predict(_X), name)
 
-        y_pred = self.final_step[1].predict(_X)
+        y_pred = self.final_step.model.predict(_X)
         return y_pred
 
 

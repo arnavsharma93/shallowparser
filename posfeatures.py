@@ -3,7 +3,6 @@ from sklearn.base import TransformerMixin, BaseEstimator
 import re
 import pickle
 
-
 class AddLexTransformer(BaseEstimator):
     '''
     Adds the lex as a feature
@@ -42,7 +41,6 @@ class ComputedPOSTransformer(BaseEstimator):
 
     def fit(self, X, Y=None):
         return self
-
 
 class PoSConfidenceTransformer(BaseEstimator):
     '''
@@ -131,10 +129,10 @@ class AffixesTransformer(BaseEstimator):
             _x = []
             for i, obv in enumerate(x):
                 lex = ''
-                if self.strategy in ('all_norm', 'all_raw'):
-                    lex = obv['WORD']
-                if self.strategy in ('only_hi', 'all_norm') and obv['LANG'] == 'hi':
+                if self.strategy == 'all_norm':
                     lex = obv['NORM']
+                elif self.strategy == 'all_raw':
+                    lex = obv['WORD']
 
                 _obv = []
 

@@ -94,6 +94,7 @@ class AffixesTransformer(BaseEstimator):
 
     def fit(self, X, Y=None):
         return self
+
 class BNCCountsTransformer(BaseEstimator):
     '''
     BNC dictionary counts

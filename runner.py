@@ -1,7 +1,12 @@
+'''
+Runner file for the pipeline
+'''
 from codemixeddata import *
 from customclassifiers import *
 from preprocessor import *
 from customutils import *
+from estimators import *
+from pipeline import CMSTPipeline
 
 import posfeatures as pos
 import lidffeatures as lidf
@@ -14,8 +19,8 @@ from sklearn.base import BaseEstimator
 from sklearn.cross_validation import cross_val_score, train_test_split, cross_val_predict, KFold
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.metrics import make_scorer, accuracy_score
+from collections import namedtuple
 
-from pipeline import CMSTPipeline
 
 lidf_features = FeatureStacker([
     ('bnc_count', lidf.BNCCountsTransformer()),
@@ -38,7 +43,7 @@ pos_features = FeatureStacker([
     ('computed_pos', pos.ComputedPOSTransformer()),
     ('computed_pos_confidence', pos.PoSConfidenceTransformer()),
     ('affixes', pos.AffixesTransformer()),
-    ('en_clusters', pos.HWCTransformer())
+    #('en_clusters', pos.HWCTransformer())
   ])
 
 pos_model = Pipeline([
@@ -61,30 +66,31 @@ chunk_features = FeatureStacker([
 ])
 
 chunk_model = Pipeline([
-        ('features', chunk_features),
-        ('classifier', CRF())
+    ('features', chunk_features),
+    ('classifier', CRF())
 ])
 chunk_model.set_params(features__affixes__strategy='all_norm', features__computed_pos__strategy='combined')
 
 norm_model = Pipeline([
-        ('classifier', NormEstimator(rebuild=True))
-    ])
+    ('classifier', NormEstimator(rebuild=True))
+])
 
 hpos_model = Pipeline([
-        ('classifier', HPOSEstimator())
-    ])
+    ('classifier', HPOSEstimator())
+])
 
 data = LoadDataSetWFeatures2()
 
-model = CMSTPipeline([
-        #('LANG', lidf_model),
-         #('NORM', norm_model),
-         #('HPOS', hpos_model),
-         ('POS', pos_model),
-         #('CHUNK', chunk_model)
-    ])
-X, y = SeperateColumn(data, model.final_step[0])
+step = namedtuple('step', 'name model')
 
+model = CMSTPipeline([
+    #step('LANG', lidf_model),
+    #step('NORM', norm_model),
+    #step('HPOS', hpos_model),
+    #step('POS', pos_model),
+    step('CHUNK', chunk_model),
+])
+X, y = SeperateColumn(data, model.final_step.name)
 accuracy = []
 kf = KFold(len(X), n_folds=10)
 fold_num = 1
@@ -96,26 +102,12 @@ for train_index, test_index in kf:
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
 
-    if model.final_step[0] == 'CHUNK':
-        current = chunk_label_boundary_accuracy(y_pred, y_test)
-        print '\tLabel - %.2f, Boundary - %.2f, Combined - %.2f' % (current['LABEL'] * 100, current['BOUNDARY'] * 100, current['COMBINED'] * 100)
-    else:
-        current = postagger_accuracy_score(y_pred, y_test)
-        print '\t%.2f' % (current * 100)
+    current = postagger_accuracy_score(y_pred, y_test)
+    print '\t%.2f' % (current * 100)
 
     fold_num += 1
     accuracy.append(current)
 
-if model.final_step[0] == 'CHUNK':
-    comb = []
-    label = []
-    boundary = []
-    for current in accuracy:
-        comb.append(current['COMBINED'])
-        label.append(current['LABEL'])
-        boundary.append(current['BOUNDARY'])
-    print 'Label - %.2f, Boundary - %.2f, Combined - %.2f' % (np.array(label).mean() * 100, np.array(boundary).mean()  * 100, np.array(comb).mean()  * 100)
-else:
-    print '%.2f' % (np.array(accuracy).mean() * 100)
+print '%.2f' % (np.array(accuracy).mean() * 100)
 
 
