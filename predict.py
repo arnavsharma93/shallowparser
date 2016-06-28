@@ -5,16 +5,12 @@ from estimators import *
 from customutils import *
 import numpy as np
 from sklearn.externals import joblib
-import string
-import re
-import csv
-import pickle
 
 from subprocess import check_output
 
 lidf_model = joblib.load('./models/lidf.p')
 norm_model = NormEstimator(rebuild=True, script='wx')
-pos_model = joblib.load('/home/indira/Downloads/pos.p')
+pos_model = joblib.load('./models/pos.p')
 chunk_model = joblib.load('./models/chunk.p')
 
 def add_language_idf(X_test):
@@ -41,7 +37,6 @@ def add_hi_pos_tagger(X):
         payload = {'input': sent}
         r = requests.post('http://api.ilmt.iiit.ac.in/hin/pan/1/4', data=payload)
         pos_output = r.json()['postagger-4']
-        #print "hello i am here"
         _y = []
         for line in pos_output.split('\n'):
             with_tag = False
@@ -99,7 +94,7 @@ def tokenize_epos_eposscore(sentence):
 def print_output(X):
     for x in X:
         for obv in x:
-            line = [obv['WORD'], obv['LANG'], obv['HPOS'], obv['CHUNK']]
+            line = [obv['WORD'], obv['LANG'], obv['POS'], obv['CHUNK']]
             print '\t'.join(line)
         print '\n'
 
@@ -125,58 +120,15 @@ def shallow_parser(sentence):
 
     AddColumn(X_test, add_language_idf(X_test), 'LANG')
     AddColumn(X_test, add_norm_model(X_test), 'NORM')
-    AddColumn(X_test, add_hi_pos_tagger(X_test), 'HPOS')
-    #AddColumn(X_test, add_dummy_hi_pos(X_test), 'HPOS')
+    #AddColumn(X_test, add_hi_pos_tagger(X_test), 'HPOS')
+    AddColumn(X_test, add_dummy_hi_pos(X_test), 'HPOS')
     AddColumn(X_test, add_pos_tag(X_test), 'POS')
-    #AddColumn(X_test, add_chunk_tag(X_test), 'CHUNK')
+    AddColumn(X_test, add_chunk_tag(X_test), 'CHUNK')
     return X_test
 
 
 if __name__ == '__main__':
 
-    df = pd.read_csv('/home/indira/IASNLP/textAnalysisPrecog/data/nerData.csv')
-    sentences = df['text'][0:10]
-    #sentences = ["NIGHT smS * *  * *  *     Teri Palkon Mein Rehna Hy Raat Bhar K Liye a\r Dost\r Main To Ek Khwab Hoon Subha Ko Chala Jaon Ga.'Good Night'"]
-    sents = []
-    nes_list = []
-    nesn_list = []
-
-    exclude = set(string.punctuation)
-    for sent in sentences:
-        sent = ''.join([ch if ch not in exclude else ' ' for ch in sent])
-        sent = re.sub(r'[^\x00-\x7F]+',' ', sent)
-        sents.append(sent) 
-
-
-    X_tests = []
-    for sentence in sents:
-        X_tests.append(shallow_parser(sentence))
-    #print_output(X_test)
-    #print X_test
-    for X_test in X_tests:
-        nes = []
-        nesn = []
-        for x in X_test:
-            for obv in x:
-                line = [obv['WORD'], obv['LANG'], obv['POS']]
-                if obv['POS'] == 'PROPN' or obv['POS'] == 'NOUN':
-                    nesn.append(obv['WORD'])
-                if obv['POS'] == 'PROPN':
-                    nes.append(obv['WORD'])
-                print '\t'.join(line)
-            print '\n'
-        nes_list.append(nes)
-        nesn_list.append(nesn)
-
-    out = []
-    for i, word in enumerate(sentences):
-        out.append([word, ann1[i], ann2[i], ann3[i], nes_list[i], nesn_list[i]])
-
-    
-    #write the csv  
-    
-    with open('/home/indira/textAnalysisPrecog/data/nerDataTaggedPOS.csv', 'wb') as f:
-        writer = csv.writer(f)
-        writer.writerow(["text", "ann1", "ann2", "ann3", "nes", "nesn"])
-        writer.writerows(out)
-    
+    sentence = raw_input()
+    X_test = shallow_parser(sentence)
+    print_output(X_test)
