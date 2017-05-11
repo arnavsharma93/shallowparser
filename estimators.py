@@ -5,8 +5,10 @@ from collections import defaultdict, Counter
 from operator import itemgetter
 from itertools import count
 from os.path import isfile
-from converter_indic import wxConvert
-from irtrans import transliterator
+from wxconv import WXC as wxConvert
+from indictrans import Transliterator as transliterator
+#from converter_indic import wxConvert
+#from irtrans import transliterator
 import codecs
 import os
 import pickle
