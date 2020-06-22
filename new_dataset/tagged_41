@@ -1,0 +1,308 @@
+# webanno.custom.LanguageID | NormValue # webanno.custom.Normalized | normword # webanno.custom.Pos | PosValue # webanno.custom.Chunk | Chunktag
+#id=1
+#text=legolas ne likha tha mess ja rhe... to mujhe laga wahi hoge saare
+1-1	legolas	en	legolas	NOUN	B-NP
+1-2	ne	hi	ने	ADP	I-NP
+1-3	likha	hi	लिखा	VERB	B-VG
+1-4	tha	hi	ठा	AUX	I-VG
+1-5	mess	hi	मेस	PRON	B-NP
+1-6	ja	hi	जा	VERB	B-VG
+1-7	rhe	hi	रे	NOUN	B-NP
+1-8	...	rest	...	SYM	B-BLK
+1-9	to	hi	तो	PART	B-RBP
+1-10	mujhe	hi	मुझे	PRON	B-NP
+1-11	laga	hi	लगा	VERB	B-VG
+1-12	wahi	hi	वही	PRON	B-NP
+1-13	hoge	hi	होगे	VERB	B-VG
+1-14	saare	hi	सारे	PRON	B-NP
+
+#id=2
+#text=Kisi ne dinner nahi kiya ho aur karna ho?
+2-1	Kisi	hi	किसी	PRON	B-NP
+2-2	ne	hi	ने	ADP	I-NP
+2-3	dinner	en	dinner	NOUN	B-NP
+2-4	nahi	hi	नही	ADV	B-RBP
+2-5	kiya	hi	किया	VERB	B-VG
+2-6	ho	hi	हो	AUX	I-VG
+2-7	aur	hi	और	CONJ	B-CCP
+2-8	karna	hi	कर्ण	VERB	B-VG
+2-9	ho	hi	हो	AUX	I-VG
+2-10	?	rest	?	PUNCT	B-BLK
+
+#id=3
+#text=are bol de na ki fanti ke saath jana hai aur hame dhoka dena hai
+3-1	are	hi	अरे	INTJ	B-NP
+3-2	bol	hi	बोल	VERB	B-VG
+3-3	de	hi	दे	AUX	I-VG
+3-4	na	hi	ना	NOUN	B-NP
+3-5	ki	hi	की	ADP	I-NP
+3-6	fanti	hi	फ़न्ती	NOUN	B-NP
+3-7	ke	hi	के	ADP	I-NP
+3-8	saath	hi	साथ्	NOUN	B-NP
+3-9	jana	hi	जाना	VERB	B-VG
+3-10	hai	hi	हाई	AUX	I-VG
+3-11	aur	hi	और	CONJ	B-CCP
+3-12	hame	hi	हमे	PRON	B-NP
+3-13	dhoka	hi	धोका	NOUN	B-NP
+3-14	dena	hi	देना	VERB	B-VG
+3-15	hai	hi	हाई	NOUN	B-NP
+
+#id=4
+#text=aur gollum ko utha dena uska seminar ahi
+4-1	aur	hi	और	CONJ	B-CCP
+4-2	gollum	en	gollum	NOUN	B-NP
+4-3	ko	hi	को	ADP	I-NP
+4-4	utha	hi	उठा	PRON	B-NP
+4-5	dena	hi	देना	VERB	B-VG
+4-6	uska	hi	उस्क	PRON	B-NP
+4-7	seminar	en	seminar	NOUN	B-NP
+4-8	ahi	hi	अही	PART	I-NP
+
+#id=5
+#text=Justify kyun kar raha hai :P bhagoda saala
+5-1	Justify	en	Justify	VERB	B-VG
+5-2	kyun	hi	क्यूँ	ADV	I-VG
+5-3	kar	hi	कर	VERB	I-VG
+5-4	raha	hi	रह	VERB	I-VG
+5-5	hai	hi	हाई	NOUN	B-NP
+5-6	:P	rest	:P	SYM	B-BLK
+5-7	bhagoda	hi	भ्गोदा	ADJ	B-JJP
+5-8	saala	hi	साला	NOUN	B-NP
+
+#id=6
+#text=Vijeta declared already. now all u can do is not cast the vote, but vote the cast
+6-1	Vijeta	hi	विजेता	NOUN	B-NP
+6-2	declared	en	declared	VERB	B-VG
+6-3	already	en	already	ADV	I-VG
+6-4	.	rest	.	PUNCT	B-BLK
+6-5	now	en	now	ADV	B-RBP
+6-6	all	en	all	DET	I-RBP
+6-7	u	en	u	PRON	B-NP
+6-8	can	en	can	AUX	B-VG
+6-9	do	en	do	AUX	I-VG
+6-10	is	en	is	AUX	I-VG
+6-11	not	en	not	ADV	I-VG
+6-12	cast	en	cast	VERB	I-VG
+6-13	the	en	the	DET	B-NP
+6-14	vote	en	vote	NOUN	I-NP
+6-15	,	rest	,	PUNCT	B-BLK
+6-16	but	en	but	CONJ	B-CCP
+6-17	vote	en	vote	NOUN	B-NP
+6-18	the	en	the	DET	I-NP
+6-19	cast	en	cast	NOUN	I-NP
+
+#id=7
+#text=ja ja bhai. jee le apni bhagodi zindagi
+7-1	ja	hi	जा	VERB	B-VG
+7-2	ja	hi	जा	AUX	I-VG
+7-3	bhai	hi	भाई	NOUN	B-NP
+7-4	.	rest	.	PUNCT	B-BLK
+7-5	jee	hi	जी	NOUN	B-NP
+7-6	le	hi	ले	VERB	B-VG
+7-7	apni	hi	अपनी	PRON	B-NP
+7-8	bhagodi	hi	भागोदी	NOUN	B-NP
+7-9	zindagi	hi	ज़िन्दगी	VERB	B-VG
+
+#id=8
+#text=i'm departing from lab. faramir kaha hai abhi?
+8-1	i'm	en	i'm	PRON	B-NP
+8-2	departing	en	departing	NOUN	B-NP
+8-3	from	en	from	ADP	I-NP
+8-4	lab	hi	लब	NOUN	B-NP
+8-5	.	rest	.	PUNCT	B-BLK
+8-6	faramir	rest	faramir	PROPN	B-NP
+8-7	kaha	hi	कहा	ADJ	B-JJP
+8-8	hai	hi	हाई	NOUN	B-NP
+8-9	abhi	hi	अभी	ADV	B-RBP
+8-10	?	rest	?	PUNCT	B-BLK
+
+#id=9
+#text=RnD showcase mai bs ghatiya se poster hi daalte rehna tum log...koi paper mat chaapna kabhi  :P 
+9-1	RnD	en	RnD	NOUN	B-NP
+9-2	showcase	en	showcase	NOUN	I-NP
+9-3	mai	hi	माई	NOUN	B-NP
+9-4	bs	hi	ब्स	ADJ	B-JJP
+9-5	ghatiya	hi	घ्टिया	NOUN	B-NP
+9-6	se	hi	से	ADP	I-NP
+9-7	poster	en	poster	NOUN	B-NP
+9-8	hi	hi	ही	PART	I-NP
+9-9	daalte	hi	डालते	VERB	B-VG
+9-10	rehna	hi	रहना	VERB	I-VG
+9-11	tum	hi	तुम	PRON	B-NP
+9-12	log	hi	लॉग	VERB	B-VG
+9-13	...	rest	...	PUNCT	B-BLK
+9-14	koi	hi	कोई	PRON	B-NP
+9-15	paper	en	paper	NOUN	I-NP
+9-16	mat	hi	मत	ADV	B-VG
+9-17	chaapna	hi	चापना	VERB	I-VG
+9-18	kabhi	hi	कभी	ADV	B-RBP
+9-19	:P	rest	:P	SYM	B-BLK
+
+#id=10
+#text=By the way the answer is Arushi Talwar
+10-1	By	en	By	INTJ	B-BLK
+10-2	the	en	the	DET	B-NP
+10-3	way	en	way	NOUN	I-NP
+10-4	the	en	the	DET	I-NP
+10-5	answer	en	answer	NOUN	I-NP
+10-6	is	en	is	VERB	B-VG
+10-7	Arushi	hi	अरुसी	PRON	B-NP
+10-8	Talwar	hi	तलवार	NOUN	I-NP
+
+#id=11
+#text=legolas ka kya chl rha hai? any update?
+11-1	legolas	en	legolas	NOUN	B-NP
+11-2	ka	hi	का	ADP	I-NP
+11-3	kya	hi	क्या	NOUN	B-NP
+11-4	chl	hi	क्ल	ADV	B-VG
+11-5	rha	hi	रा	VERB	I-VG
+11-6	hai	hi	हाई	NOUN	B-NP
+11-7	?	rest	?	PUNCT	B-BLK
+11-8	any	en	any	ADJ	B-NP
+11-9	update	en	update	NOUN	I-NP
+11-10	?	rest	?	PUNCT	B-BLK
+
+#id=12
+#text=Aaj obh north me achcha hota hai
+12-1	Aaj	hi	आज	ADV	B-RBP
+12-2	obh	hi	ओभ	ADJ	B-NP
+12-3	north	en	north	NOUN	I-NP
+12-4	me	hi	मे	PRON	B-NP
+12-5	achcha	hi	अच्चा	NOUN	I-NP
+12-6	hota	hi	होता	VERB	B-VG
+12-7	hai	hi	हाई	NOUN	B-NP
+
+#id=13
+#text=nahi, legolas ki wajah se nahi chale they uska bhi poster ka kaam tha
+13-1	nahi	hi	नही	ADV	B-RBP
+13-2	,	rest	,	PUNCT	B-BLK
+13-3	legolas	rest	legolas	PROPN	B-NP
+13-4	ki	hi	की	ADP	I-NP
+13-5	wajah	hi	वजह	NOUN	B-NP
+13-6	se	hi	से	ADP	I-NP
+13-7	nahi	hi	नही	ADV	B-RBP
+13-8	chale	hi	चले	VERB	B-VG
+13-9	they	en	they	PRON	B-NP
+13-10	uska	hi	उस्क	NOUN	I-NP
+13-11	bhi	hi	भी	PART	I-NP
+13-12	poster	en	poster	NOUN	I-NP
+13-13	ka	hi	का	ADP	I-NP
+13-14	kaam	hi	काम	NOUN	B-NP
+13-15	tha	hi	ठा	VERB	B-VG
+
+#id=14
+#text=Indeed ki shortlist aa gayi. @Gamgee you got in bro.
+14-1	Indeed	en	Indeed	NOUN	B-NP
+14-2	ki	hi	की	ADP	I-NP
+14-3	shortlist	en	shortlist	NOUN	B-NP
+14-4	aa	hi	आ	VERB	B-VG
+14-5	gayi	hi	गयी	AUX	I-VG
+14-6	.	rest	.	PUNCT	B-BLK
+14-7	@Gamgee	en	@Gamgee	NOUN	B-NP
+14-8	you	en	you	PRON	B-NP
+14-9	got	en	got	VERB	B-VG
+14-10	in	en	in	ADP	I-VG
+14-11	bro	en	bro	NOUN	B-NP
+14-12	.	rest	.	PUNCT	B-BLK
+
+#id=15
+#text=ya abhi hi dekh lete hai? :P
+15-1	ya	hi	या	CONJ	B-CCP
+15-2	abhi	hi	अभी	ADV	B-RBP
+15-3	hi	hi	ही	PART	I-RBP
+15-4	dekh	hi	देख	VERB	B-VG
+15-5	lete	hi	लेते	AUX	I-VG
+15-6	hai	hi	हाई	NOUN	B-NP
+15-7	?	rest	?	PUNCT	B-BLK
+15-8	:P	rest	:P	SYM	B-BLK
+
+#id=16
+#text=Woh uppal gaya hai, koi talk sun ne
+16-1	Woh	hi	वोह	PRON	B-NP
+16-2	uppal	en	uppal	NOUN	B-NP
+16-3	gaya	hi	गया	VERB	B-VG
+16-4	hai	hi	हाई	NOUN	B-NP
+16-5	,	rest	,	PUNCT	B-BLK
+16-6	koi	hi	कोई	PRON	B-NP
+16-7	talk	hi	टॉक	NOUN	B-NP
+16-8	sun	hi	सन	NOUN	I-NP
+16-9	ne	hi	ने	ADP	I-NP
+
+#id=17
+#text=theoden went with baggins to Indiranagar for baal kaating and dinner
+17-1	theoden	en	theoden	NOUN	B-NP
+17-2	went	en	went	VERB	B-VG
+17-3	with	en	with	ADP	I-VG
+17-4	baggins	en	baggins	NOUN	B-NP
+17-5	to	hi	तो	PART	I-NP
+17-6	Indiranagar	rest	Indiranagar	PROPN	B-NP
+17-7	for	en	for	ADP	I-NP
+17-8	baal	hi	बाल	NOUN	B-NP
+17-9	kaating	hi	काटिंग	VERB	B-VG
+17-10	and	en	and	CONJ	B-CCP
+17-11	dinner	en	dinner	NOUN	B-NP
+
+#id=18
+#text=^ spam ping citing another spam ping.  ;P 
+18-1	^	rest	^	SYM	B-BLK
+18-2	spam	en	spam	NOUN	B-NP
+18-3	ping	en	ping	NOUN	I-NP
+18-4	citing	en	citing	VERB	B-VG
+18-5	another	en	another	ADJ	B-JJP
+18-6	spam	en	spam	NOUN	B-NP
+18-7	ping	en	ping	NOUN	I-NP
+18-8	.	rest	.	PUNCT	B-BLK
+18-9	;P	rest	;P	SYM	B-BLK
+
+#id=19
+#text=i am not entirely sure i can imagine it being done by a group of people inside a seminar room.
+19-1	i	en	i	PRON	B-NP
+19-2	am	en	am	AUX	B-VG
+19-3	not	en	not	ADV	I-VG
+19-4	entirely	en	entirely	ADV	B-RBP
+19-5	sure	en	sure	ADJ	I-RBP
+19-6	i	en	i	PRON	B-NP
+19-7	can	en	can	AUX	B-VG
+19-8	imagine	en	imagine	VERB	I-VG
+19-9	it	en	it	PRON	B-NP
+19-10	being	en	being	VERB	B-VG
+19-11	done	en	done	AUX	I-VG
+19-12	by	en	by	ADP	B-NP
+19-13	a	en	a	DET	B-NP
+19-14	group	en	group	NOUN	I-NP
+19-15	of	en	of	ADP	I-NP
+19-16	people	en	people	NOUN	B-NP
+19-17	inside	en	inside	ADP	I-NP
+19-18	a	en	a	DET	B-NP
+19-19	seminar	en	seminar	NOUN	I-NP
+19-20	room	en	room	NOUN	I-NP
+19-21	.	rest	.	PUNCT	B-BLK
+
+#id=20
+#text=Ja bhai Gandalf.. Ji le hamari zindagi 🤓
+20-1	Every	en	Every	ADJ	B-NP
+20-2	Thing	en	Thing	NOUN	I-NP
+20-3	You	en	You	PRON	B-NP
+20-4	Do	en	Do	VERB	B-VG
+20-5	In	en	In	ADP	I-VG
+20-6	Daily	en	Daily	NOUN	B-NP
+20-7	Routine	en	Routine	NOUN	I-NP
+20-8	And	en	And	SCONJ	B-CCP
+20-9	In	en	In	ADP	B-NP
+20-10	Special	en	Special	ADJ	B-NP
+20-11	DayβÄôs	en	DayβÄôs	NOUN	I-NP
+20-12	Do	en	Do	VERB	B-VG
+20-13	It	en	It	PRON	B-NP
+20-14	By	en	By	ADP	I-NP
+20-15	The	en	The	DET	B-NP
+20-16	SunnahβÄôs	rest	SunnahβÄôs	NOUN	I-NP
+20-17	of	en	of	ADP	I-NP
+20-18	Hazrat	en	Hazrat	NOUN	B-NP
+20-19	Muhammad	en	Muhammad	NOUN	I-NP
+20-20	(	rest	(	SYM	B-BLK
+20-21	S.A.W	rest	S.A.W	PROPN	B-NP
+20-22	)	rest	)	SYM	B-BLK
+20-23	.	rest	.	PUNCT	B-BLK
+20-24	#WorldT20	en	#WorldT20	ADJ	B-NP
+20-25	https://t.co/fE7vIxGvhz	en	https://t.co/fE7vIxGvhz	NOUN	I-NP
+

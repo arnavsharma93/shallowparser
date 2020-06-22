@@ -1,0 +1,309 @@
+# webanno.custom.LanguageID | NormValue # webanno.custom.Normalized | normword # webanno.custom.Pos | PosValue # webanno.custom.Chunk | Chunktag
+#id=1
+#text=done, main aur gandalf TT khelne gaye they. Tab kha ke aa gaye
+1-1	done	en	done	VERB	B-VG
+1-2	,	rest	,	PUNCT	B-BLK
+1-3	main	hi	मैं	PRON	B-NP
+1-4	aur	hi	और	CONJ	B-CCP
+1-5	gandalf	rest	gandalf	PROPN	B-NP
+1-6	TT	en	TT	NOUN	I-NP
+1-7	khelne	hi	खेलने	VERB	B-VG
+1-8	gaye	hi	गये	AUX	I-VG
+1-9	they	en	they	PRON	B-NP
+1-10	.	rest	.	PUNCT	B-BLK
+1-11	Tab	hi	ताब	PRON	B-NP
+1-12	kha	hi	खा	NOUN	B-NP
+1-13	ke	hi	के	ADP	I-NP
+1-14	aa	hi	आ	VERB	B-VG
+1-15	gaye	hi	गये	VERB	I-VG
+
+#id=2
+#text=Aloo Bun /Sweet Corn niche. acha nahi hua to BB canteen.
+2-1	Aloo	hi	अलू	ADJ	B-JJP
+2-2	Bun	hi	बुन	NOUN	B-NP
+2-3	/Sweet	en	/Sweet	ADJ	B-JJP
+2-4	Corn	en	Corn	NOUN	B-NP
+2-5	niche	hi	नीचे	VERB	B-VG
+2-6	.	rest	.	PUNCT	B-BLK
+2-7	acha	hi	आचा	NOUN	B-NP
+2-8	nahi	hi	नही	ADV	B-RBP
+2-9	hua	hi	हुआ	VERB	B-VG
+2-10	to	hi	तो	PART	I-VG
+2-11	BB	rest	BB	PROPN	B-NP
+2-12	canteen	en	canteen	NOUN	I-NP
+2-13	.	rest	.	PUNCT	B-BLK
+
+#id=3
+#text=anyone in lab jo room par jaana chahta ho
+3-1	anyone	en	anyone	NOUN	B-NP
+3-2	in	en	in	ADP	B-NP
+3-3	lab	hi	लब	NOUN	I-NP
+3-4	jo	hi	जो	PRON	B-NP
+3-5	room	en	room	NOUN	I-NP
+3-6	par	hi	पर	ADP	I-NP
+3-7	jaana	hi	जाना	NOUN	B-NP
+3-8	chahta	hi	चाहता	VERB	B-VG
+3-9	ho	hi	हो	AUX	I-VG
+
+#id=4
+#text=https://lh3.googleusercontent.com/-epD2CvrjfpA/VlFm3juR_zI/AAAAAAAAHvg/ldIBllmse0c/s0/loneliness2.jpg u call it #spam, but well, DUH
+4-1	https://lh3.googleusercontent.com/-epD2CvrjfpA/VlFm3juR_zI/AAAAAAAAHvg/ldIBllmse0c/s0/loneliness2.jpg	en	https://lh3.googleusercontent.com/-epD2CvrjfpA/VlFm3juR_zI/AAAAAAAAHvg/ldIBllmse0c/s0/loneliness2.jpg	NOUN	B-NP
+4-2	u	en	u	PRON	B-NP
+4-3	call	en	call	VERB	B-VG
+4-4	it	en	it	PRON	B-NP
+4-5	#spam	rest	#spam	X	I-NP
+4-6	,	rest	,	PUNCT	B-BLK
+4-7	but	en	but	SCONJ	B-CCP
+4-8	well	en	well	ADV	I-VG
+4-9	,	rest	,	PUNCT	B-BLK
+4-10	DUH	rest	DUH	X	B-BLK
+
+#id=5
+#text=Mai inorbit ja raha hu kal 5:10 ka show
+5-1	Mai	hi	माई	NOUN	B-NP
+5-2	inorbit	en	inorbit	VERB	B-VG
+5-3	ja	hi	जा	AUX	I-VG
+5-4	raha	hi	रह	VERB	I-VG
+5-5	hu	hi	हु	AUX	I-VG
+5-6	kal	hi	कल	VERB	I-VG
+5-7	5:10	rest	5:10	NUM	B-NP
+5-8	ka	hi	का	ADP	I-NP
+5-9	show	en	show	NOUN	B-NP
+
+#id=6
+#text=not up for going out. i go mess @9:15.
+6-1	not	en	not	ADV	B-RBP
+6-2	up	en	up	ADV	I-RBP
+6-3	for	en	for	ADP	I-RBP
+6-4	going	en	going	VERB	B-VG
+6-5	out	en	out	PART	I-VG
+6-6	.	rest	.	PUNCT	B-BLK
+6-7	i	en	i	PRON	B-NP
+6-8	go	en	go	VERB	B-VG
+6-9	mess	en	mess	NOUN	B-NP
+6-10	@9	rest	@9	SYM	B-BLK
+6-11	:	rest	:	SYM	B-BLK
+6-12	15	rest	15	NUM	B-NP
+6-13	.	rest	.	PUNCT	B-BLK
+
+#id=7
+#text=legolas plz bring black hoodie from my room
+7-1	legolas	en	legolas	NOUN	B-NP
+7-2	plz	en	plz	VERB	B-VG
+7-3	bring	en	bring	ADJ	B-JJP
+7-4	black	en	black	ADJ	I-JJP
+7-5	hoodie	en	hoodie	NOUN	I-JJP
+7-6	from	en	from	ADP	I-JJP
+7-7	my	en	my	PRON	B-NP
+7-8	room	en	room	NOUN	I-NP
+
+#id=8
+#text=baaki, fuck y'all and deadpool ka kya hua?
+8-1	baaki	hi	बाकी	NOUN	B-NP
+8-2	,	rest	,	PUNCT	B-BLK
+8-3	fuck	en	fuck	VERB	B-NP
+8-4	y'all	en	y'all	PRON	I-NP
+8-5	and	en	and	CONJ	B-CCP
+8-6	deadpool	en	deadpool	NOUN	B-NP
+8-7	ka	hi	का	ADP	I-NP
+8-8	kya	hi	क्या	ADV	B-VG
+8-9	hua	hi	हुआ	VERB	I-VG
+8-10	?	rest	?	PUNCT	B-BLK
+
+#id=9
+#text=For intellect is built on top of fences, for without fences, where in nothingness lies neither knowledge nor intelligence. 
+9-1	For	en	For	INTJ	B-BLK
+9-2	intellect	en	intellect	NOUN	B-NP
+9-3	is	en	is	VERB	B-VG
+9-4	built	en	built	NOUN	B-NP
+9-5	on	en	on	ADP	B-NP
+9-6	top	en	top	NOUN	I-NP
+9-7	of	en	of	ADP	I-NP
+9-8	fences	en	fences	NOUN	B-NP
+9-9	,	rest	,	PUNCT	B-BLK
+9-10	for	en	for	ADP	B-NP
+9-11	without	en	without	ADP	I-NP
+9-12	fences	en	fences	NOUN	B-NP
+9-13	,	rest	,	PUNCT	B-BLK
+9-14	where	en	where	ADV	B-RBP
+9-15	in	en	in	ADP	I-RBP
+9-16	nothingness	en	nothingness	NOUN	B-NP
+9-17	lies	en	lies	NOUN	I-NP
+9-18	neither	en	neither	ADJ	B-JJP
+9-19	knowledge	en	knowledge	NOUN	B-NP
+9-20	nor	en	nor	ADJ	B-NP
+9-21	intelligence	en	intelligence	NOUN	I-NP
+9-22	.	rest	.	PUNCT	B-BLK
+
+#id=10
+#text=fuck/ missed breakfast by 30 mins  :( 
+10-1	fuck/	en	fuck/	NOUN	B-NP
+10-2	missed	en	missed	VERB	B-VG
+10-3	breakfast	en	breakfast	NOUN	B-NP
+10-4	by	en	by	ADP	I-NP
+10-5	30	en	30	NUM	B-NP
+10-6	mins	en	mins	NOUN	I-NP
+10-7	:(	rest	:(	SYM	B-BLK
+
+#id=11
+#text=haana man. not cool Rizwan, not cool
+11-1	haana	hi	हाना	VERB	B-VG
+11-2	man	hi	मन	ADV	I-VG
+11-3	.	rest	.	PUNCT	B-BLK
+11-4	not	en	not	ADV	B-RBP
+11-5	cool	en	cool	ADJ	B-NP
+11-6	Rizwan	en	Rizwan	NOUN	I-NP
+11-7	,	rest	,	PUNCT	B-BLK
+11-8	not	en	not	ADV	B-NP
+11-9	cool	en	cool	NOUN	I-NP
+
+#id=12
+#text=6 log hai, ek uber manga li hai. Doosri mangwa lo koi
+12-1	6	rest	6	NUM	B-NP
+12-2	log	hi	लॉग	NOUN	I-NP
+12-3	hai	hi	हाई	NOUN	B-NP
+12-4	,	rest	,	PUNCT	B-BLK
+12-5	ek	hi	एक	NUM	B-NP
+12-6	uber	en	uber	NOUN	I-NP
+12-7	manga	hi	मंगा	VERB	B-VG
+12-8	li	hi	ली	AUX	I-VG
+12-9	hai	hi	हाई	NOUN	B-NP
+12-10	.	rest	.	PUNCT	B-BLK
+12-11	Doosri	en	Doosri	NOUN	B-NP
+12-12	mangwa	en	mangwa	NOUN	I-NP
+12-13	lo	hi	लो	VERB	B-VG
+12-14	koi	hi	कोई	PRON	B-NP
+
+#id=13
+#text=fack! Behenchod! fod diya bhai Boromir ne _/\\_
+13-1	fack	en	fack	NOUN	B-NP
+13-2	!	rest	!	PUNCT	B-BLK
+13-3	Behenchod	rest	Behenchod	PROPN	B-NP
+13-4	!	rest	!	PUNCT	B-BLK
+13-5	fod	en	fod	NOUN	B-NP
+13-6	diya	hi	दिया	VERB	B-VG
+13-7	bhai	hi	भाई	NOUN	B-NP
+13-8	Boromir	en	Boromir	NOUN	B-NP
+13-9	ne	hi	ने	ADP	I-NP
+13-10	_/\\_	rest	_/\\_	SYM	B-BLK
+
+#id=14
+#text=btw, I'm up for the walk, martian also. I just want to watch a movie.
+14-1	btw	rest	btw	X	B-NP
+14-2	,	rest	,	PUNCT	B-BLK
+14-3	I'm	en	I'm	PRON	B-NP
+14-4	up	en	up	ADP	I-NP
+14-5	for	en	for	ADP	B-NP
+14-6	the	en	the	DET	I-NP
+14-7	walk	en	walk	NOUN	I-NP
+14-8	,	rest	,	PUNCT	B-BLK
+14-9	martian	en	martian	NOUN	B-NP
+14-10	also	en	also	ADV	B-RBP
+14-11	.	rest	.	PUNCT	B-BLK
+14-12	I	en	I	PRON	B-NP
+14-13	just	en	just	ADV	B-RBP
+14-14	want	en	want	VERB	B-VG
+14-15	to	en	to	ADP	I-VG
+14-16	watch	en	watch	VERB	B-VG
+14-17	a	en	a	DET	B-NP
+14-18	movie	en	movie	NOUN	I-NP
+14-19	.	rest	.	PUNCT	B-BLK
+
+#id=15
+#text=haan bataya nazgul bana ne. Kab jaenge woh?
+15-1	haan	hi	हाँ	NOUN	B-NP
+15-2	bataya	hi	बताया	VERB	B-VG
+15-3	nazgul	hi	नज़्गुल	ADV	B-RBP
+15-4	bana	hi	बना	VERB	B-VG
+15-5	ne	hi	ने	ADP	I-VG
+15-6	.	rest	.	PUNCT	B-BLK
+15-7	Kab	hi	कब	ADV	B-RBP
+15-8	jaenge	hi	जेंगे	VERB	I-RBP
+15-9	woh	hi	वोह	ADV	I-RBP
+15-10	?	rest	?	PUNCT	B-BLK
+
+#id=16
+#text=Anyone who is alive in NBH. Not jo ghar pe hain 😏
+16-1	Anyone	en	Anyone	NOUN	B-NP
+16-2	who	en	who	PRON	B-NP
+16-3	is	en	is	VERB	B-VG
+16-4	alive	en	alive	ADJ	B-JJP
+16-5	in	en	in	ADP	B-NP
+16-6	NBH	rest	NBH	PROPN	I-NP
+16-7	.	rest	.	PUNCT	B-BLK
+16-8	Not	en	Not	ADV	B-RBP
+16-9	jo	hi	जो	PRON	B-NP
+16-10	ghar	hi	घर	NOUN	B-NP
+16-11	pe	hi	पे	VERB	B-VG
+16-12	hain	hi	हैं	AUX	I-VG
+16-13	😏	rest	😏	X	B-BLK
+
+#id=17
+#text=Actually the chappal pretended to be on the roof.. WYSIWYG #illusion
+17-1	Actually	en	Actually	ADV	B-RBP
+17-2	the	en	the	DET	B-NP
+17-3	chappal	en	chappal	NOUN	I-NP
+17-4	pretended	en	pretended	VERB	B-VG
+17-5	to	en	to	ADP	I-VG
+17-6	be	en	be	VERB	I-VG
+17-7	on	en	on	ADP	B-NP
+17-8	the	en	the	DET	I-NP
+17-9	roof	en	roof	NOUN	I-NP
+17-10	..	rest	..	PUNCT	B-BLK
+17-11	WYSIWYG	en	WYSIWYG	ADJ	B-NP
+17-12	#illusion	en	#illusion	NOUN	I-NP
+
+#id=18
+#text=A6 aa jao jisko aana hain. me n Anubhav here.
+18-1	A6	hi	आ6	VERB	B-VG
+18-2	aa	hi	आ	AUX	I-VG
+18-3	jao	hi	जाओ	VERB	I-VG
+18-4	jisko	hi	जिस्को	AUX	I-VG
+18-5	aana	hi	आना	VERB	I-VG
+18-6	hain	hi	हैं	AUX	I-VG
+18-7	.	rest	.	PUNCT	B-BLK
+18-8	me	hi	मे	PRON	B-NP
+18-9	n	en	n	PUNCT	B-BLK
+18-10	Anubhav	en	Anubhav	ADV	B-RBP
+18-11	here	en	here	ADV	I-RBP
+18-12	.	rest	.	PUNCT	B-BLK
+
+#id=19
+#text=The number of fucks given is equal to the number of degrees I have
+19-1	The	en	The	DET	B-NP
+19-2	number	en	number	NOUN	I-NP
+19-3	of	en	of	ADP	I-NP
+19-4	fucks	en	fucks	NOUN	B-NP
+19-5	given	en	given	VERB	B-VG
+19-6	is	en	is	AUX	I-VG
+19-7	equal	en	equal	ADJ	B-JJP
+19-8	to	en	to	ADP	I-JJP
+19-9	the	en	the	DET	B-NP
+19-10	number	en	number	NOUN	I-NP
+19-11	of	en	of	ADP	I-NP
+19-12	degrees	en	degrees	NOUN	B-NP
+19-13	I	en	I	PRON	B-NP
+19-14	have	en	have	AUX	B-VG
+
+#id=20
+#text=Main Abhi utha, but nahi ja raha brkfst karne. Coz wapas sounga.
+20-1	@sardesairajdeep	en	@sardesairajdeep	ADJ	B-JJP
+20-2	Those	en	Those	NOUN	I-JJP
+20-3	thriving	en	thriving	VERB	B-VG
+20-4	on	en	on	ADP	I-VG
+20-5	Vote	en	Vote	NOUN	B-NP
+20-6	Bank	en	Bank	NOUN	I-NP
+20-7	politics	en	politics	NOUN	B-NP
+20-8	.	rest	.	PUNCT	B-BLK
+20-9	Hope	en	Hope	VERB	B-VG
+20-10	u	en	u	PRON	B-NP
+20-11	got	en	got	VERB	B-VG
+20-12	ans	en	ans	NOUN	B-NP
+20-13	.	rest	.	PUNCT	B-BLK
+20-14	@DrGPradhan	en	@DrGPradhan	ADJ	B-NP
+20-15	@SirPareshRawal	en	@SirPareshRawal	ADJ	I-NP
+20-16	@Bharat_desh	rest	@Bharat_desh	PROPN	I-NP
+20-17	@pmtiger	en	@pmtiger	PROPN	B-NP
+20-18	@MrsGandhi	rest	@MrsGandhi	PROPN	I-NP
+20-19	@BDUTT	rest	@BDUTT	PROPN	I-NP
+

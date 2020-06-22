@@ -1,0 +1,292 @@
+# webanno.custom.LanguageID | NormValue # webanno.custom.Normalized | normword # webanno.custom.Pos | PosValue # webanno.custom.Chunk | Chunktag
+#id=1
+#text=bc gollum hai hi aisa though we went just for having Kulfi
+1-1	bc	en	bc	INTJ	B-BLK
+1-2	gollum	en	gollum	NOUN	B-NP
+1-3	hai	hi	हाई	NOUN	I-NP
+1-4	hi	hi	ही	PART	I-NP
+1-5	aisa	hi	आईसा	VERB	B-VG
+1-6	though	en	though	ADV	B-RBP
+1-7	we	en	we	PRON	B-NP
+1-8	went	en	went	VERB	B-VG
+1-9	just	en	just	ADV	B-RBP
+1-10	for	en	for	ADP	I-RBP
+1-11	having	en	having	VERB	B-VG
+1-12	Kulfi	hi	कुल्फी	AUX	I-VG
+
+#id=2
+#text=Boromir, be like Bill. Boromir be gonna like Boromir.
+2-1	Boromir	en	Boromir	NOUN	B-NP
+2-2	,	rest	,	PUNCT	B-BLK
+2-3	be	en	be	VERB	B-VG
+2-4	like	en	like	PART	I-VG
+2-5	Bill	en	Bill	NOUN	B-NP
+2-6	.	rest	.	PUNCT	B-BLK
+2-7	Boromir	en	Boromir	NOUN	B-NP
+2-8	be	en	be	VERB	B-VG
+2-9	gonna	en	gonna	VERB	I-VG
+2-10	like	en	like	PART	I-VG
+2-11	Boromir	en	Boromir	NOUN	B-NP
+2-12	.	rest	.	PUNCT	B-BLK
+
+#id=3
+#text=There’s no reason to think the staircase doesn’t extend upwards forever. 
+3-1	There’s	en	There’s	DET	B-NP
+3-2	no	en	no	ADJ	I-NP
+3-3	reason	en	reason	NOUN	I-NP
+3-4	to	en	to	ADP	I-NP
+3-5	think	en	think	VERB	B-VG
+3-6	the	en	the	DET	B-NP
+3-7	staircase	en	staircase	NOUN	I-NP
+3-8	doesn’t	en	doesn’t	AUX	B-VG
+3-9	extend	en	extend	VERB	I-VG
+3-10	upwards	en	upwards	ADV	B-RBP
+3-11	forever	en	forever	ADV	I-RBP
+3-12	.	rest	.	PUNCT	B-BLK
+
+#id=4
+#text=ab night duty shuru hoti hai toh yahi hota hai fir  :P :P
+4-1	ab	hi	अब	ADV	B-RBP
+4-2	night	en	night	ADJ	B-NP
+4-3	duty	en	duty	NOUN	I-NP
+4-4	shuru	hi	शुरू	VERB	B-VG
+4-5	hoti	hi	होती	AUX	I-VG
+4-6	hai	hi	हाई	NOUN	B-NP
+4-7	toh	hi	तोह	PRON	B-NP
+4-8	yahi	hi	यही	ADV	B-VG
+4-9	hota	hi	होता	VERB	I-VG
+4-10	hai	hi	हाई	NOUN	B-NP
+4-11	fir	hi	फ़िर	ADV	B-RBP
+4-12	:P	rest	:P	SYM	B-BLK
+4-13	:P	rest	:P	SYM	B-BLK
+
+#id=5
+#text=khana peena  maybe bajirao mastani @ 10:30
+5-1	khana	hi	खआना	NOUN	B-NP
+5-2	peena	hi	पीना	VERB	B-VG
+5-3	maybe	en	maybe	ADJ	B-JJP
+5-4	bajirao	hi	बाजीराव	NOUN	B-NP
+5-5	mastani	hi	मस्तानी	VERB	B-VG
+5-6	@	rest	@	SYM	B-BLK
+5-7	10:30	rest	10:30	NUM	B-NP
+
+#id=6
+#text=wow, do gandalf hai humaare beech  :D
+6-1	wow	en	wow	INTJ	B-BLK
+6-2	,	rest	,	PUNCT	B-BLK
+6-3	do	hi	दो	VERB	B-VG
+6-4	gandalf	rest	gandalf	NOUN	B-NP
+6-5	hai	hi	हाई	NOUN	B-NP
+6-6	humaare	hi	हमारे	PRON	I-NP
+6-7	beech	hi	बीच	NOUN	B-NP
+6-8	:D	rest	:D	SYM	B-BLK
+
+#id=7
+#text=that time of the day? juice center?
+7-1	that	en	that	DET	B-NP
+7-2	time	en	time	NOUN	I-NP
+7-3	of	en	of	ADP	I-NP
+7-4	the	en	the	DET	B-NP
+7-5	day	en	day	NOUN	I-NP
+7-6	?	rest	?	PUNCT	B-BLK
+7-7	juice	en	juice	NOUN	B-NP
+7-8	center	en	center	NOUN	I-NP
+7-9	?	rest	?	PUNCT	B-BLK
+
+#id=8
+#text=Uber ke liye special prepare kar lo tum log. mass hiring ke liye aayegi woh :/
+8-1	Uber	en	Uber	NOUN	B-NP
+8-2	ke	hi	के	ADP	I-NP
+8-3	liye	hi	लिये	ADP	I-NP
+8-4	special	en	special	ADJ	B-NP
+8-5	prepare	en	prepare	NOUN	I-NP
+8-6	kar	hi	कर	VERB	B-VG
+8-7	lo	hi	लो	AUX	I-VG
+8-8	tum	hi	तुम	PRON	B-NP
+8-9	log	hi	लॉग	NOUN	I-NP
+8-10	.	rest	.	PUNCT	B-BLK
+8-11	mass	en	mass	NOUN	B-NP
+8-12	hiring	en	hiring	NOUN	B-NP
+8-13	ke	hi	के	ADP	I-NP
+8-14	liye	hi	लिये	ADP	I-NP
+8-15	aayegi	hi	आयेगी	VERB	B-VG
+8-16	woh	hi	वोह	ADV	B-RBP
+8-17	:/	rest	:/	SYM	B-BLK
+
+#id=9
+#text=aj aur Hyd mein. to be precise.
+9-1	aj	hi	आज	ADV	B-RBP
+9-2	aur	hi	और	CONJ	B-CCP
+9-3	Hyd	en	Hyd	NOUN	B-NP
+9-4	mein	hi	में	ADP	I-NP
+9-5	.	rest	.	PUNCT	B-BLK
+9-6	to	en	to	ADP	B-VG
+9-7	be	en	be	VERB	I-VG
+9-8	precise	en	precise	NOUN	B-NP
+9-9	.	rest	.	PUNCT	B-BLK
+
+#id=10
+#text=wake me @2 PM paka. Lunch pakka karwa dena. Jeera rice + Rajma  ❤ 
+10-1	wake	en	wake	VERB	B-VG
+10-2	me	hi	मे	PRON	B-NP
+10-3	@2	rest	@2	SYM	B-BLK
+10-4	PM	rest	PM	NOUN	B-NP
+10-5	paka	hi	पका	VERB	B-VG
+10-6	.	rest	.	PUNCT	B-BLK
+10-7	Lunch	en	Lunch	NOUN	B-NP
+10-8	pakka	hi	पक्का	ADP	I-NP
+10-9	karwa	hi	कारवा	ADV	B-VG
+10-10	dena	hi	देना	VERB	I-VG
+10-11	.	rest	.	PUNCT	B-BLK
+10-12	Jeera	rest	Jeera	PROPN	B-NP
+10-13	rice	en	rice	NOUN	I-NP
+10-14	+	rest	+	SYM	B-BLK
+10-15	Rajma	rest	Rajma	PROPN	B-NP
+10-16	❤	rest	❤	SYM	B-BLK
+
+#id=11
+#text=@Gamgee phuck off. @Gimli cum and we go from here ;P 
+11-1	@Gamgee	en	@Gamgee	ADJ	B-JJP
+11-2	phuck	en	phuck	NOUN	B-NP
+11-3	off	en	off	ADV	I-NP
+11-4	.	rest	.	PUNCT	B-BLK
+11-5	@Gimli	en	@Gimli	NOUN	B-NP
+11-6	cum	en	cum	VERB	B-VG
+11-7	and	en	and	CONJ	B-CCP
+11-8	we	en	we	PRON	B-NP
+11-9	go	en	go	VERB	B-VG
+11-10	from	en	from	ADP	I-VG
+11-11	here	en	here	ADV	B-RBP
+11-12	;P	rest	;P	SYM	B-BLK
+
+#id=12
+#text=usme bhi 25 extra per ticket lagenge  :P
+12-1	usme	hi	उसमे	PRON	B-NP
+12-2	bhi	hi	भी	PART	I-NP
+12-3	25	rest	25	NUM	B-NP
+12-4	extra	en	extra	ADJ	I-NP
+12-5	per	en	per	NOUN	B-NP
+12-6	ticket	en	ticket	NOUN	I-NP
+12-7	lagenge	en	lagenge	NOUN	B-NP
+12-8	:P	rest	:P	SYM	B-BLK
+
+#id=13
+#text=12:30.. nazgul ko uthake usko leke jaana hain
+13-1	12:30	rest	12:30	NUM	B-NP
+13-2	..	rest	..	PUNCT	B-BLK
+13-3	nazgul	en	nazgul	NOUN	B-NP
+13-4	ko	hi	को	ADP	I-NP
+13-5	uthake	hi	उठके	PRON	B-NP
+13-6	usko	hi	उस्को	PRON	B-NP
+13-7	leke	hi	लेके	VERB	B-VG
+13-8	jaana	hi	जाना	AUX	I-VG
+13-9	hain	hi	हैं	AUX	I-VG
+
+#id=14
+#text=aage bars pe pair rakh ke dekhenge mast!  ;) 
+14-1	aage	hi	आगे	PRON	B-NP
+14-2	bars	hi	बार	NOUN	B-NP
+14-3	pe	hi	पे	ADP	I-NP
+14-4	pair	hi	पैर	NOUN	B-NP
+14-5	rakh	hi	रख	VERB	B-VG
+14-6	ke	hi	के	ADP	I-VG
+14-7	dekhenge	hi	देखेंगे	VERB	B-VG
+14-8	mast	hi	मस्त	NOUN	B-NP
+14-9	!	rest	!	PUNCT	B-BLK
+14-10	;)	rest	;)	SYM	B-BLK
+
+#id=15
+#text=bol jaldi uthe, aur mujhe call back kare
+15-1	bol	hi	बोल	VERB	B-VG
+15-2	jaldi	hi	जल्दी	ADV	I-VG
+15-3	uthe	hi	उठे	PRON	B-NP
+15-4	,	rest	,	PUNCT	B-BLK
+15-5	aur	hi	और	CONJ	B-CCP
+15-6	mujhe	hi	मुझे	PRON	B-NP
+15-7	call	en	call	VERB	B-VG
+15-8	back	en	back	ADV	I-VG
+15-9	kare	hi	करे	VERB	I-VG
+
+#id=16
+#text=mil gya mail, sent it through g+ didnt have your emailids
+16-1	mil	hi	मिल	VERB	B-VG
+16-2	gya	hi	ग्या	AUX	I-VG
+16-3	mail	hi	मेल	VERB	I-VG
+16-4	,	rest	,	PUNCT	B-BLK
+16-5	sent	en	sent	VERB	B-VG
+16-6	it	en	it	PRON	B-NP
+16-7	through	en	through	ADJ	B-JJP
+16-8	g+	en	g+	NOUN	B-NP
+16-9	didnt	en	didnt	VERB	B-VG
+16-10	have	en	have	AUX	I-VG
+16-11	your	en	your	PRON	B-NP
+16-12	emailids	en	emailids	NOUN	I-NP
+
+#id=17
+#text=lab wale log 5 min mein niklo. NBH wasi 5 min mein niiklo
+17-1	lab	hi	लब	NOUN	B-NP
+17-2	wale	hi	वाले	PRON	I-NP
+17-3	log	hi	लॉग	NOUN	B-NP
+17-4	5	rest	5	NUM	I-NP
+17-5	min	hi	मीन	NOUN	B-NP
+17-6	mein	hi	में	ADP	I-NP
+17-7	niklo	hi	निकलो	VERB	B-VG
+17-8	.	rest	.	PUNCT	B-BLK
+17-9	NBH	rest	NBH	PROPN	B-NP
+17-10	wasi	hi	वासी	PRON	I-NP
+17-11	5	rest	5	NUM	I-NP
+17-12	min	hi	मीन	NOUN	B-NP
+17-13	mein	hi	में	ADP	I-NP
+17-14	niiklo	hi	नीकलो	VERB	B-VG
+
+#id=18
+#text=teri lab tak aa jaunga toh obviously main fir dlf hi chala jaun na? 
+18-1	teri	hi	तेरी	PRON	B-NP
+18-2	lab	hi	लब	NOUN	I-NP
+18-3	tak	hi	तक	ADV	B-RBP
+18-4	aa	hi	आ	VERB	B-VG
+18-5	jaunga	hi	जाऊंगा	VERB	I-VG
+18-6	toh	hi	तोह	PRON	B-NP
+18-7	obviously	en	obviously	ADV	B-RBP
+18-8	main	hi	मैं	PRON	B-NP
+18-9	fir	hi	फ़िर	ADV	B-RBP
+18-10	dlf	hi	डफ	VERB	B-VG
+18-11	hi	hi	ही	PART	I-VG
+18-12	chala	hi	चला	VERB	B-VG
+18-13	jaun	hi	जाऊँ	AUX	I-VG
+18-14	na	hi	ना	VERB	I-VG
+18-15	?	rest	?	PUNCT	B-BLK
+
+#id=19
+#text=Chida raha tha tujhe. Pasand hai mujhe aisa karna. Itna zaada kasaud hun main.
+19-1	Chida	hi	चिड़ा	ADV	B-RBP
+19-2	raha	hi	रह	VERB	I-RBP
+19-3	tha	hi	ठा	AUX	B-VG
+19-4	tujhe	hi	तुझे	PRON	B-NP
+19-5	.	rest	.	PUNCT	B-BLK
+19-6	Pasand	hi	पसंद	NOUN	B-NP
+19-7	hai	hi	हाई	NOUN	I-NP
+19-8	mujhe	hi	मुझे	PRON	B-NP
+19-9	aisa	hi	आईसा	NOUN	B-NP
+19-10	karna	hi	कर्ण	VERB	B-VG
+19-11	.	rest	.	PUNCT	B-BLK
+19-12	Itna	hi	इतना	VERB	B-VG
+19-13	zaada	hi	ज़ादा	AUX	I-VG
+19-14	kasaud	hi	कसौद	VERB	B-VG
+19-15	hun	hi	हुन	AUX	I-VG
+19-16	main	hi	मैं	PRON	B-NP
+19-17	.	rest	.	PUNCT	B-BLK
+
+#id=20
+#text=wake @Legolas at 11:30 AM or whenever Innoplexus results arrive
+20-1	wake	en	wake	VERB	B-VG
+20-2	@Legolas	en	@Legolas	NOUN	B-NP
+20-3	at	en	at	ADP	I-NP
+20-4	11:30	rest	11:30	NUM	B-NP
+20-5	AM	en	AM	NOUN	I-NP
+20-6	or	en	or	ADP	B-NP
+20-7	whenever	en	whenever	ADV	B-RBP
+20-8	Innoplexus	en	Innoplexus	NOUN	B-NP
+20-9	results	en	results	NOUN	I-NP
+20-10	arrive	en	arrive	VERB	B-VG
+

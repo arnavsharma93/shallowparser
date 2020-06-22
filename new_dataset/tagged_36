@@ -1,0 +1,298 @@
+# webanno.custom.LanguageID | NormValue # webanno.custom.Normalized | normword # webanno.custom.Pos | PosValue # webanno.custom.Chunk | Chunktag
+#id=1
+#text=jab bhi aur jahan bhi  :D. bata dio.
+1-1	jab	hi	जब	ADV	B-RBP
+1-2	bhi	hi	भी	PART	I-RBP
+1-3	aur	hi	और	CONJ	B-CCP
+1-4	jahan	hi	जहाँ	NOUN	B-NP
+1-5	bhi	hi	भी	PART	I-NP
+1-6	:D	rest	:D	SYM	B-BLK
+1-7	.	rest	.	PUNCT	B-BLK
+1-8	bata	hi	बता	VERB	B-VG
+1-9	dio	hi	डीओ	VERB	I-VG
+1-10	.	rest	.	PUNCT	B-BLK
+
+#id=2
+#text=abe jab free time hoga ye dekhna.. kya mast cheez hain  ;P. https://twitter.com/hashtag/condomchallenge?src=hash.
+2-1	abe	hi	अबे	INTJ	B-NP
+2-2	jab	hi	जब	ADV	B-RBP
+2-3	free	en	free	ADJ	I-RBP
+2-4	time	en	time	NOUN	I-RBP
+2-5	hoga	hi	होग	VERB	B-VG
+2-6	ye	hi	ये	PRON	B-NP
+2-7	dekhna	hi	देखना	VERB	B-VG
+2-8	..	rest	..	PUNCT	B-BLK
+2-9	kya	hi	क्या	ADV	B-RBP
+2-10	mast	hi	मस्त	NOUN	B-NP
+2-11	cheez	hi	चीज़	VERB	B-VG
+2-12	hain	hi	हैं	AUX	I-VG
+2-13	;P	rest	;P	SYM	B-BLK
+2-14	.	rest	.	PUNCT	B-BLK
+2-15	https://twitter.com/hashtag/condomchallenge?src=hash	en	https://twitter.com/hashtag/condomchallenge?src=hash	NOUN	B-NP
+2-16	.	rest	.	PUNCT	B-BLK
+
+#id=3
+#text=Anaar aana hai toh aa nahi toh maa chuda. B-) *andar
+3-1	Anaar	hi	अनार	INTJ	B-NP
+3-2	aana	hi	आना	ADJ	B-NP
+3-3	hai	hi	हाई	NOUN	I-NP
+3-4	toh	hi	तोह	PRON	B-NP
+3-5	aa	hi	आ	VERB	B-VG
+3-6	nahi	hi	नही	ADV	I-VG
+3-7	toh	hi	तोह	PRON	B-NP
+3-8	maa	hi	मा	NOUN	I-NP
+3-9	chuda	hi	चुड़ा	NOUN	B-NP
+3-10	.	rest	.	PUNCT	B-BLK
+3-11	B-)	rest	B-)	SYM	B-BLK
+3-12	*	rest	*	SYM	B-BLK
+3-13	andar	hi	अन्दर	NOUN	B-NP
+
+#id=4
+#text=ji nahi sakta main tumhare bina. khush?
+4-1	ji	hi	जी	NOUN	B-NP
+4-2	nahi	hi	नही	ADV	B-VG
+4-3	sakta	hi	सकता	VERB	I-VG
+4-4	main	hi	मैं	PRON	B-NP
+4-5	tumhare	hi	तुम्हारे	PRON	B-NP
+4-6	bina	hi	बीना	VERB	B-VG
+4-7	.	rest	.	PUNCT	B-BLK
+4-8	khush	hi	खुश	NOUN	B-NP
+4-9	?	rest	?	PUNCT	B-BLK
+
+#id=5
+#text=OKAY Bitches!!! I will single handedly fight the enemy.....
+5-1	OKAY	en	OKAY	INTJ	B-BLK
+5-2	Bitches	en	Bitches	NOUN	B-NP
+5-3	!!!	rest	!!!	SYM	B-BLK
+5-4	I	en	I	PRON	B-NP
+5-5	will	en	will	AUX	B-VG
+5-6	single	en	single	ADJ	B-NP
+5-7	handedly	en	handedly	NOUN	I-NP
+5-8	fight	en	fight	VERB	B-VG
+5-9	the	en	the	DET	B-NP
+5-10	enemy	en	enemy	NOUN	I-NP
+5-11	.....	rest	.....	PUNCT	B-BLK
+
+#id=6
+#text=Q. What is the name of India's most famous sword ? (Hint : It no longer exists)
+6-1	Q	rest	Q	NOUN	B-NP
+6-2	.	rest	.	PUNCT	B-BLK
+6-3	What	en	What	X	B-NP
+6-4	is	en	is	VERB	B-VG
+6-5	the	en	the	DET	B-NP
+6-6	name	en	name	NOUN	I-NP
+6-7	of	en	of	ADP	I-NP
+6-8	India's	rest	India's	PROPN	I-NP
+6-9	most	en	most	ADJ	B-JJP
+6-10	famous	en	famous	ADJ	I-JJP
+6-11	sword	en	sword	NOUN	B-NP
+6-12	?	rest	?	PUNCT	B-BLK
+6-13	(	rest	(	SYM	B-BLK
+6-14	Hint	en	Hint	NOUN	B-NP
+6-15	:	rest	:	SYM	B-BLK
+6-16	It	en	It	PRON	B-NP
+6-17	no	en	no	ADV	B-RBP
+6-18	longer	en	longer	ADJ	B-NP
+6-19	exists	en	exists	NOUN	I-NP
+6-20	)	rest	)	SYM	B-BLK
+
+#id=7
+#text=get some fruits  for me plz. m  shelob in lab.
+7-1	get	en	get	VERB	B-VG
+7-2	some	en	some	ADJ	B-NP
+7-3	fruits	en	fruits	NOUN	I-NP
+7-4	for	en	for	ADP	B-NP
+7-5	me	hi	मे	PRON	B-NP
+7-6	plz	en	plz	VERB	B-VG
+7-7	.	rest	.	PUNCT	B-BLK
+7-8	m	hi	म	PRON	B-NP
+7-9	shelob	en	shelob	NOUN	I-NP
+7-10	in	en	in	ADP	B-NP
+7-11	lab	hi	लब	NOUN	I-NP
+7-12	.	rest	.	PUNCT	B-BLK
+
+#id=8
+#text=isildur ko kal linear algebra ki class leni hai kal yaad dila dena use koi bhi Jo subah jaga ho 10 baje
+8-1	isildur	hi	इसिलदुर	NOUN	B-NP
+8-2	ko	hi	को	ADP	I-NP
+8-3	kal	hi	कल	VERB	B-VG
+8-4	linear	en	linear	ADJ	B-NP
+8-5	algebra	en	algebra	NOUN	I-NP
+8-6	ki	hi	की	ADP	I-NP
+8-7	class	en	class	NOUN	B-NP
+8-8	leni	hi	लेनी	VERB	B-VG
+8-9	hai	hi	हाई	NOUN	B-NP
+8-10	kal	hi	कल	VERB	B-VG
+8-11	yaad	hi	याद	PRON	B-NP
+8-12	dila	hi	दिला	NOUN	I-NP
+8-13	dena	hi	देना	VERB	B-VG
+8-14	use	hi	उस	PRON	B-NP
+8-15	koi	hi	कोई	PRON	B-NP
+8-16	bhi	hi	भी	PART	I-NP
+8-17	Jo	hi	जो	PRON	B-NP
+8-18	subah	hi	सुबह	NOUN	I-NP
+8-19	jaga	hi	जगा	VERB	B-VG
+8-20	ho	hi	हो	AUX	I-VG
+8-21	10	rest	10	NUM	B-NP
+8-22	baje	hi	बजे	NOUN	I-NP
+
+#id=9
+#text=May Boromir get fucked by a 10 yr old nigga
+9-1	May	en	May	NOUN	B-NP
+9-2	Boromir	en	Boromir	NOUN	B-NP
+9-3	get	en	get	VERB	B-VG
+9-4	fucked	en	fucked	VERB	I-VG
+9-5	by	en	by	ADP	B-NP
+9-6	a	en	a	DET	B-NP
+9-7	10	rest	10	NUM	I-NP
+9-8	yr	en	yr	NOUN	I-NP
+9-9	old	en	old	ADJ	B-NP
+9-10	nigga	en	nigga	NOUN	I-NP
+
+#id=10
+#text=Gamgee, Gollum, Nazgul, Gandalf, legolas is the status quo
+10-1	Gamgee	en	Gamgee	NOUN	B-NP
+10-2	,	rest	,	PUNCT	B-BLK
+10-3	Gollum	en	Gollum	NOUN	B-NP
+10-4	,	rest	,	PUNCT	B-BLK
+10-5	Nazgul	rest	Nazgul	PROPN	B-NP
+10-6	,	rest	,	PUNCT	B-BLK
+10-7	Gandalf	rest	Gandalf	PROPN	B-NP
+10-8	,	rest	,	PUNCT	B-BLK
+10-9	legolas	en	legolas	NOUN	B-NP
+10-10	is	en	is	VERB	B-VG
+10-11	the	en	the	DET	B-NP
+10-12	status	en	status	NOUN	I-NP
+10-13	quo	en	quo	NOUN	I-NP
+
+#id=11
+#text=bc bhut strong hoti hai eagle bey
+11-1	bc	hi	ब	ADV	B-RBP
+11-2	bhut	hi	भूट	PART	I-RBP
+11-3	strong	en	strong	NOUN	B-NP
+11-4	hoti	hi	होती	VERB	B-VG
+11-5	hai	hi	हाई	NOUN	B-NP
+11-6	eagle	en	eagle	ADJ	B-NP
+11-7	bey	en	bey	NOUN	I-NP
+
+#id=12
+#text=Matlab mein bhi abhi chal sakta hun
+12-1	Matlab	hi	मतलब	NOUN	B-NP
+12-2	mein	hi	में	ADP	I-NP
+12-3	bhi	hi	भी	PART	I-NP
+12-4	abhi	hi	अभी	ADV	B-RBP
+12-5	chal	hi	चल	VERB	B-VG
+12-6	sakta	hi	सकता	AUX	I-VG
+12-7	hun	hi	हुन	VERB	I-VG
+
+#id=13
+#text=game ko game ki tarah liya karo  :D
+13-1	game	en	game	NOUN	B-NP
+13-2	ko	hi	को	ADP	I-NP
+13-3	game	en	game	NOUN	B-NP
+13-4	ki	hi	की	ADP	I-NP
+13-5	tarah	hi	तराह	NOUN	B-NP
+13-6	liya	hi	लिया	VERB	B-VG
+13-7	karo	hi	करो	AUX	I-VG
+13-8	:D	rest	:D	SYM	B-BLK
+
+#id=14
+#text=Ahaan, ek dum se bhook lagg gayi gimli ko
+14-1	Ahaan	rest	Ahaan	PROPN	B-NP
+14-2	,	rest	,	PUNCT	B-BLK
+14-3	ek	hi	एक	NUM	B-NP
+14-4	dum	hi	दुम	NOUN	I-NP
+14-5	se	hi	से	ADP	I-NP
+14-6	bhook	hi	भूक	NOUN	I-NP
+14-7	lagg	hi	लग्ग	VERB	B-VG
+14-8	gayi	hi	गयी	AUX	I-VG
+14-9	gimli	en	gimli	NOUN	B-NP
+14-10	ko	hi	को	ADP	I-NP
+
+#id=15
+#text=legolas dahi wada khane nahi ja raha
+15-1	legolas	en	legolas	NOUN	B-NP
+15-2	dahi	hi	दही	PART	I-NP
+15-3	wada	hi	वादा	NOUN	I-NP
+15-4	khane	hi	खने	VERB	B-VG
+15-5	nahi	hi	नही	ADV	B-RBP
+15-6	ja	hi	जा	VERB	B-VG
+15-7	raha	hi	रह	VERB	I-VG
+
+#id=16
+#text=Creed bhi dekhni hai, football bhi khelna hai
+16-1	Creed	en	Creed	NOUN	B-NP
+16-2	bhi	hi	भी	PART	I-NP
+16-3	dekhni	hi	देखनी	VERB	B-VG
+16-4	hai	hi	हाई	NOUN	B-NP
+16-5	,	rest	,	PUNCT	B-BLK
+16-6	football	en	football	NOUN	B-NP
+16-7	bhi	hi	भी	PART	I-NP
+16-8	khelna	hi	खेलना	VERB	B-VG
+16-9	hai	hi	हाई	NOUN	B-NP
+
+#id=17
+#text=Koi Paradise se biryani khana chahta hai?
+17-1	Koi	hi	कोई	PRON	B-NP
+17-2	Paradise	hi	पराडिज	NOUN	B-NP
+17-3	se	hi	से	ADP	I-NP
+17-4	biryani	hi	बिरयानी	NOUN	B-NP
+17-5	khana	hi	खआना	VERB	B-VG
+17-6	chahta	hi	चाहता	AUX	I-VG
+17-7	hai	hi	हाई	NOUN	B-NP
+17-8	?	rest	?	PUNCT	B-BLK
+
+#id=18
+#text=anyway, any +1 for talvar today? necromancer log bhi jaa rahe hain
+18-1	anyway	en	anyway	ADV	B-RBP
+18-2	,	rest	,	PUNCT	B-BLK
+18-3	any	en	any	DET	B-NP
+18-4	+1	rest	+1	NUM	I-NP
+18-5	for	en	for	ADP	I-NP
+18-6	talvar	en	talvar	NOUN	B-NP
+18-7	today	en	today	NOUN	I-NP
+18-8	?	rest	?	PUNCT	B-BLK
+18-9	necromancer	en	necromancer	NOUN	B-NP
+18-10	log	hi	लॉग	VERB	B-VG
+18-11	bhi	hi	भी	PART	I-VG
+18-12	jaa	hi	जा	VERB	B-VG
+18-13	rahe	hi	रहे	AUX	I-VG
+18-14	hain	hi	हैं	AUX	I-VG
+
+#id=19
+#text=juice peene chalna hai abhi kisi ko? me and baggins are going.
+19-1	juice	en	juice	NOUN	B-NP
+19-2	peene	hi	पीने	VERB	B-VG
+19-3	chalna	hi	चलना	AUX	I-VG
+19-4	hai	hi	हाई	NOUN	B-NP
+19-5	abhi	hi	अभी	PART	I-NP
+19-6	kisi	hi	किसी	NOUN	B-NP
+19-7	ko	hi	को	ADP	I-NP
+19-8	?	rest	?	PUNCT	B-BLK
+19-9	me	hi	मे	PRON	B-NP
+19-10	and	en	and	CONJ	B-CCP
+19-11	baggins	en	baggins	NOUN	B-NP
+19-12	are	en	are	VERB	B-VG
+19-13	going	en	going	VERB	I-VG
+19-14	.	rest	.	PUNCT	B-BLK
+
+#id=20
+#text=door kholna padega mere ko. for seats finalization. table hatani padegi.
+20-1	@aamir_khan	rest	@aamir_khan	PROPN	B-NP
+20-2	..	rest	..	SYM	B-BLK
+20-3	Happy	en	Happy	ADJ	B-JJP
+20-4	birthday	en	birthday	NOUN	B-NP
+20-5	Bharat	hi	भरत	NOUN	I-NP
+20-6	desh	hi	देश	NOUN	B-NP
+20-7	k	hi	क	PART	I-NP
+20-8	sapoot	en	sapoot	NOUN	B-NP
+20-9	.	rest	.	PUNCT	B-BLK
+20-10	Aap	hi	आप	PRON	B-NP
+20-11	ke	hi	के	ADP	I-NP
+20-12	birthday	en	birthday	NOUN	B-NP
+20-13	pe	hi	पे	ADP	I-NP
+20-14	hum	hi	हम	PRON	B-NP
+20-15	karenge	hi	करेंगे	VERB	B-VG
+20-16	Zordar	hi	ज़ोरदर	CONJ	B-CCP
+20-17	dangal	hi	दंगल	NOUN	B-NP
+

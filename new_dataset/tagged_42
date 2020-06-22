@@ -1,0 +1,357 @@
+# webanno.custom.LanguageID | NormValue # webanno.custom.Normalized | normword # webanno.custom.Pos | PosValue # webanno.custom.Chunk | Chunktag
+#id=1
+#text=kal ki booking karwa lo paradise ki jisne bhi karwani ho. maine kal 8-9 ka slot book kiya hai.
+1-1	kal	hi	कल	NOUN	B-NP
+1-2	ki	hi	की	ADP	I-NP
+1-3	booking	en	booking	NOUN	B-NP
+1-4	karwa	hi	कारवा	VERB	B-VG
+1-5	lo	hi	लो	AUX	I-VG
+1-6	paradise	hi	पराडिज	NOUN	B-NP
+1-7	ki	hi	की	ADP	I-NP
+1-8	jisne	hi	जिसने	VERB	B-VG
+1-9	bhi	hi	भी	ADV	I-VG
+1-10	karwani	hi	कारवानी	VERB	I-VG
+1-11	ho	hi	हो	AUX	I-VG
+1-12	.	rest	.	PUNCT	B-BLK
+1-13	maine	hi	मैने	PRON	B-NP
+1-14	kal	hi	कल	VERB	B-VG
+1-15	8-9	rest	8-9	NUM	B-NP
+1-16	ka	hi	का	ADP	I-NP
+1-17	slot	en	slot	NOUN	B-NP
+1-18	book	en	book	NOUN	I-NP
+1-19	kiya	hi	किया	VERB	B-VG
+1-20	hai	hi	हाई	NOUN	B-NP
+1-21	.	rest	.	PUNCT	B-BLK
+
+#id=2
+#text=neend hi nahi rahi, arsenal ne bayern munich ko hara diya  :D
+2-1	neend	hi	नींद	NOUN	B-NP
+2-2	hi	hi	ही	PART	I-NP
+2-3	nahi	hi	नही	ADV	B-VG
+2-4	rahi	hi	रही	VERB	I-VG
+2-5	,	rest	,	PUNCT	B-BLK
+2-6	arsenal	en	arsenal	NOUN	B-NP
+2-7	ne	hi	ने	ADP	I-NP
+2-8	bayern	hi	बएर्न	NOUN	B-NP
+2-9	munich	hi	म्यूनिख	NOUN	I-NP
+2-10	ko	hi	को	ADP	I-NP
+2-11	hara	hi	हरा	NOUN	B-NP
+2-12	diya	hi	दिया	VERB	B-VG
+2-13	:D	rest	:D	SYM	B-BLK
+
+#id=3
+#text=brush your moves. yep. the enemy is quite stronger this time. = Dosa with no sabji. xD
+3-1	brush	en	brush	VERB	B-VG
+3-2	your	en	your	PRON	B-NP
+3-3	moves	en	moves	NOUN	I-NP
+3-4	.	rest	.	PUNCT	B-BLK
+3-5	yep	en	yep	INTJ	B-BLK
+3-6	.	rest	.	PUNCT	B-BLK
+3-7	the	en	the	DET	B-NP
+3-8	enemy	en	enemy	NOUN	I-NP
+3-9	is	en	is	VERB	B-VG
+3-10	quite	en	quite	ADJ	B-NP
+3-11	stronger	en	stronger	NOUN	I-NP
+3-12	this	en	this	DET	B-NP
+3-13	time	en	time	NOUN	I-NP
+3-14	.	rest	.	PUNCT	B-BLK
+3-15	=	rest	=	SYM	B-BLK
+3-16	Dosa	en	Dosa	NOUN	B-NP
+3-17	with	en	with	ADP	I-NP
+3-18	no	en	no	ADJ	B-NP
+3-19	sabji	hi	सबजी	NOUN	I-NP
+3-20	.	rest	.	PUNCT	B-BLK
+3-21	xD	rest	xD	X	B-BLK
+
+#id=4
+#text=@Nazgul i think you might find this lady kinky https://www.facebook.com/sony.ritu.73/videos/1760730507489672/
+4-1	@Nazgul	en	@Nazgul	NOUN	B-NP
+4-2	i	en	i	PRON	B-NP
+4-3	think	en	think	VERB	B-VG
+4-4	you	en	you	PRON	B-NP
+4-5	might	en	might	NOUN	B-NP
+4-6	find	en	find	VERB	B-VG
+4-7	this	en	this	DET	B-NP
+4-8	lady	en	lady	NOUN	I-NP
+4-9	kinky	en	kinky	ADJ	B-NP
+4-10	https://www.facebook.com/sony.ritu.73/videos/1760730507489672/	en	https://www.facebook.com/sony.ritu.73/videos/1760730507489672/	NOUN	I-NP
+
+#id=5
+#text=baggins, gimli, gandalf, legolas, tu aur main 
+5-1	baggins	en	baggins	NOUN	B-NP
+5-2	,	rest	,	PUNCT	B-BLK
+5-3	gimli	en	gimli	NOUN	B-NP
+5-4	,	rest	,	PUNCT	B-BLK
+5-5	gandalf	rest	gandalf	PROPN	B-NP
+5-6	,	rest	,	PUNCT	B-BLK
+5-7	legolas	rest	legolas	PROPN	B-NP
+5-8	,	rest	,	PUNCT	B-BLK
+5-9	tu	hi	तु	PRON	B-NP
+5-10	aur	hi	और	CONJ	B-CCP
+5-11	main	hi	मैं	PRON	B-NP
+
+#id=6
+#text=the thing is i ain't sure if you have or haven't watched this. guess u might have by now. coz it was trending and all.. but if not, pakka se dekhna! shot baith jata hain ekdam. https://www.youtube.com/watch?v=sQ7lMDWJOXA
+6-1	the	en	the	DET	B-NP
+6-2	thing	en	thing	NOUN	I-NP
+6-3	is	en	is	VERB	B-VG
+6-4	i	en	i	PRON	B-NP
+6-5	ain't	en	ain't	ADJ	B-JJP
+6-6	sure	en	sure	ADJ	I-JJP
+6-7	if	en	if	SCONJ	B-CCP
+6-8	you	en	you	PRON	B-NP
+6-9	have	en	have	VERB	B-VG
+6-10	or	en	or	CONJ	B-CCP
+6-11	haven't	en	haven't	NOUN	B-NP
+6-12	watched	en	watched	VERB	B-VG
+6-13	this	en	this	PRON	B-NP
+6-14	.	rest	.	PUNCT	B-BLK
+6-15	guess	en	guess	VERB	B-VG
+6-16	u	en	u	PRON	B-NP
+6-17	might	en	might	VERB	B-VG
+6-18	have	en	have	AUX	I-VG
+6-19	by	en	by	ADP	B-NP
+6-20	now	en	now	ADV	B-RBP
+6-21	.	rest	.	PUNCT	B-BLK
+6-22	coz	en	coz	NOUN	B-NP
+6-23	it	en	it	PRON	I-NP
+6-24	was	en	was	AUX	B-VG
+6-25	trending	en	trending	VERB	I-VG
+6-26	and	en	and	CONJ	B-CCP
+6-27	all	en	all	DET	B-NP
+6-28	..	rest	..	PUNCT	B-BLK
+6-29	but	en	but	SCONJ	B-CCP
+6-30	if	en	if	SCONJ	B-RBP
+6-31	not	en	not	ADV	I-RBP
+6-32	,	rest	,	PUNCT	B-BLK
+6-33	pakka	hi	पक्का	NOUN	B-NP
+6-34	se	hi	से	ADP	I-NP
+6-35	dekhna	hi	देखना	VERB	B-VG
+6-36	!	rest	!	PUNCT	B-BLK
+6-37	shot	hi	शॉट	NOUN	B-NP
+6-38	baith	hi	बैठ	VERB	B-VG
+6-39	jata	hi	जता	AUX	I-VG
+6-40	hain	hi	हैं	AUX	I-VG
+6-41	ekdam	hi	एकदम	ADV	B-RBP
+6-42	.	rest	.	PUNCT	B-BLK
+6-43	https://www.youtube.com/watch?v=sQ7lMDWJOXA	en	https://www.youtube.com/watch?v=sQ7lMDWJOXA	NOUN	B-NP
+
+#id=7
+#text=Yar theoden yeh toh kya Hi tha yar
+7-1	Yar	hi	यार	INTJ	B-NP
+7-2	theoden	hi	थ्योडें	ADV	B-RBP
+7-3	yeh	hi	येह	DET	B-NP
+7-4	toh	hi	तोह	PRON	I-NP
+7-5	kya	hi	क्या	ADV	B-RBP
+7-6	Hi	hi	ही	PART	I-RBP
+7-7	tha	hi	ठा	NOUN	B-NP
+7-8	yar	hi	यार	NOUN	I-NP
+
+#id=8
+#text=A project taken under any faculty can be counted in CS Elective or Free Elective - right?
+8-1	A	en	A	DET	B-NP
+8-2	project	en	project	NOUN	I-NP
+8-3	taken	en	taken	VERB	B-VG
+8-4	under	en	under	ADV	B-RBP
+8-5	any	en	any	ADJ	B-NP
+8-6	faculty	en	faculty	NOUN	I-NP
+8-7	can	en	can	VERB	B-VG
+8-8	be	en	be	AUX	I-VG
+8-9	counted	en	counted	VERB	B-VG
+8-10	in	en	in	ADP	I-VG
+8-11	CS	en	CS	NOUN	B-NP
+8-12	Elective	en	Elective	ADJ	B-JJP
+8-13	or	en	or	NOUN	B-NP
+8-14	Free	en	Free	ADJ	I-NP
+8-15	Elective	en	Elective	NOUN	I-NP
+8-16	-	rest	-	SYM	B-BLK
+8-17	right	en	right	INTJ	B-BLK
+8-18	?	rest	?	PUNCT	B-BLK
+
+#id=9
+#text=koi cleartrip site pe signup karne pe milta hai
+9-1	koi	hi	कोई	PRON	B-NP
+9-2	cleartrip	en	cleartrip	NOUN	B-NP
+9-3	site	en	site	NOUN	I-NP
+9-4	pe	hi	पे	ADP	I-NP
+9-5	signup	en	signup	NOUN	B-NP
+9-6	karne	hi	करने	VERB	B-VG
+9-7	pe	hi	पे	ADP	I-VG
+9-8	milta	hi	मिलता	VERB	B-VG
+9-9	hai	hi	हाई	NOUN	B-NP
+
+#id=10
+#text=thanks gimli and theoden for reading the spam(if you did)  :P
+10-1	thanks	en	thanks	NOUN	B-NP
+10-2	gimli	en	gimli	NOUN	I-NP
+10-3	and	en	and	CONJ	B-CCP
+10-4	theoden	en	theoden	NOUN	B-NP
+10-5	for	en	for	ADP	I-NP
+10-6	reading	en	reading	VERB	B-VG
+10-7	the	en	the	DET	B-NP
+10-8	spam(if	en	spam(if	NOUN	I-NP
+10-9	you	en	you	PRON	B-NP
+10-10	did	en	did	VERB	B-VG
+10-11	)	rest	)	SYM	B-BLK
+10-12	:P	rest	:P	SYM	B-BLK
+
+#id=11
+#text=Me leaving from CIE in like 15 mins
+11-1	Me	en	Me	PRON	B-NP
+11-2	leaving	en	leaving	NOUN	B-NP
+11-3	from	en	from	ADP	I-NP
+11-4	CIE	en	CIE	NOUN	B-NP
+11-5	in	en	in	ADP	B-RBP
+11-6	like	en	like	PART	I-RBP
+11-7	15	en	15	NUM	B-NP
+11-8	mins	en	mins	NOUN	I-NP
+
+#id=12
+#text=Though I am not sure I can help. I am home.
+12-1	Though	en	Though	ADV	B-RBP
+12-2	I	en	I	PRON	B-NP
+12-3	am	en	am	AUX	B-VG
+12-4	not	en	not	ADV	I-VG
+12-5	sure	en	sure	ADJ	B-JJP
+12-6	I	en	I	PRON	B-NP
+12-7	can	en	can	AUX	B-VG
+12-8	help	en	help	VERB	I-VG
+12-9	.	rest	.	PUNCT	B-BLK
+12-10	I	en	I	PRON	B-NP
+12-11	am	en	am	AUX	B-VG
+12-12	home	en	home	NOUN	B-NP
+12-13	.	rest	.	PUNCT	B-BLK
+
+#id=13
+#text=bhai usse important, iss chuitye Mars wale ko bolne bhi kyon de rahe hain hum?
+13-1	bhai	hi	भाई	NOUN	B-NP
+13-2	usse	hi	उसए	PRON	B-NP
+13-3	important	en	important	NOUN	B-NP
+13-4	,	rest	,	PUNCT	B-BLK
+13-5	iss	en	iss	VERB	B-VG
+13-6	chuitye	en	chuitye	ADJ	B-NP
+13-7	Mars	en	Mars	NOUN	I-NP
+13-8	wale	hi	वाले	PRON	I-NP
+13-9	ko	hi	को	ADP	I-NP
+13-10	bolne	hi	बोलने	VERB	B-VG
+13-11	bhi	hi	भी	PART	I-VG
+13-12	kyon	hi	क्यों	ADV	B-VG
+13-13	de	hi	दे	VERB	I-VG
+13-14	rahe	hi	रहे	AUX	I-VG
+13-15	hain	hi	हैं	AUX	I-VG
+13-16	hum	hi	हम	PRON	B-NP
+13-17	?	rest	?	PUNCT	B-BLK
+
+#id=14
+#text=lol all sites down but gmail working :P
+14-1	lol	en	lol	NOUN	B-NP
+14-2	all	en	all	DET	I-NP
+14-3	sites	en	sites	NOUN	I-NP
+14-4	down	en	down	ADP	I-NP
+14-5	but	en	but	CONJ	B-CCP
+14-6	gmail	en	gmail	NOUN	B-NP
+14-7	working	en	working	VERB	B-VG
+14-8	:P	rest	:P	SYM	B-BLK
+
+#id=15
+#text=m going. alone. wandering in them lonely nights. for i must make myself used to it. peace. 
+15-1	m	hi	म	NOUN	B-NP
+15-2	going	en	going	VERB	B-VG
+15-3	.	rest	.	PUNCT	B-BLK
+15-4	alone	en	alone	ADV	B-RBP
+15-5	.	rest	.	PUNCT	B-BLK
+15-6	wandering	en	wandering	VERB	B-VG
+15-7	in	en	in	ADP	I-VG
+15-8	them	en	them	PRON	B-NP
+15-9	lonely	en	lonely	ADJ	B-JJP
+15-10	nights	en	nights	NOUN	B-NP
+15-11	.	rest	.	PUNCT	B-BLK
+15-12	for	en	for	ADP	B-NP
+15-13	i	en	i	PRON	B-NP
+15-14	must	en	must	ADV	B-VG
+15-15	make	en	make	VERB	I-VG
+15-16	myself	en	myself	PRON	B-NP
+15-17	used	en	used	VERB	B-VG
+15-18	to	en	to	PART	I-VG
+15-19	it	en	it	PRON	B-NP
+15-20	.	rest	.	PUNCT	B-BLK
+15-21	peace	en	peace	NOUN	B-NP
+15-22	.	rest	.	PUNCT	B-BLK
+
+#id=16
+#text=ok gimli jab niklega toh bol dena
+16-1	ok	en	ok	INTJ	B-BLK
+16-2	gimli	en	gimli	NOUN	B-NP
+16-3	jab	hi	जब	ADV	B-RBP
+16-4	niklega	hi	निकलेगा	VERB	B-VG
+16-5	toh	hi	तोह	PRON	B-NP
+16-6	bol	hi	बोल	VERB	B-VG
+16-7	dena	hi	देना	AUX	I-VG
+
+#id=17
+#text=are jazzy tu nahi ye doosre jazzy ki baat ho rahi thi
+17-1	are	hi	अरे	INTJ	B-NP
+17-2	jazzy	hi	जज़्जी	NOUN	I-NP
+17-3	tu	hi	तु	PRON	B-NP
+17-4	nahi	hi	नही	ADV	B-RBP
+17-5	ye	hi	ये	DET	B-NP
+17-6	doosre	hi	दूसरे	NOUN	I-NP
+17-7	jazzy	hi	जज़्जी	NOUN	I-NP
+17-8	ki	hi	की	ADP	I-NP
+17-9	baat	hi	बाट	NOUN	B-NP
+17-10	ho	hi	हो	VERB	B-VG
+17-11	rahi	hi	रही	AUX	I-VG
+17-12	thi	hi	ठी	VERB	B-VG
+
+#id=18
+#text=me aragorn nazgul aur shyd isildur. Aur sharmi nhi. *bhi.
+18-1	me	hi	मे	PRON	B-NP
+18-2	aragorn	en	aragorn	NOUN	B-NP
+18-3	nazgul	en	nazgul	NOUN	I-NP
+18-4	aur	hi	और	CONJ	B-CCP
+18-5	shyd	en	shyd	NOUN	B-NP
+18-6	isildur	en	isildur	NOUN	I-NP
+18-7	.	rest	.	PUNCT	B-BLK
+18-8	Aur	hi	और	CONJ	B-CCP
+18-9	sharmi	hi	शर्मी	NOUN	B-NP
+18-10	nhi	hi	न्ही	ADV	B-RBP
+18-11	.	rest	.	PUNCT	B-BLK
+18-12	*	rest	*	SYM	B-BLK
+18-13	bhi	hi	भी	PART	I-BLK
+18-14	.	rest	.	PUNCT	B-BLK
+
+#id=19
+#text=4:40 IST or Japan std time? o.O O.o
+19-1	4:40	rest	4:40	NUM	B-NP
+19-2	IST	en	IST	NOUN	I-NP
+19-3	or	en	or	ADP	B-NP
+19-4	Japan	en	Japan	NOUN	I-NP
+19-5	std	en	std	NOUN	B-NP
+19-6	time	en	time	NOUN	I-NP
+19-7	?	rest	?	PUNCT	B-BLK
+19-8	o.O	rest	o.O	SYM	B-BLK
+19-9	O.o	rest	O.o	SYM	B-BLK
+
+#id=20
+#text=Main dinner karne baith raha hu. Uth ja gamgee ! :P :-//
+20-1	Beetey	hi	बीते	VERB	B-VG
+20-2	hue	hi	हुए	PART	I-VG
+20-3	din	hi	दीन	NOUN	B-NP
+20-4	raat	hi	रात	VERB	B-VG
+20-5	na	hi	ना	ADV	B-RBP
+20-6	yaad	hi	याद	VERB	B-VG
+20-7	aayen	hi	आयें	PRON	B-NP
+20-8	to	hi	तो	PART	I-NP
+20-9	soyein	en	soyein	VERB	B-VG
+20-10	..	rest	..	PUNCT	B-BLK
+20-11	~	rest	~	SYM	B-BLK
+20-12	(	rest	(	SYM	B-BLK
+20-13	Still	en	Still	ADJ	B-JJP
+20-14	on	en	on	ADP	B-NP
+20-15	#HabibJalib	rest	#HabibJalib	PROPN	I-NP
+20-16	.	rest	.	PUNCT	B-BLK
+20-17	Apparently	en	Apparently	ADV	B-RBP
+20-18	.	rest	.	PUNCT	B-BLK
+20-19	)	rest	)	SYM	B-BLK
+20-20	https://t.co/16hlIXvn02	rest	https://t.co/16hlIXvn02	SYM	B-BLK
+

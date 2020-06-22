@@ -1,0 +1,293 @@
+# webanno.custom.LanguageID | NormValue # webanno.custom.Normalized | normword # webanno.custom.Pos | PosValue # webanno.custom.Chunk | Chunktag
+#id=1
+#text=no tension gamgee... I'll be supporting arsenal  ;)
+1-1	no	en	no	ADJ	B-NP
+1-2	tension	en	tension	NOUN	I-NP
+1-3	gamgee	en	gamgee	NOUN	I-NP
+1-4	...	rest	...	PUNCT	B-BLK
+1-5	I'll	en	I'll	PRON	B-NP
+1-6	be	en	be	VERB	B-VG
+1-7	supporting	en	supporting	VERB	I-VG
+1-8	arsenal	en	arsenal	NOUN	B-NP
+1-9	;)	rest	;)	SYM	B-BLK
+
+#id=2
+#text='theoden mandir' kissi mandir ka naam lagta hai
+2-1	'	rest	'	SYM	B-BLK
+2-2	theoden	en	theoden	PROPN	B-NP
+2-3	mandir	rest	mandir	PROPN	I-NP
+2-4	'	rest	'	SYM	B-BLK
+2-5	kissi	hi	किसी	ADJ	B-JJP
+2-6	mandir	hi	मन्दिर	NOUN	B-NP
+2-7	ka	hi	का	ADP	I-NP
+2-8	naam	hi	नाम	NOUN	B-NP
+2-9	lagta	hi	लग्ता	VERB	B-VG
+2-10	hai	hi	हाई	NOUN	B-NP
+
+#id=3
+#text=mi gimli n legolas are going to indiranagar. dahi puri + domi.
+3-1	mi	en	mi	PRON	B-NP
+3-2	gimli	en	gimli	NOUN	B-NP
+3-3	n	en	n	ADP	I-NP
+3-4	legolas	en	legolas	NOUN	B-NP
+3-5	are	en	are	VERB	B-VG
+3-6	going	en	going	VERB	I-VG
+3-7	to	hi	तो	PART	I-VG
+3-8	indiranagar	rest	indiranagar	PROPN	B-NP
+3-9	.	rest	.	PUNCT	B-BLK
+3-10	dahi	hi	दही	NOUN	B-NP
+3-11	puri	hi	पुरी	VERB	B-VG
+3-12	+	hi	+	PUNCT	B-BLK
+3-13	domi	hi	डोमी	NOUN	B-NP
+3-14	.	rest	.	PUNCT	B-BLK
+
+#id=4
+#text=nice legolas, tujhe naam yaad hai  :D ;P
+4-1	nice	en	nice	ADJ	B-NP
+4-2	legolas	en	legolas	NOUN	I-NP
+4-3	,	rest	,	PUNCT	B-BLK
+4-4	tujhe	hi	तुझे	PRON	B-NP
+4-5	naam	hi	नाम	NOUN	I-NP
+4-6	yaad	hi	याद	PRON	B-NP
+4-7	hai	hi	हाई	NOUN	B-NP
+4-8	:D	rest	:D	SYM	B-BLK
+4-9	;P	rest	;P	SYM	B-BLK
+
+#id=5
+#text=proxy ke piche nhi chalti kya uber?
+5-1	proxy	en	proxy	NOUN	B-NP
+5-2	ke	hi	के	ADP	I-NP
+5-3	piche	hi	पीछे	VERB	B-VG
+5-4	nhi	hi	न्ही	ADV	I-VG
+5-5	chalti	hi	चलती	VERB	I-VG
+5-6	kya	hi	क्या	ADV	B-RBP
+5-7	uber	en	uber	NOUN	B-NP
+5-8	?	rest	?	PUNCT	B-BLK
+
+#id=6
+#text=woh mere room pe baitha hua hai. got it from isildur though. Peace.
+6-1	woh	hi	वोह	ADV	B-RBP
+6-2	mere	hi	मेरे	PRON	B-NP
+6-3	room	en	room	NOUN	I-NP
+6-4	pe	hi	पे	ADP	I-NP
+6-5	baitha	hi	बैठा	VERB	B-VG
+6-6	hua	hi	हुआ	AUX	I-VG
+6-7	hai	hi	हाई	NOUN	B-NP
+6-8	.	rest	.	PUNCT	B-BLK
+6-9	got	en	got	VERB	B-VG
+6-10	it	en	it	PRON	B-NP
+6-11	from	en	from	ADP	I-NP
+6-12	isildur	en	isildur	NOUN	B-NP
+6-13	though	en	though	ADV	B-RBP
+6-14	.	rest	.	PUNCT	B-BLK
+6-15	Peace	en	Peace	NOUN	B-NP
+6-16	.	rest	.	PUNCT	B-BLK
+
+#id=7
+#text=me n gimli are departing from lab
+7-1	me	hi	मे	PRON	B-NP
+7-2	n	en	n	DET	B-NP
+7-3	gimli	en	gimli	NOUN	I-NP
+7-4	are	en	are	VERB	B-VG
+7-5	departing	en	departing	NOUN	B-NP
+7-6	from	en	from	ADP	I-NP
+7-7	lab	hi	लब	NOUN	I-NP
+
+#id=8
+#text=your mom does that, she got a dick  too :D
+8-1	your	en	your	PRON	B-NP
+8-2	mom	en	mom	NOUN	B-NP
+8-3	does	en	does	VERB	B-VG
+8-4	that	en	that	PRON	B-NP
+8-5	,	rest	,	PUNCT	B-BLK
+8-6	she	en	she	PRON	B-NP
+8-7	got	en	got	VERB	B-VG
+8-8	a	en	a	DET	B-NP
+8-9	dick	en	dick	NOUN	I-NP
+8-10	too	en	too	ADV	B-RBP
+8-11	:D	rest	:D	SYM	B-BLK
+
+#id=9
+#text=anyone for mess tonight? except gandalf ofcourse, before he replies.  -_-
+9-1	anyone	en	anyone	NOUN	B-NP
+9-2	for	en	for	ADP	I-NP
+9-3	mess	en	mess	NOUN	B-NP
+9-4	tonight	en	tonight	NOUN	I-NP
+9-5	?	rest	?	PUNCT	B-BLK
+9-6	except	en	except	VERB	B-VG
+9-7	gandalf	en	gandalf	NOUN	B-NP
+9-8	ofcourse	en	ofcourse	INTJ	I-NP
+9-9	,	rest	,	PUNCT	B-BLK
+9-10	before	en	before	NOUN	B-NP
+9-11	he	en	he	PRON	I-NP
+9-12	replies	en	replies	NOUN	I-NP
+9-13	.	rest	.	PUNCT	B-BLK
+9-14	-_-	rest	-_-	SYM	B-BLK
+
+#id=10
+#text=Kashi be like i'm gonna scrutinize everyone ocz he's got attitude bitches! :D ;P 
+10-1	Kashi	hi	काशी	ADV	B-VG
+10-2	be	en	be	VERB	I-VG
+10-3	like	en	like	PART	I-VG
+10-4	i'm	en	i'm	PRON	B-NP
+10-5	gonna	en	gonna	VERB	B-VG
+10-6	scrutinize	en	scrutinize	VERB	I-VG
+10-7	everyone	en	everyone	NOUN	B-NP
+10-8	ocz	en	ocz	NOUN	B-NP
+10-9	he's	en	he's	PRON	I-NP
+10-10	got	en	got	VERB	B-VG
+10-11	attitude	en	attitude	NOUN	B-NP
+10-12	bitches	en	bitches	NOUN	I-NP
+10-13	!	rest	!	PUNCT	B-BLK
+10-14	:D	rest	:D	SYM	B-BLK
+10-15	;P	rest	;P	SYM	B-BLK
+
+#id=11
+#text=wahi toh dikkat aur koi samaj mein nhi aa rha
+11-1	wahi	hi	वही	PRON	B-NP
+11-2	toh	hi	तोह	PRON	B-NP
+11-3	dikkat	hi	दिक्कट	NOUN	I-NP
+11-4	aur	hi	और	CONJ	B-CCP
+11-5	koi	hi	कोई	PRON	B-NP
+11-6	samaj	hi	समझ	NOUN	I-NP
+11-7	mein	hi	में	ADP	I-NP
+11-8	nhi	hi	न्ही	NOUN	I-NP
+11-9	aa	hi	आ	VERB	B-VG
+11-10	rha	hi	रा	AUX	I-VG
+
+#id=12
+#text=abe since abhi koi coupon nahi hain, 3 log are backing out. fcuk y'all
+12-1	abe	hi	अबे	INTJ	B-BLK
+12-2	since	en	since	NOUN	B-NP
+12-3	abhi	hi	अभी	ADV	B-RBP
+12-4	koi	hi	कोई	PRON	B-NP
+12-5	coupon	en	coupon	NOUN	B-NP
+12-6	nahi	hi	नही	ADV	B-RBP
+12-7	hain	hi	हैं	AUX	I-RBP
+12-8	,	rest	,	PUNCT	B-BLK
+12-9	3	rest	3	NUM	B-NP
+12-10	log	hi	लॉग	NOUN	I-NP
+12-11	are	en	are	VERB	B-VG
+12-12	backing	en	backing	VERB	I-VG
+12-13	out	en	out	PART	I-VG
+12-14	.	rest	.	PUNCT	B-BLK
+12-15	fcuk	en	fcuk	VERB	B-VG
+12-16	y'all	en	y'all	PRON	B-NP
+
+#id=13
+#text=seminar ke liye register karlo 30th jan ko hai
+13-1	seminar	en	seminar	NOUN	B-NP
+13-2	ke	hi	के	ADP	I-NP
+13-3	liye	hi	लिये	ADP	I-NP
+13-4	register	en	register	NOUN	I-NP
+13-5	karlo	hi	कर्लो	VERB	B-VG
+13-6	30th	hi	30थ	NOUN	B-NP
+13-7	jan	hi	जन	NOUN	I-NP
+13-8	ko	hi	को	ADP	I-NP
+13-9	hai	hi	हाई	NOUN	B-NP
+
+#id=14
+#text=lo bhai.. jo jo nalle log hain unke liye
+14-1	lo	hi	लो	VERB	B-VG
+14-2	bhai	hi	भाई	NOUN	B-NP
+14-3	..	rest	..	PUNCT	B-BLK
+14-4	jo	hi	जो	SCONJ	B-CCP
+14-5	jo	hi	जो	PRON	B-NP
+14-6	nalle	hi	नल्ले	ADV	B-VG
+14-7	log	hi	लॉग	VERB	I-VG
+14-8	hain	hi	हैं	AUX	I-VG
+14-9	unke	hi	उनके	PRON	B-NP
+14-10	liye	hi	लिये	ADP	I-NP
+
+#id=15
+#text=mere ko koi fark nahi padta. make your choice.
+15-1	mere	hi	मेरे	PRON	B-NP
+15-2	ko	hi	को	PART	I-NP
+15-3	koi	hi	कोई	PRON	B-NP
+15-4	fark	hi	फ़र्क	NOUN	I-NP
+15-5	nahi	hi	नही	ADV	B-RBP
+15-6	padta	hi	पड़ता	VERB	B-VG
+15-7	.	rest	.	PUNCT	B-BLK
+15-8	make	en	make	VERB	B-VG
+15-9	your	en	your	PRON	B-NP
+15-10	choice	en	choice	NOUN	I-NP
+15-11	.	rest	.	PUNCT	B-BLK
+
+#id=16
+#text=theek hai fir kal chal lete hain
+16-1	theek	hi	ठीक	ADV	B-RBP
+16-2	hai	hi	हाई	NOUN	B-NP
+16-3	fir	hi	फ़िर	ADV	B-RBP
+16-4	kal	hi	कल	VERB	B-VG
+16-5	chal	hi	चल	ADV	I-VG
+16-6	lete	hi	लेते	VERB	I-VG
+16-7	hain	hi	हैं	AUX	I-VG
+
+#id=17
+#text=aragorn doesn't know because bucker hasn't decided yet 
+17-1	aragorn	en	aragorn	NOUN	B-NP
+17-2	doesn't	en	doesn't	VERB	B-VG
+17-3	know	en	know	VERB	I-VG
+17-4	because	en	because	CONJ	B-CCP
+17-5	bucker	en	bucker	NOUN	B-NP
+17-6	hasn't	en	hasn't	VERB	B-VG
+17-7	decided	en	decided	VERB	I-VG
+17-8	yet	en	yet	ADV	I-VG
+
+#id=18
+#text=^ dekhte rehna. only applicable for gandalf.
+18-1	^	rest	^	SYM	B-BLK
+18-2	dekhte	hi	देखते	VERB	B-VG
+18-3	rehna	hi	रहना	VERB	I-VG
+18-4	.	rest	.	PUNCT	B-BLK
+18-5	only	en	only	ADV	B-RBP
+18-6	applicable	en	applicable	ADJ	B-JJP
+18-7	for	en	for	ADP	I-JJP
+18-8	gandalf	rest	gandalf	NOUN	B-NP
+18-9	.	rest	.	PUNCT	B-BLK
+
+#id=19
+#text=Eatsome se kissi ko kuch khana hai?
+19-1	Eatsome	en	Eatsome	NOUN	B-NP
+19-2	se	hi	से	ADP	I-NP
+19-3	kissi	hi	किसी	NOUN	B-NP
+19-4	ko	hi	को	ADP	I-NP
+19-5	kuch	hi	कुच	NOUN	B-NP
+19-6	khana	hi	खआना	VERB	B-VG
+19-7	hai	hi	हाई	NOUN	B-NP
+19-8	?	rest	?	PUNCT	B-BLK
+
+#id=20
+#text=mujhe toh yeh smajh nahi aaya ki log call kyun kar rahe the hangouts pe?
+20-1	RT	en	RT	ADJ	B-NP
+20-2	@Aarzbyzarakhan	hi	@आर्ज़बिज़रखन	NOUN	I-NP
+20-3	:	rest	:	SYM	B-BLK
+20-4	Does	en	Does	VERB	B-VG
+20-5	that	en	that	PRON	B-NP
+20-6	even	en	even	ADV	B-RBP
+20-7	make	en	make	VERB	B-VG
+20-8	sense	en	sense	NOUN	B-NP
+20-9	?	rest	?	PUNCT	B-BLK
+20-10	Bharat	hi	भरत	NOUN	B-NP
+20-11	mata	hi	माता	VERB	B-VG
+20-12	ki	hi	की	ADP	I-VG
+20-13	jai	hi	जई	NOUN	B-NP
+20-14	?	rest	?	PUNCT	B-BLK
+20-15	I	en	I	PRON	B-NP
+20-16	can	en	can	AUX	B-VG
+20-17	say	en	say	VERB	I-VG
+20-18	Bharat	hi	भरत	NOUN	B-NP
+20-19	mera	hi	मेरा	PRON	B-NP
+20-20	pyara	hi	प्यारा	NOUN	I-NP
+20-21	desh	hi	देश	NOUN	B-NP
+20-22	hai	hi	हाई	NOUN	I-NP
+20-23	and	en	and	CONJ	B-CCP
+20-24	shout	en	shout	VERB	B-VG
+20-25	at	en	at	ADP	I-VG
+20-26	top	en	top	NOUN	B-NP
+20-27	of	en	of	ADP	I-NP
+20-28	my	en	my	PRON	B-NP
+20-29	volume	en	volume	NOUN	I-NP
+20-30	@asad	rest	@asad	SYM	B-BLK
+20-31	…	rest	…	SYM	B-BLK
+

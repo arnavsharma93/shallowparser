@@ -1,0 +1,336 @@
+# webanno.custom.LanguageID | NormValue # webanno.custom.Normalized | normword # webanno.custom.Pos | PosValue # webanno.custom.Chunk | Chunktag
+#id=1
+#text=Sala har din hi gobi manchurian banta hai kya?
+1-1	Sala	hi	साला	INTJ	B-BLK
+1-2	har	hi	हर	DET	B-NP
+1-3	din	hi	दीन	NOUN	I-NP
+1-4	hi	hi	ही	PART	I-NP
+1-5	gobi	hi	गोभी	ADV	B-RBP
+1-6	manchurian	rest	manchurian	PROPN	B-NP
+1-7	banta	hi	बंटा	NOUN	I-NP
+1-8	hai	hi	हाई	NOUN	B-NP
+1-9	kya	hi	क्या	ADV	B-RBP
+1-10	?	rest	?	PUNCT	B-BLK
+
+#id=2
+#text=abey main bore ho raha hun, bass yehi pooch raha tha ki koi jaga hua hai kya?
+2-1	abey	hi	अबी	PRON	B-NP
+2-2	main	hi	मैं	PRON	B-NP
+2-3	bore	hi	बोर	VERB	B-VG
+2-4	ho	hi	हो	AUX	I-VG
+2-5	raha	hi	रह	VERB	I-VG
+2-6	hun	hi	हुन	AUX	I-VG
+2-7	,	rest	,	PUNCT	B-BLK
+2-8	bass	hi	बास	NOUN	B-NP
+2-9	yehi	hi	येही	PRON	B-NP
+2-10	pooch	hi	पूछ	NOUN	I-NP
+2-11	raha	hi	रह	VERB	B-VG
+2-12	tha	hi	ठा	NOUN	B-NP
+2-13	ki	hi	की	ADP	I-NP
+2-14	koi	hi	कोई	NOUN	B-NP
+2-15	jaga	hi	जगा	VERB	B-VG
+2-16	hua	hi	हुआ	AUX	I-VG
+2-17	hai	hi	हाई	NOUN	B-NP
+2-18	kya	hi	क्या	ADV	B-RBP
+2-19	?	rest	?	PUNCT	B-BLK
+
+#id=3
+#text=tu pike aaya hamare saath :D :P. juice. aur piss be :P as in Peace be..
+3-1	tu	hi	तु	PRON	B-NP
+3-2	pike	hi	पीके	VERB	B-VG
+3-3	aaya	hi	आया	VERB	I-VG
+3-4	hamare	hi	हमरे	PRON	B-NP
+3-5	saath	hi	साथ्	NOUN	I-NP
+3-6	:D	rest	:D	SYM	B-BLK
+3-7	:P	rest	:P	SYM	B-BLK
+3-8	.	rest	.	PUNCT	B-BLK
+3-9	juice	en	juice	NOUN	B-NP
+3-10	.	rest	.	PUNCT	B-BLK
+3-11	aur	hi	और	CONJ	B-CCP
+3-12	piss	en	piss	VERB	B-VG
+3-13	be	en	be	AUX	I-VG
+3-14	:P	rest	:P	SYM	B-BLK
+3-15	as	en	as	PART	B-RBP
+3-16	in	en	in	ADP	B-NP
+3-17	Peace	en	Peace	NOUN	I-NP
+3-18	be	en	be	VERB	B-VG
+3-19	..	rest	..	PUNCT	B-BLK
+
+#id=4
+#text=jise pehle nikalne ho vo pehle nikal lenge
+4-1	jise	hi	जिसे	PRON	B-NP
+4-2	pehle	hi	पहले	ADV	B-VG
+4-3	nikalne	hi	निकलने	VERB	I-VG
+4-4	ho	hi	हो	AUX	I-VG
+4-5	vo	hi	वो	PRON	B-NP
+4-6	pehle	hi	पहले	ADV	B-RBP
+4-7	nikal	hi	निकल	ADV	I-RBP
+4-8	lenge	hi	लेंगे	VERB	B-VG
+
+#id=5
+#text=kewl. anyone else for "ja fir mess mein maa chudale" ? :D
+5-1	kewl	hi	केल	ADV	B-RBP
+5-2	.	rest	.	PUNCT	B-BLK
+5-3	anyone	en	anyone	NOUN	B-NP
+5-4	else	en	else	ADV	B-RBP
+5-5	for	en	for	ADP	I-RBP
+5-6	"	rest	"	SYM	B-BLK
+5-7	ja	hi	जा	VERB	B-VG
+5-8	fir	hi	फ़िर	ADV	B-RBP
+5-9	mess	hi	मेस	PRON	B-NP
+5-10	mein	hi	में	ADP	I-NP
+5-11	maa	hi	मा	NOUN	B-NP
+5-12	chudale	hi	चुड़ाले	ADV	B-RBP
+5-13	"	rest	"	SYM	B-BLK
+5-14	?	rest	?	PUNCT	B-BLK
+5-15	:D	rest	:D	SYM	B-BLK
+
+#id=6
+#text=Oh, I almost forgot. Gamgee, I need a favor. :P
+6-1	Oh	en	Oh	INTJ	B-BLK
+6-2	,	rest	,	PUNCT	B-BLK
+6-3	I	en	I	PRON	B-NP
+6-4	almost	en	almost	ADV	B-VG
+6-5	forgot	en	forgot	VERB	I-VG
+6-6	.	rest	.	PUNCT	B-BLK
+6-7	Gamgee	en	Gamgee	NOUN	B-NP
+6-8	,	rest	,	PUNCT	B-BLK
+6-9	I	en	I	PRON	B-NP
+6-10	need	en	need	VERB	B-VG
+6-11	a	en	a	DET	B-NP
+6-12	favor	en	favor	NOUN	I-NP
+6-13	.	rest	.	PUNCT	B-BLK
+6-14	:P	rest	:P	SYM	B-BLK
+
+#id=7
+#text=Are rondu bhagoda toh pehli baar dekha hain :D :D
+7-1	Are	hi	अरे	INTJ	B-BLK
+7-2	rondu	rest	rondu	NOUN	B-NP
+7-3	bhagoda	hi	भ्गोदा	VERB	B-VG
+7-4	toh	hi	तोह	PRON	B-NP
+7-5	pehli	hi	पहली	ADJ	B-JJP
+7-6	baar	hi	बार	NOUN	B-NP
+7-7	dekha	hi	देखा	VERB	B-VG
+7-8	hain	hi	हैं	AUX	I-VG
+7-9	:D	rest	:D	SYM	B-BLK
+7-10	:D	rest	:D	SYM	B-BLK
+
+#id=8
+#text=oh, i thought keyboard par dhul thi. nice to know saaf saaf likha tune.
+8-1	oh	hi	ओह	INTJ	B-BLK
+8-2	,	rest	,	PUNCT	B-BLK
+8-3	i	en	i	PRON	B-NP
+8-4	thought	en	thought	VERB	B-VG
+8-5	keyboard	hi	कीबोर्ड	NOUN	B-NP
+8-6	par	hi	पर	ADP	I-NP
+8-7	dhul	hi	धुल	NOUN	B-NP
+8-8	thi	hi	ठी	VERB	B-VG
+8-9	.	rest	.	PUNCT	B-BLK
+8-10	nice	en	nice	ADJ	B-JJP
+8-11	to	en	to	ADP	I-JJP
+8-12	know	en	know	VERB	B-VG
+8-13	saaf	hi	साफ़	ADJ	B-NP
+8-14	saaf	hi	साफ़	NOUN	I-NP
+8-15	likha	hi	लिखा	VERB	B-VG
+8-16	tune	hi	तुने	PRON	B-NP
+8-17	.	rest	.	PUNCT	B-BLK
+
+#id=9
+#text=sala blackmail maar raha hai. gimli se pooch.
+9-1	sala	hi	साला	INTJ	B-BLK
+9-2	blackmail	en	blackmail	ADJ	B-JJP
+9-3	maar	hi	मार	NOUN	I-JJP
+9-4	raha	hi	रह	VERB	B-VG
+9-5	hai	hi	हाई	NOUN	B-NP
+9-6	.	rest	.	PUNCT	B-BLK
+9-7	gimli	en	gimli	NOUN	B-NP
+9-8	se	hi	से	ADP	I-NP
+9-9	pooch	hi	पूछ	VERB	B-VG
+9-10	.	rest	.	PUNCT	B-BLK
+
+#id=10
+#text=room par padh rha hai intuit ke liye
+10-1	room	en	room	NOUN	B-NP
+10-2	par	hi	पर	ADP	I-NP
+10-3	padh	hi	पढ़	NOUN	B-NP
+10-4	rha	hi	रा	VERB	B-VG
+10-5	hai	hi	हाई	PRON	B-NP
+10-6	intuit	en	intuit	NOUN	I-NP
+10-7	ke	hi	के	ADP	I-NP
+10-8	liye	hi	लिये	ADP	I-NP
+
+#id=11
+#text=Mahishmati Parivar Research related placements ke liye opt karna ho to ye form bhar do https://docs.google.com/forms/d/1eNl2hIY9BMQhMXwq_GiYXcZo-Hyyh3lAnXdpxpa697k/viewform?c=0=1
+11-1	Mahishmati	rest	Mahishmati	PROPN	B-NP
+11-2	Parivar	rest	Parivar	PROPN	I-NP
+11-3	Research	en	Research	NOUN	I-NP
+11-4	related	en	related	ADJ	B-JJP
+11-5	placements	en	placements	NOUN	B-NP
+11-6	ke	hi	के	ADP	I-NP
+11-7	liye	hi	लिये	ADP	I-NP
+11-8	opt	en	opt	NOUN	B-NP
+11-9	karna	hi	कर्ण	VERB	B-VG
+11-10	ho	hi	हो	AUX	I-VG
+11-11	to	hi	तो	PART	I-VG
+11-12	ye	hi	ये	PRON	B-NP
+11-13	form	en	form	NOUN	I-NP
+11-14	bhar	hi	बर	NOUN	B-NP
+11-15	do	hi	दो	VERB	B-VG
+11-16	https://docs.google.com/forms/d/1eNl2hIY9BMQhMXwq_GiYXcZo-Hyyh3lAnXdpxpa697k/viewform?c=0=1	en	https://docs.google.com/forms/d/1eNl2hIY9BMQhMXwq_GiYXcZo-Hyyh3lAnXdpxpa697k/viewform?c=0=1	NOUN	B-NP
+
+#id=12
+#text=Kal subah 9 baje se room pe gajar ka halwa, samsoi aur chakli hogi. Fcfs bros
+12-1	Kal	hi	कल	ADV	B-RBP
+12-2	subah	hi	सुबह	NOUN	I-RBP
+12-3	9	rest	9	NUM	B-NP
+12-4	baje	hi	बजे	NOUN	I-NP
+12-5	se	hi	से	ADP	I-NP
+12-6	room	en	room	NOUN	I-NP
+12-7	pe	hi	पे	ADP	I-NP
+12-8	gajar	hi	गजर	NOUN	B-NP
+12-9	ka	hi	का	ADP	I-NP
+12-10	halwa	hi	हलवा	NOUN	B-NP
+12-11	,	rest	,	PUNCT	B-BLK
+12-12	samsoi	rest	samsoi	PROPN	B-NP
+12-13	aur	hi	और	CONJ	B-CCP
+12-14	chakli	hi	चकली	NOUN	B-NP
+12-15	hogi	hi	होगी	VERB	B-VG
+12-16	.	rest	.	PUNCT	B-BLK
+12-17	Fcfs	en	Fcfs	NOUN	B-NP
+12-18	bros	en	bros	NOUN	I-NP
+
+#id=13
+#text=Good luck boys. We'll strike at the first light  :P
+13-1	Good	en	Good	ADJ	B-NP
+13-2	luck	en	luck	NOUN	I-NP
+13-3	boys	en	boys	NOUN	B-NP
+13-4	.	rest	.	PUNCT	B-BLK
+13-5	We'll	en	We'll	NOUN	B-NP
+13-6	strike	en	strike	VERB	B-VG
+13-7	at	en	at	ADP	I-VG
+13-8	the	en	the	DET	B-NP
+13-9	first	en	first	NOUN	I-NP
+13-10	light	en	light	NOUN	B-NP
+13-11	:P	rest	:P	SYM	B-BLK
+
+#id=14
+#text=i'll be eating non-veg briyani...will that be okay? ^_^;;^_^;;
+14-1	i'll	en	i'll	PRON	B-NP
+14-2	be	en	be	VERB	B-VG
+14-3	eating	en	eating	NOUN	B-NP
+14-4	non-veg	en	non-veg	ADJ	B-NP
+14-5	briyani	en	briyani	NOUN	I-NP
+14-6	...	rest	...	PUNCT	B-BLK
+14-7	will	en	will	VERB	B-VG
+14-8	that	en	that	PRON	B-NP
+14-9	be	en	be	VERB	B-VG
+14-10	okay	en	okay	ADJ	I-VG
+14-11	?	rest	?	PUNCT	B-BLK
+14-12	^_^	rest	^_^	SYM	B-BLK
+14-13	;;^_^;;	rest	;;^_^;;	SYM	B-BLK
+
+#id=15
+#text=ye saal poora nahi hua abhi. khali nominate ho sakta hai.
+15-1	ye	hi	ये	DET	B-NP
+15-2	saal	hi	साल	NOUN	I-NP
+15-3	poora	hi	पूरा	VERB	B-VG
+15-4	nahi	hi	नही	ADV	I-VG
+15-5	hua	hi	हुआ	VERB	I-VG
+15-6	abhi	hi	अभी	ADV	B-RBP
+15-7	.	rest	.	PUNCT	B-BLK
+15-8	khali	hi	ख्ली	NOUN	B-NP
+15-9	nominate	en	nominate	VERB	B-VG
+15-10	ho	hi	हो	AUX	I-VG
+15-11	sakta	hi	सकता	VERB	I-VG
+15-12	hai	hi	हाई	NOUN	B-NP
+15-13	.	rest	.	PUNCT	B-BLK
+
+#id=16
+#text=Dhul ke wapas karega to theek hai
+16-1	Dhul	hi	धुल	NOUN	B-NP
+16-2	ke	hi	के	ADP	I-NP
+16-3	wapas	hi	वापस	ADV	B-VG
+16-4	karega	hi	करेगा	VERB	I-VG
+16-5	to	hi	तो	PART	I-VG
+16-6	theek	hi	ठीक	NOUN	B-NP
+16-7	hai	hi	हाई	NOUN	I-NP
+
+#id=17
+#text=bhai juice peena hai gaanja nhi maarna :P
+17-1	bhai	hi	भाई	NOUN	B-NP
+17-2	juice	en	juice	NOUN	I-NP
+17-3	peena	hi	पीना	VERB	B-VG
+17-4	hai	hi	हाई	NOUN	B-NP
+17-5	gaanja	hi	गांजा	NOUN	I-NP
+17-6	nhi	hi	न्ही	ADV	B-RBP
+17-7	maarna	hi	मारना	VERB	B-VG
+17-8	:P	rest	:P	SYM	B-BLK
+
+#id=18
+#text=main khud dunga ya nahi. Mujhe bhi nahi pata  :P
+18-1	main	hi	मैं	PRON	B-NP
+18-2	khud	hi	खुद	NOUN	B-NP
+18-3	dunga	hi	दूँगा	VERB	B-VG
+18-4	ya	hi	या	CONJ	B-CCP
+18-5	nahi	hi	नही	ADV	B-RBP
+18-6	.	rest	.	PUNCT	B-BLK
+18-7	Mujhe	hi	मुझे	PRON	B-NP
+18-8	bhi	hi	भी	PART	I-NP
+18-9	nahi	hi	नही	ADV	B-RBP
+18-10	pata	hi	पता	VERB	B-VG
+18-11	:P	rest	:P	SYM	B-BLK
+
+#id=19
+#text=enjoy in your own worldly pleasures wherein people like me are just things. 
+19-1	enjoy	en	enjoy	VERB	B-VG
+19-2	in	en	in	ADP	I-VG
+19-3	your	en	your	PRON	B-NP
+19-4	own	en	own	ADJ	B-JJP
+19-5	worldly	en	worldly	ADJ	B-NP
+19-6	pleasures	en	pleasures	NOUN	I-NP
+19-7	wherein	en	wherein	ADV	B-RBP
+19-8	people	en	people	ADJ	B-NP
+19-9	like	en	like	NOUN	I-NP
+19-10	me	hi	मे	PRON	B-NP
+19-11	are	en	are	VERB	B-VG
+19-12	just	en	just	ADV	B-RBP
+19-13	things	en	things	NOUN	B-NP
+19-14	.	rest	.	PUNCT	B-BLK
+
+#id=20
+#text=we reach @5:10. legolas wahan se aaja.
+20-1	we	en	we	PRON	B-NP
+20-2	reach	en	reach	VERB	B-VG
+20-3	@5	rest	@5	SYM	B-BLK
+20-4	:	rest	:	SYM	B-BLK
+20-5	10	rest	10	NUM	B-NP
+20-6	.	rest	.	PUNCT	B-BLK
+20-7	legolas	rest	legolas	PROPN	B-NP
+20-8	wahan	hi	वहाँ	NOUN	I-NP
+20-9	se	hi	से	ADP	I-NP
+20-10	aaja	hi	आजा	NOUN	B-NP
+20-11	.	rest	.	PUNCT	B-BLK
+20-12	si	hi	सी	PRON	B-NP
+20-13	,	rest	,	PUNCT	B-BLK
+20-14	a	en	a	DET	B-NP
+20-15	descendant	en	descendant	NOUN	I-NP
+20-16	of	en	of	ADP	I-NP
+20-17	Razakars	rest	Razakars	PROPN	B-NP
+20-18	couldn't	en	couldn't	VERB	B-VG
+20-19	have	en	have	AUX	I-VG
+20-20	said	en	said	VERB	I-VG
+20-21	anything	en	anything	NOUN	B-NP
+20-22	else	en	else	ADV	B-RBP
+20-23	.	rest	.	PUNCT	B-BLK
+20-24	I	en	I	PRON	B-NP
+20-25	think	en	think	VERB	B-VG
+20-26	,	rest	,	PUNCT	B-BLK
+20-27	the	en	the	DET	B-NP
+20-28	call	en	call	NOUN	I-NP
+20-29	b	hi	ब	PART	I-NP
+20-30	Bharat	hi	भरत	NOUN	B-NP
+20-31	desh	hi	देश	NOUN	B-NP
+20-32	ki	hi	की	ADP	I-NP
+20-33	jai	hi	जई	NOUN	B-NP
+20-34	.	rest	.	PUNCT	B-BLK
+

@@ -1,0 +1,352 @@
+# webanno.custom.LanguageID | NormValue # webanno.custom.Normalized | normword # webanno.custom.Pos | PosValue # webanno.custom.Chunk | Chunktag
+#id=1
+#text=bhai gimli bola pooch ke aayea tere se woh
+1-1	bhai	hi	भाई	NOUN	B-NP
+1-2	gimli	en	gimli	NOUN	I-NP
+1-3	bola	hi	बोला	VERB	B-VG
+1-4	pooch	hi	पूछ	NOUN	B-NP
+1-5	ke	hi	के	ADP	I-NP
+1-6	aayea	hi	आयिया	VERB	B-VG
+1-7	tere	hi	तेरे	PRON	B-NP
+1-8	se	hi	से	ADP	I-NP
+1-9	woh	hi	वोह	NOUN	B-NP
+
+#id=2
+#text=Arsenal loses at home to a 14th ranked team in EPL
+2-1	Arsenal	en	Arsenal	ADJ	B-JJP
+2-2	loses	en	loses	NOUN	B-NP
+2-3	at	en	at	ADP	I-NP
+2-4	home	en	home	NOUN	I-NP
+2-5	to	en	to	ADP	I-NP
+2-6	a	en	a	DET	B-NP
+2-7	14th	en	14th	NUM	I-NP
+2-8	ranked	en	ranked	NOUN	I-NP
+2-9	team	en	team	NOUN	I-NP
+2-10	in	en	in	ADP	B-NP
+2-11	EPL	en	EPL	NOUN	I-NP
+
+#id=3
+#text=haan kutte. humne cab karwa li hai. aate hi call karta dunga.
+3-1	haan	hi	हाँ	NOUN	B-NP
+3-2	kutte	hi	कुते	VERB	B-VG
+3-3	.	rest	.	PUNCT	B-BLK
+3-4	humne	hi	हमने	PRON	B-NP
+3-5	cab	hi	कैब	ADV	B-RBP
+3-6	karwa	hi	कारवा	VERB	B-VG
+3-7	li	hi	ली	AUX	I-VG
+3-8	hai	hi	हाई	NOUN	B-NP
+3-9	.	rest	.	PUNCT	B-BLK
+3-10	aate	hi	आते	VERB	B-VG
+3-11	hi	hi	ही	PART	I-VG
+3-12	call	en	call	VERB	B-VG
+3-13	karta	hi	करता	AUX	I-VG
+3-14	dunga	hi	दूँगा	VERB	I-VG
+3-15	.	rest	.	PUNCT	B-BLK
+
+#id=4
+#text=legolas toh sabse bada bhagoda hai. Sabko pata hai ye.
+4-1	legolas	en	legolas	NOUN	B-NP
+4-2	toh	hi	तोह	PRON	B-NP
+4-3	sabse	hi	सबसे	NOUN	I-NP
+4-4	bada	hi	बड़ा	VERB	B-VG
+4-5	bhagoda	hi	भ्गोदा	ADJ	B-JJP
+4-6	hai	hi	हाई	NOUN	B-NP
+4-7	.	rest	.	PUNCT	B-BLK
+4-8	Sabko	hi	सबको	PRON	B-NP
+4-9	pata	hi	पता	VERB	B-VG
+4-10	hai	hi	हाई	NOUN	B-NP
+4-11	ye	hi	ये	PRON	I-NP
+4-12	.	rest	.	PUNCT	B-BLK
+
+#id=5
+#text=main, gollum, theoden aur legolas aate hai. gimli chal chalte hai
+5-1	main	hi	मैं	PRON	B-NP
+5-2	,	rest	,	PUNCT	B-BLK
+5-3	gollum	en	gollum	NOUN	B-NP
+5-4	,	rest	,	PUNCT	B-BLK
+5-5	theoden	en	theoden	PROPN	B-NP
+5-6	aur	hi	और	CONJ	B-CCP
+5-7	legolas	hi	लेगोलास	NOUN	B-NP
+5-8	aate	hi	आते	VERB	B-VG
+5-9	hai	hi	हाई	NOUN	B-NP
+5-10	.	rest	.	PUNCT	B-BLK
+5-11	gimli	en	gimli	NOUN	B-NP
+5-12	chal	hi	चल	VERB	B-VG
+5-13	chalte	hi	चलते	VERB	I-VG
+5-14	hai	hi	हाई	NOUN	B-NP
+
+#id=6
+#text=jaana hain toh aage chale jao. main aa jaunga baad mein. no worries mate.
+6-1	jaana	hi	जाना	VERB	B-VG
+6-2	hain	hi	हैं	AUX	I-VG
+6-3	toh	hi	तोह	PRON	B-NP
+6-4	aage	hi	आगे	VERB	B-VG
+6-5	chale	hi	चले	ADV	I-VG
+6-6	jao	hi	जाओ	VERB	I-VG
+6-7	.	rest	.	PUNCT	B-BLK
+6-8	main	hi	मैं	PRON	B-NP
+6-9	aa	hi	आ	VERB	B-VG
+6-10	jaunga	hi	जाऊंगा	VERB	I-VG
+6-11	baad	hi	बाद	NOUN	B-NP
+6-12	mein	hi	में	ADP	I-NP
+6-13	.	rest	.	PUNCT	B-BLK
+6-14	no	en	no	ADJ	B-NP
+6-15	worries	en	worries	NOUN	I-NP
+6-16	mate	en	mate	NOUN	I-NP
+6-17	.	rest	.	PUNCT	B-BLK
+
+#id=7
+#text=Alive janta, reach NBH in 6 mins. Pohe 😍
+7-1	Alive	en	Alive	ADV	B-VG
+7-2	janta	hi	जनता	VERB	I-VG
+7-3	,	rest	,	PUNCT	B-BLK
+7-4	reach	en	reach	VERB	B-VG
+7-5	NBH	rest	NBH	PROPN	B-NP
+7-6	in	en	in	ADP	I-NP
+7-7	6	rest	6	NUM	B-NP
+7-8	mins	en	mins	NOUN	I-NP
+7-9	.	rest	.	PUNCT	B-BLK
+7-10	Pohe	rest	Pohe	PROPN	B-NP
+7-11	😍	rest	😍	SYM	B-BLK
+
+#id=8
+#text=meri ground breaking research main break daal rahe hai
+8-1	meri	hi	मेरी	PRON	B-NP
+8-2	ground	en	ground	NOUN	I-NP
+8-3	breaking	en	breaking	VERB	B-VG
+8-4	research	en	research	NOUN	B-NP
+8-5	main	hi	मैं	PRON	B-NP
+8-6	break	en	break	NOUN	B-NP
+8-7	daal	hi	डाल	VERB	B-VG
+8-8	rahe	hi	रहे	AUX	I-VG
+8-9	hai	hi	हाई	NOUN	B-NP
+
+#id=9
+#text=Bc plan hai new year par Ya nhi
+9-1	Bc	rest	Bc	INTJ	B-BLK
+9-2	plan	hi	प्लान	NOUN	B-NP
+9-3	hai	hi	हाई	NOUN	I-NP
+9-4	new	en	new	ADJ	B-NP
+9-5	year	en	year	NOUN	I-NP
+9-6	par	hi	पर	ADP	I-NP
+9-7	Ya	hi	या	NOUN	B-NP
+9-8	nhi	hi	न्ही	ADP	I-NP
+
+#id=10
+#text=Waving his hands as he crosses over that "horizon". Let his horizons "expand" in the positive light. #Peace
+10-1	Waving	en	Waving	VERB	B-VG
+10-2	his	en	his	DET	B-NP
+10-3	hands	en	hands	NOUN	I-NP
+10-4	as	en	as	ADP	I-NP
+10-5	he	en	he	PRON	I-NP
+10-6	crosses	en	crosses	NOUN	B-NP
+10-7	over	en	over	ADP	I-NP
+10-8	that	en	that	PRON	B-NP
+10-9	"	rest	"	SYM	B-BLK
+10-10	horizon	en	horizon	NOUN	B-NP
+10-11	"	rest	"	SYM	B-BLK
+10-12	.	rest	.	PUNCT	B-BLK
+10-13	Let	en	Let	VERB	B-VG
+10-14	his	en	his	DET	B-NP
+10-15	horizons	en	horizons	NOUN	I-NP
+10-16	"	rest	"	SYM	B-BLK
+10-17	expand	en	expand	VERB	B-VG
+10-18	"	rest	"	SYM	B-BLK
+10-19	in	en	in	ADP	B-NP
+10-20	the	en	the	DET	I-NP
+10-21	positive	en	positive	ADJ	I-NP
+10-22	light	en	light	NOUN	I-NP
+10-23	.	rest	.	PUNCT	B-BLK
+10-24	#Peace	en	#Peace	NOUN	B-NP
+
+#id=11
+#text=may mai hi kyu.. feb mai kyu nahi
+11-1	may	hi	मई	NOUN	B-NP
+11-2	mai	hi	माई	NOUN	B-NP
+11-3	hi	hi	ही	PART	I-NP
+11-4	kyu	hi	क्यू	ADV	B-RBP
+11-5	..	rest	..	PUNCT	B-BLK
+11-6	feb	en	feb	NOUN	B-NP
+11-7	mai	hi	माई	NOUN	B-NP
+11-8	kyu	hi	क्यू	ADV	B-RBP
+11-9	nahi	hi	नही	ADV	I-RBP
+
+#id=12
+#text=This guy recognizes talent bro. This guy. 🙃:)
+12-1	This	en	This	DET	B-NP
+12-2	guy	en	guy	NOUN	I-NP
+12-3	recognizes	en	recognizes	VERB	B-VG
+12-4	talent	en	talent	NOUN	B-NP
+12-5	bro	en	bro	NOUN	B-NP
+12-6	.	rest	.	PUNCT	B-BLK
+12-7	This	en	This	DET	B-NP
+12-8	guy	en	guy	NOUN	I-NP
+12-9	.	rest	.	PUNCT	B-BLK
+12-10	🙃	rest	🙃	PROPN	B-NP
+12-11	:)	rest	:)	SYM	B-BLK
+
+#id=13
+#text=/me asked gimli reg availability. "1:00 AM" is the verdict. Peace.
+13-1	/me	en	/me	NOUN	B-NP
+13-2	asked	en	asked	VERB	B-VG
+13-3	gimli	en	gimli	NOUN	B-NP
+13-4	reg	en	reg	NOUN	I-NP
+13-5	availability	en	availability	NOUN	I-NP
+13-6	.	rest	.	PUNCT	B-BLK
+13-7	"	rest	"	SYM	B-BLK
+13-8	1:00	rest	1:00	NUM	B-NP
+13-9	AM	en	AM	NOUN	I-NP
+13-10	"	rest	"	SYM	B-BLK
+13-11	is	en	is	VERB	B-VG
+13-12	the	en	the	DET	B-NP
+13-13	verdict	en	verdict	NOUN	I-NP
+13-14	.	rest	.	PUNCT	B-BLK
+13-15	Peace	en	Peace	NOUN	B-NP
+13-16	.	rest	.	PUNCT	B-BLK
+
+#id=14
+#text=usko nazgul ke saath touch mein daal. cab's coming.
+14-1	usko	hi	उस्को	PRON	B-NP
+14-2	nazgul	hi	नज़्गुल	NOUN	I-NP
+14-3	ke	hi	के	ADP	I-NP
+14-4	saath	hi	साथ्	NOUN	B-NP
+14-5	touch	en	touch	NOUN	I-NP
+14-6	mein	hi	में	ADP	I-NP
+14-7	daal	hi	डाल	NOUN	B-NP
+14-8	.	rest	.	PUNCT	B-BLK
+14-9	cab's	en	cab's	NOUN	B-NP
+14-10	coming	en	coming	VERB	B-VG
+14-11	.	rest	.	PUNCT	B-BLK
+
+#id=15
+#text=felicity ke time pe, we are planning to go to matheran. Kitne log interested hai?
+15-1	felicity	en	felicity	NOUN	B-NP
+15-2	ke	hi	के	ADP	I-NP
+15-3	time	en	time	NOUN	B-NP
+15-4	pe	hi	पे	VERB	B-VG
+15-5	,	rest	,	PUNCT	B-BLK
+15-6	we	en	we	PRON	B-NP
+15-7	are	en	are	VERB	B-VG
+15-8	planning	en	planning	VERB	I-VG
+15-9	to	en	to	ADP	I-VG
+15-10	go	en	go	VERB	I-VG
+15-11	to	en	to	ADP	I-VG
+15-12	matheran	en	matheran	NOUN	B-NP
+15-13	.	rest	.	PUNCT	B-BLK
+15-14	Kitne	hi	कितने	VERB	B-VG
+15-15	log	hi	लॉग	NOUN	B-NP
+15-16	interested	en	interested	ADJ	B-JJP
+15-17	hai	hi	हाई	NOUN	B-NP
+15-18	?	rest	?	PUNCT	B-BLK
+
+#id=16
+#text=utha de 2 min ke liye .. to be on safe side
+16-1	utha	hi	उठा	PRON	B-NP
+16-2	de	hi	दे	VERB	B-VG
+16-3	2	rest	2	NUM	B-NP
+16-4	min	hi	मीन	NOUN	I-NP
+16-5	ke	hi	के	ADP	I-NP
+16-6	liye	hi	लिये	ADP	I-NP
+16-7	..	rest	..	PUNCT	B-BLK
+16-8	to	en	to	ADP	B-NP
+16-9	be	en	be	VERB	B-VG
+16-10	on	en	on	ADP	I-VG
+16-11	safe	en	safe	ADJ	B-NP
+16-12	side	en	side	NOUN	I-NP
+
+#id=17
+#text=(Pref. Geared) Cycle Free Group Ride by Cykul on 2nd week of March
+17-1	(	rest	(	SYM	B-BLK
+17-2	Pref	rest	Pref	PROPN	B-NP
+17-3	.	rest	.	PUNCT	B-BLK
+17-4	Geared	en	Geared	VERB	B-VG
+17-5	)	rest	)	SYM	B-BLK
+17-6	Cycle	en	Cycle	ADJ	B-NP
+17-7	Free	en	Free	NOUN	I-NP
+17-8	Group	en	Group	NOUN	B-NP
+17-9	Ride	en	Ride	VERB	B-VG
+17-10	by	en	by	ADP	B-NP
+17-11	Cykul	en	Cykul	NOUN	I-NP
+17-12	on	en	on	ADP	B-NP
+17-13	2nd	en	2nd	NUM	I-NP
+17-14	week	en	week	NOUN	B-NP
+17-15	of	en	of	ADP	I-NP
+17-16	March	en	March	NOUN	B-NP
+
+#id=18
+#text=Haan bhai jaldi decide kar lena. Is sem main party animal banna chahta hoon.
+18-1	Haan	hi	हाँ	NOUN	B-NP
+18-2	bhai	hi	भाई	NOUN	I-NP
+18-3	jaldi	hi	जल्दी	NOUN	B-NP
+18-4	decide	en	decide	VERB	B-VG
+18-5	kar	hi	कर	AUX	I-VG
+18-6	lena	hi	लेना	VERB	I-VG
+18-7	.	rest	.	PUNCT	B-BLK
+18-8	Is	en	Is	VERB	B-VG
+18-9	sem	en	sem	PART	I-VG
+18-10	main	hi	मैं	PRON	B-NP
+18-11	party	en	party	NOUN	I-NP
+18-12	animal	en	animal	NOUN	B-NP
+18-13	banna	hi	बन्ना	VERB	B-VG
+18-14	chahta	hi	चाहता	VERB	I-VG
+18-15	hoon	hi	हूँ	AUX	I-VG
+18-16	.	rest	.	PUNCT	B-BLK
+
+#id=19
+#text=ab apan gappe marenge, chat bahot badi ho jaegi. Fir scroll karke topic dekhna padega jo baad main dekhge isliye mail kiya tha.
+19-1	ab	hi	अब	ADV	B-RBP
+19-2	apan	hi	अपन	ADJ	B-NP
+19-3	gappe	hi	गए	NOUN	I-NP
+19-4	marenge	hi	मरेंगे	VERB	B-VG
+19-5	,	rest	,	PUNCT	B-BLK
+19-6	chat	hi	चट	NOUN	B-NP
+19-7	bahot	hi	बहोट	NOUN	I-NP
+19-8	badi	hi	बड़ी	NOUN	B-NP
+19-9	ho	hi	हो	VERB	B-VG
+19-10	jaegi	hi	जाएगी	AUX	I-VG
+19-11	.	rest	.	PUNCT	B-BLK
+19-12	Fir	hi	फ़िर	ADV	B-RBP
+19-13	scroll	en	scroll	ADJ	I-RBP
+19-14	karke	hi	करके	VERB	B-VG
+19-15	topic	en	topic	NOUN	B-NP
+19-16	dekhna	hi	देखना	VERB	B-VG
+19-17	padega	hi	पड़ेगा	VERB	I-VG
+19-18	jo	hi	जो	PRON	B-NP
+19-19	baad	hi	बाद	ADV	B-RBP
+19-20	main	hi	मैं	PRON	B-NP
+19-21	dekhge	hi	देख्गे	VERB	B-VG
+19-22	isliye	hi	इसलिए	DET	B-NP
+19-23	mail	hi	मेल	NOUN	I-NP
+19-24	kiya	hi	किया	VERB	B-VG
+19-25	tha	hi	ठा	NOUN	B-NP
+19-26	.	rest	.	PUNCT	B-BLK
+
+#id=20
+#text=main filhaal toh report bhej raha hun, mostly aaj nahi jaunga. Report bhejna kaafi hoga.
+20-1	RT	en	RT	INTJ	B-BLK
+20-2	@pgcilindia	rest	@pgcilindia	PROPN	B-NP
+20-3	:	rest	:	SYM	B-BLK
+20-4	#POWERGRID	en	#POWERGRID	ADJ	B-JJP
+20-5	एक	rest	एक	PROPN	B-NP
+20-6	कदम	rest	कदम	PROPN	B-NP
+20-7	स्वच्छता	rest	स्वच्छता	PROPN	I-NP
+20-8	की	rest	की	PROPN	I-NP
+20-9	ओर।	rest	ओर।	PROPN	B-NP
+20-10	Employees	en	Employees	NOUN	I-NP
+20-11	from	en	from	ADP	B-NP
+20-12	Corp	en	Corp	NOUN	I-NP
+20-13	.	rest	.	PUNCT	B-BLK
+20-14	Centre	en	Centre	NOUN	B-NP
+20-15	led	en	led	VERB	B-VG
+20-16	by	en	by	ADP	B-NP
+20-17	CMD	en	CMD	NOUN	I-NP
+20-18	on	en	on	ADP	B-NP
+20-19	cleaning	en	cleaning	NOUN	B-NP
+20-20	drive	en	drive	NOUN	I-NP
+20-21	in	en	in	ADP	B-NP
+20-22	Gurgaon	en	Gurgaon	NOUN	I-NP
+20-23	#SwachhBharat	rest	#SwachhBharat	PROPN	B-NP
+20-24	https	en	https	NOUN	I-NP
+20-25	:/	rest	:/	SYM	B-BLK
+20-26	…	rest	…	SYM	B-BLK
+

@@ -1,0 +1,363 @@
+# webanno.custom.LanguageID | NormValue # webanno.custom.Normalized | normword # webanno.custom.Pos | PosValue # webanno.custom.Chunk | Chunktag
+#id=1
+#text=aa jaega mera order aadhe ghante main aake taste kar lena
+1-1	aa	hi	आ	ADV	B-VG
+1-2	jaega	hi	जाएगा	VERB	I-VG
+1-3	mera	hi	मेरा	PRON	B-NP
+1-4	order	en	order	NOUN	I-NP
+1-5	aadhe	hi	आदे	VERB	B-VG
+1-6	ghante	hi	घंटे	PRON	B-NP
+1-7	main	hi	मैं	PRON	B-NP
+1-8	aake	hi	आके	VERB	B-VG
+1-9	taste	hi	तसते	PRON	B-NP
+1-10	kar	hi	कर	VERB	B-VG
+1-11	lena	hi	लेना	AUX	I-VG
+
+#id=2
+#text=Running ke liye mana kiya hai doctor ne
+2-1	Running	en	Running	NOUN	B-NP
+2-2	ke	hi	के	ADP	I-NP
+2-3	liye	hi	लिये	ADP	I-NP
+2-4	mana	hi	माना	VERB	B-VG
+2-5	kiya	hi	किया	AUX	I-VG
+2-6	hai	hi	हाई	PRON	B-NP
+2-7	doctor	en	doctor	NOUN	B-NP
+2-8	ne	hi	ने	ADP	I-NP
+
+#id=3
+#text=USA vaalone yeh dekh ke bs Cricket khelna start kar dena hai  :D
+3-1	USA	hi	उसा	PRON	B-NP
+3-2	vaalone	hi	वालोने	PRON	I-NP
+3-3	yeh	hi	येह	NOUN	B-NP
+3-4	dekh	hi	देख	VERB	B-VG
+3-5	ke	hi	के	ADP	I-VG
+3-6	bs	hi	ब्स	ADJ	B-NP
+3-7	Cricket	en	Cricket	NOUN	I-NP
+3-8	khelna	hi	खेलना	NOUN	B-NP
+3-9	start	en	start	VERB	B-VG
+3-10	kar	hi	कर	VERB	I-VG
+3-11	dena	hi	देना	AUX	I-VG
+3-12	hai	hi	हाई	NOUN	B-NP
+3-13	:D	rest	:D	SYM	B-BLK
+
+#id=4
+#text=m n theoden goin to juice center. accompany us in the revolution if you'd like.
+4-1	m	hi	म	NOUN	B-NP
+4-2	n	en	n	ADP	I-NP
+4-3	theoden	en	theoden	ADV	B-VG
+4-4	goin	en	goin	VERB	I-VG
+4-5	to	en	to	PART	I-VG
+4-6	juice	en	juice	NOUN	B-NP
+4-7	center	en	center	NOUN	I-NP
+4-8	.	rest	.	PUNCT	B-BLK
+4-9	accompany	en	accompany	VERB	B-VG
+4-10	us	en	us	PRON	B-NP
+4-11	in	en	in	ADP	B-NP
+4-12	the	en	the	DET	I-NP
+4-13	revolution	en	revolution	NOUN	I-NP
+4-14	if	en	if	ADP	I-NP
+4-15	you'd	en	you'd	NOUN	B-NP
+4-16	like	en	like	VERB	B-VG
+4-17	.	rest	.	PUNCT	B-BLK
+
+#id=5
+#text=me, gimli and baggins going for lunch. in 5 mins.
+5-1	me	hi	मे	PRON	B-NP
+5-2	,	rest	,	PUNCT	B-BLK
+5-3	gimli	en	gimli	NOUN	B-NP
+5-4	and	en	and	CONJ	B-CCP
+5-5	baggins	en	baggins	NOUN	B-NP
+5-6	going	en	going	VERB	B-VG
+5-7	for	en	for	ADP	I-VG
+5-8	lunch	en	lunch	NOUN	B-NP
+5-9	.	rest	.	PUNCT	B-BLK
+5-10	in	en	in	ADP	B-NP
+5-11	5	en	5	NUM	I-NP
+5-12	mins	en	mins	NOUN	I-NP
+5-13	.	rest	.	PUNCT	B-BLK
+
+#id=6
+#text=I was. I did. But you reverted it.
+6-1	I	en	I	PRON	B-NP
+6-2	was	en	was	AUX	B-VG
+6-3	.	rest	.	PUNCT	B-BLK
+6-4	I	en	I	PRON	B-NP
+6-5	did	en	did	VERB	B-VG
+6-6	.	rest	.	PUNCT	B-BLK
+6-7	But	en	But	SCONJ	B-CCP
+6-8	you	en	you	PRON	B-NP
+6-9	reverted	en	reverted	VERB	B-VG
+6-10	it	en	it	PRON	B-NP
+6-11	.	rest	.	PUNCT	B-BLK
+
+#id=7
+#text=unko bol de yaahan aakar mujhe miss call de denge
+7-1	unko	hi	उनको	PRON	B-NP
+7-2	bol	hi	बोल	VERB	B-VG
+7-3	de	hi	दे	VERB	I-VG
+7-4	yaahan	hi	याहन	ADV	B-VG
+7-5	aakar	hi	आकर	VERB	I-VG
+7-6	mujhe	hi	मुझे	PRON	B-NP
+7-7	miss	en	miss	NOUN	B-NP
+7-8	call	en	call	VERB	B-VG
+7-9	de	hi	दे	AUX	I-VG
+7-10	denge	hi	देंगे	VERB	I-VG
+
+#id=8
+#text=Tajas, please maitain decorum, voting has not been called.
+8-1	Tajas	rest	Tajas	PROPN	B-NP
+8-2	,	rest	,	PUNCT	B-BLK
+8-3	please	en	please	ADV	B-RBP
+8-4	maitain	en	maitain	ADJ	B-NP
+8-5	decorum	en	decorum	NOUN	I-NP
+8-6	,	rest	,	PUNCT	B-BLK
+8-7	voting	en	voting	VERB	B-VG
+8-8	has	en	has	AUX	I-VG
+8-9	not	en	not	ADV	I-VG
+8-10	been	en	been	VERB	B-VG
+8-11	called	en	called	VERB	I-VG
+8-12	.	rest	.	PUNCT	B-BLK
+
+#id=9
+#text=Kya faad baat bola be ek banda yaha talk dete hue... Science is like sex, it sometimes produces practical results but this is not the main reason people do it
+9-1	Kya	hi	क्या	ADV	B-RBP
+9-2	faad	hi	फ़ाद	ADV	I-RBP
+9-3	baat	hi	बाट	NOUN	B-NP
+9-4	bola	hi	बोला	VERB	B-VG
+9-5	be	hi	बे	INTJ	B-NP
+9-6	ek	hi	एक	NUM	B-NP
+9-7	banda	hi	बंदा	NOUN	I-NP
+9-8	yaha	hi	यहा	VERB	B-VG
+9-9	talk	hi	टॉक	ADV	I-VG
+9-10	dete	hi	देते	VERB	I-VG
+9-11	hue	hi	हुए	AUX	I-VG
+9-12	...	rest	...	PUNCT	B-BLK
+9-13	Science	en	Science	NOUN	B-NP
+9-14	is	en	is	VERB	B-VG
+9-15	like	en	like	PART	I-VG
+9-16	sex	en	sex	NOUN	B-NP
+9-17	,	rest	,	PUNCT	B-BLK
+9-18	it	en	it	PRON	B-NP
+9-19	sometimes	en	sometimes	ADV	B-VG
+9-20	produces	en	produces	VERB	I-VG
+9-21	practical	en	practical	ADJ	B-NP
+9-22	results	en	results	NOUN	I-NP
+9-23	but	en	but	CONJ	B-CCP
+9-24	this	en	this	PRON	B-NP
+9-25	is	en	is	VERB	B-VG
+9-26	not	en	not	ADV	I-VG
+9-27	the	en	the	DET	B-NP
+9-28	main	hi	मैं	PRON	I-NP
+9-29	reason	en	reason	NOUN	B-NP
+9-30	people	en	people	NOUN	B-NP
+9-31	do	en	do	VERB	B-VG
+9-32	it	en	it	PRON	B-NP
+
+#id=10
+#text=busy in lab/lunch Activity. make your choice. 
+10-1	busy	en	busy	ADJ	B-JJP
+10-2	in	en	in	ADP	I-JJP
+10-3	lab/lunch	en	lab/lunch	NOUN	B-NP
+10-4	Activity	en	Activity	NOUN	I-NP
+10-5	.	rest	.	PUNCT	B-BLK
+10-6	make	en	make	VERB	B-VG
+10-7	your	en	your	PRON	B-NP
+10-8	choice	en	choice	NOUN	I-NP
+10-9	.	rest	.	PUNCT	B-BLK
+
+#id=11
+#text=Me n theoden going to mess right now. Join us in the revolution, if you want.
+11-1	Me	en	Me	PRON	B-NP
+11-2	n	en	n	CONJ	B-CCP
+11-3	theoden	en	theoden	ADV	B-RBP
+11-4	going	en	going	VERB	B-VG
+11-5	to	en	to	PART	B-RBP
+11-6	mess	en	mess	VERB	B-VG
+11-7	right	en	right	ADV	B-RBP
+11-8	now	en	now	ADV	I-RBP
+11-9	.	rest	.	PUNCT	B-BLK
+11-10	Join	en	Join	VERB	B-VG
+11-11	us	en	us	PRON	B-NP
+11-12	in	en	in	ADP	B-NP
+11-13	the	en	the	DET	I-NP
+11-14	revolution	en	revolution	NOUN	I-NP
+11-15	,	rest	,	PUNCT	B-BLK
+11-16	if	en	if	SCONJ	B-CCP
+11-17	you	en	you	PRON	B-NP
+11-18	want	en	want	VERB	B-VG
+11-19	.	rest	.	PUNCT	B-BLK
+
+#id=12
+#text=seminar portal pe aa raha hai to wo kalla aayea hi. attendance lega hi.
+12-1	seminar	en	seminar	NOUN	B-NP
+12-2	portal	en	portal	NOUN	B-NP
+12-3	pe	hi	पे	VERB	B-VG
+12-4	aa	hi	आ	AUX	I-VG
+12-5	raha	hi	रह	VERB	I-VG
+12-6	hai	hi	हाई	NOUN	B-NP
+12-7	to	hi	तो	PART	I-NP
+12-8	wo	hi	वो	PRON	B-NP
+12-9	kalla	hi	कल्ला	NOUN	I-NP
+12-10	aayea	hi	आयिया	VERB	B-VG
+12-11	hi	hi	ही	PART	I-VG
+12-12	.	rest	.	PUNCT	B-BLK
+12-13	attendance	en	attendance	NOUN	B-NP
+12-14	lega	hi	लेगा	VERB	B-VG
+12-15	hi	hi	ही	PART	I-VG
+12-16	.	rest	.	PUNCT	B-BLK
+
+#id=13
+#text=No problem on my side. dl speed 0.47 Mbps.
+13-1	No	en	No	ADJ	B-NP
+13-2	problem	en	problem	NOUN	I-NP
+13-3	on	en	on	ADP	B-NP
+13-4	my	en	my	PRON	B-NP
+13-5	side	en	side	NOUN	I-NP
+13-6	.	rest	.	PUNCT	B-BLK
+13-7	dl	hi	डल	VERB	B-VG
+13-8	speed	en	speed	NOUN	B-NP
+13-9	0.47	rest	0.47	NUM	I-NP
+13-10	Mbps	en	Mbps	NOUN	I-NP
+13-11	.	rest	.	PUNCT	B-BLK
+
+#id=14
+#text=pathar se nahi darta saab ji, facade se lagta hain or charade as you may call it 🖕😒💪
+14-1	pathar	hi	पत्थर	NOUN	B-NP
+14-2	se	hi	से	ADP	I-NP
+14-3	nahi	hi	नही	ADV	B-RBP
+14-4	darta	hi	डरता	VERB	B-VG
+14-5	saab	hi	साब	ADJ	B-NP
+14-6	ji	hi	जी	NOUN	I-NP
+14-7	,	rest	,	PUNCT	B-BLK
+14-8	facade	en	facade	NOUN	B-NP
+14-9	se	hi	से	ADP	I-NP
+14-10	lagta	hi	लग्ता	VERB	B-VG
+14-11	hain	hi	हैं	AUX	I-VG
+14-12	or	hi	ओर	SCONJ	B-CCP
+14-13	charade	hi	चरदे	VERB	B-VG
+14-14	as	en	as	PART	I-VG
+14-15	you	en	you	PRON	B-NP
+14-16	may	en	may	VERB	B-VG
+14-17	call	en	call	VERB	I-VG
+14-18	it	en	it	PRON	B-NP
+14-19	🖕😒💪	rest	🖕😒💪	SYM	B-BLK
+
+#id=15
+#text=Aaichya gavaat. gandalf bot uses *AI* and *Machine Learning* tactics to **pretend** and post sarcastic pics with double meanings! Aaichya gavaat! 👏👏
+15-1	Aaichya	hi	आइच्या	NOUN	B-NP
+15-2	gavaat	hi	गवात	NOUN	I-NP
+15-3	.	rest	.	PUNCT	B-BLK
+15-4	gandalf	rest	gandalf	PROPN	B-NP
+15-5	bot	en	bot	NOUN	I-NP
+15-6	uses	en	uses	VERB	B-VG
+15-7	*	rest	*	SYM	B-BLK
+15-8	AI	hi	आई	VERB	B-VG
+15-9	*	rest	*	SYM	B-BLK
+15-10	and	en	and	CONJ	B-CCP
+15-11	*	rest	*	SYM	B-BLK
+15-12	Machine	en	Machine	NOUN	B-NP
+15-13	Learning	en	Learning	VERB	B-VG
+15-14	*	rest	*	PUNCT	B-BLK
+15-15	tactics	en	tactics	NOUN	B-NP
+15-16	to	hi	तो	PART	I-NP
+15-17	**	rest	**	SYM	B-BLK
+15-18	pretend	en	pretend	VERB	B-VG
+15-19	**	rest	**	SYM	B-BLK
+15-20	and	en	and	CONJ	B-CCP
+15-21	post	en	post	VERB	B-VG
+15-22	sarcastic	en	sarcastic	ADJ	B-NP
+15-23	pics	en	pics	NOUN	I-NP
+15-24	with	en	with	ADP	B-NP
+15-25	double	en	double	ADJ	B-NP
+15-26	meanings	en	meanings	NOUN	I-NP
+15-27	!	rest	!	PUNCT	B-BLK
+15-28	Aaichya	hi	आइच्या	VERB	B-VG
+15-29	gavaat	hi	गवात	NOUN	I-VG
+15-30	!	rest	!	PUNCT	B-BLK
+15-31	👏👏	rest	👏👏	X	B-BLK
+
+#id=16
+#text=mai CIE mai hon. btao kab nikalu.
+16-1	mai	hi	माई	NOUN	B-NP
+16-2	CIE	rest	CIE	PROPN	B-NP
+16-3	mai	hi	माई	NOUN	I-NP
+16-4	hon	hi	हों	VERB	B-VG
+16-5	.	rest	.	PUNCT	B-BLK
+16-6	btao	hi	बताओ	VERB	B-VG
+16-7	kab	hi	कब	ADV	I-VG
+16-8	nikalu	rest	nikalu	NOUN	B-NP
+16-9	.	rest	.	PUNCT	B-BLK
+
+#id=17
+#text=Issi chat pe upar gollum ne post kara hai
+17-1	Issi	hi	इसी	PRON	B-NP
+17-2	chat	hi	चट	NOUN	B-NP
+17-3	pe	hi	पे	ADP	I-NP
+17-4	upar	hi	ऊपर	NOUN	B-NP
+17-5	gollum	en	gollum	NOUN	B-NP
+17-6	ne	hi	ने	ADP	I-NP
+17-7	post	en	post	VERB	B-VG
+17-8	kara	hi	करा	AUX	I-VG
+17-9	hai	hi	हाई	NOUN	B-NP
+
+#id=18
+#text=https://www.facebook.com/Hangoverpakistan/videos/911926115554244/ bhai isme aur nazgul mein kuch common hai. dhundo.
+18-1	https://www.facebook.com/Hangoverpakistan/videos/911926115554244/	en	https://www.facebook.com/Hangoverpakistan/videos/911926115554244/	ADJ	B-JJP
+18-2	bhai	hi	भाई	NOUN	B-NP
+18-3	isme	hi	इसमें	PRON	I-NP
+18-4	aur	hi	और	CONJ	B-CCP
+18-5	nazgul	hi	नज़्गुल	NOUN	B-NP
+18-6	mein	hi	में	ADP	I-NP
+18-7	kuch	hi	कुच	NOUN	B-NP
+18-8	common	en	common	NOUN	I-NP
+18-9	hai	hi	हाई	NOUN	B-NP
+18-10	.	rest	.	PUNCT	B-BLK
+18-11	dhundo	rest	dhundo	X	B-NP
+18-12	.	rest	.	PUNCT	B-BLK
+
+#id=19
+#text=Matlab worst season ever hai Chelsea ka phir bhi Arsenal pe double kar liya :D
+19-1	Matlab	hi	मतलब	ADV	B-RBP
+19-2	worst	en	worst	ADJ	I-RBP
+19-3	season	en	season	NOUN	B-NP
+19-4	ever	en	ever	ADV	B-RBP
+19-5	hai	hi	हाई	NOUN	B-NP
+19-6	Chelsea	en	Chelsea	NOUN	I-NP
+19-7	ka	hi	का	ADP	I-NP
+19-8	phir	hi	फिर	ADV	B-RBP
+19-9	bhi	hi	भी	PART	I-RBP
+19-10	Arsenal	hi	आर्सेनाल	NOUN	B-NP
+19-11	pe	hi	पे	ADP	I-NP
+19-12	double	hi	डबल	NOUN	B-NP
+19-13	kar	hi	कर	VERB	B-VG
+19-14	liya	hi	लिया	AUX	I-VG
+19-15	:D	rest	:D	SYM	B-BLK
+
+#id=20
+#text=so, you are fucking off from this group?
+20-1	RT	en	RT	INTJ	B-BLK
+20-2	@JindamPradeep	rest	@JindamPradeep	PROPN	B-NP
+20-3	:	rest	:	SYM	B-BLK
+20-4	Now	en	Now	ADV	B-RBP
+20-5	a	en	a	DET	B-NP
+20-6	days	en	days	NOUN	I-NP
+20-7	talking	en	talking	VERB	B-VG
+20-8	about	en	about	ADP	B-RBP
+20-9	anti	en	anti	ADJ	B-NP
+20-10	Hindu	rest	Hindu	NOUN	I-NP
+20-11	is	en	is	VERB	B-VG
+20-12	secularism	en	secularism	NOUN	B-NP
+20-13	Hindus	rest	Hindus	NOUN	I-NP
+20-14	are	en	are	VERB	B-VG
+20-15	not	en	not	ADV	I-VG
+20-16	in	en	in	ADP	B-NP
+20-17	human	en	human	NOUN	I-NP
+20-18	righs	en	righs	NOUN	I-NP
+20-19	definitions	en	definitions	NOUN	B-NP
+20-20	Is	en	Is	VERB	B-VG
+20-21	desh	hi	देश	NOUN	B-NP
+20-22	mein	hi	में	ADP	I-NP
+20-23	Hindu	rest	Hindu	PROPN	B-NP
+20-24	hona	hi	होना	VERB	B-VG
+20-25	paβÄΠ	rest	paβÄΠ	NOUN	B-NP
+
