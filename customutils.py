@@ -7,8 +7,10 @@ from sklearn.base import TransformerMixin, BaseEstimator
 import itertools
 from codemixeddata import *
 from customclassifiers import *
-from irtrans import transliterator
-from converter_indic import wxConvert
+from wxconv import WXC as wxConvert
+from indictrans import Transliterator as transliterator
+#from irtrans import transliterator
+#from converter_indic import wxConvert
 import codecs
 from estimators import *
 
